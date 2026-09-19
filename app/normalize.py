@@ -17,11 +17,9 @@ DASHES = {"-", "–", "—"}
 HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
 CURRENCY_RE = re.compile(r"\(Tüm tutarlar\s+(.+?)\s+olarak", re.I)
 YEAR_RE = re.compile(r"\b(20\d{2})\b")
-# Rows holding ratios rather than money, where a dot is a decimal point.
-RATIO_RE = re.compile(r"hisse başına|oranı", re.I)
 
 
-def parse_value(raw: str, ratio: bool = False) -> dict:
+def parse_value(raw: str) -> dict:
     """A dash, an empty cell and a zero are three different things."""
     s = raw.strip()
     if not s:
@@ -36,7 +34,7 @@ def parse_value(raw: str, ratio: bool = False) -> dict:
 
     if "," in body:  # Turkish decimal comma
         body = body.replace(".", "").replace(",", ".")
-    elif not ratio:  # dot is the thousands separator
+    elif not body.startswith("0."):  # a leading "0." can only be a decimal point
         body = body.replace(".", "")
 
     try:
@@ -95,7 +93,7 @@ def classify(label: str, values: dict, refs: list[int]) -> str:
     return "item"
 
 
-def normalize_table(grid: list[list[str]], page: int, text: str) -> dict:
+def normalize_table(grid: list[list[str]], page: int, index: int, text: str) -> dict:
     headings = [h for h in HEADING_RE.findall(text) if "ORTAKLIKLARI" not in h]
     title = headings[-1] if headings else ""
     kind = "balance_sheet" if "BİLANÇO" in title else "income_statement"
@@ -109,10 +107,10 @@ def normalize_table(grid: list[list[str]], page: int, text: str) -> dict:
     for i, raw in enumerate(body):
         raw = list(raw) + [""] * (len(columns) - len(raw))
         label = raw[0].strip()
-        values = {columns[j]["id"]: parse_value(raw[j], bool(RATIO_RE.search(label))) for j in val_cols}
+        values = {columns[j]["id"]: parse_value(raw[j]) for j in val_cols}
         refs = parse_note_refs(raw[ref_col]) if ref_col is not None else []
         rows.append({
-            "id": f"p{page:03d}.r{i:02d}",
+            "id": f"p{page:03d}.t{index}.r{i:02d}",
             "label": label,
             "note_refs": refs,
             "note_refs_inherited": False,
@@ -134,6 +132,7 @@ def normalize_table(grid: list[list[str]], page: int, text: str) -> dict:
 
     currency = CURRENCY_RE.search(text)
     return {
+        "id": f"p{page:03d}.t{index}",
         "page": page,
         "title": title,
         "kind": kind,
@@ -146,10 +145,10 @@ def normalize_table(grid: list[list[str]], page: int, text: str) -> dict:
 def run(in_dir: Path, out_dir: Path, config: dict = CONFIG) -> list[dict]:
     pages = json.loads((in_dir / "01_pages.json").read_text())
     tables = [
-        normalize_table(grid, page["page"], page["text"])
+        normalize_table(grid, page["page"], i, page["text"])
         for page in pages
         if page["page"] in set(config["pages"])
-        for grid in page["tables"]
+        for i, grid in enumerate(page["tables"])
     ]
     (out_dir / "02_tables.json").write_text(json.dumps(tables, ensure_ascii=False, indent=1))
     return tables
