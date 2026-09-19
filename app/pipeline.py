@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from time import time
 
-from .backends import DoclingExtractor, TableExtractor
+from .backends import DoclingVlmExtractor, TableExtractor
 
 
 def ingest(
@@ -22,5 +22,11 @@ def ingest(
 
 if __name__ == "__main__":
     t0 = time()
-    ingest(Path("ornek_dokuman.pdf"), Path("artifacts"), DoclingExtractor())
+    # Test on key statement pages
+    ingest(
+        Path("ornek_dokuman.pdf"),
+        Path("artifacts"),
+        extractor=DoclingVlmExtractor(),
+        pages=[2,3,4,5, 6, 7],
+    )
     print(f"Finished in {time() - t0:.2f}s")

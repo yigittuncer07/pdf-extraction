@@ -1,3 +1,11 @@
 pytesseract
 tesserocr
 docling
+easyocr
+docling[vlm] 
+torchvision
+
+accelerate
+transformers
+bitsandbytes
+pdf2image

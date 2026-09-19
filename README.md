@@ -2,9 +2,12 @@
 
 
 ## PERSONAL NOTES:
-Using tesseract OCR on the PDF resulted in lots of OCR errors like 7->1 etc... 
 
-The general pipeline idea is:
+- Using tesseract OCR on the PDF resulted in lots of OCR errors. EasyOCR also failed to properly extract the data.
+- SmallDocling failed as a VLM. The output quality is not good enough. 
+
+
+**The general pipeline idea is:**
 1. PDF ingestion, the goal here is to turn the PDF as is into a usable format.
 2. Normalization, as described in the task description.
 3. Candidate generation, this is hardcoded, no ML involved, just return the full list of rows that can be relevant to a certain summary row, using note links.
