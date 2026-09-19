@@ -94,9 +94,10 @@ def classify(label: str, values: dict, refs: list[int]) -> str:
 
 
 def normalize_table(grid: list[list[str]], page: int, index: int, text: str) -> dict:
-    headings = [h for h in HEADING_RE.findall(text) if "ORTAKLIKLARI" not in h]
+    headings = [h for h in HEADING_RE.findall(text) if "ORTAKLIKLARI" not in h] # TODO: should remove, document specific
     title = headings[-1] if headings else ""
-    kind = "balance_sheet" if "BİLANÇO" in title else "income_statement"
+    kind = ("balance_sheet" if "BİLANÇO" in title
+            else "income_statement" if "GELİR TABLOSU" in title else "note")
 
     header, body = split_header(grid)
     columns = build_columns(header, kind)
@@ -144,10 +145,12 @@ def normalize_table(grid: list[list[str]], page: int, index: int, text: str) -> 
 
 def run(in_dir: Path, out_dir: Path, config: dict = CONFIG) -> list[dict]:
     pages = json.loads((in_dir / "01_pages.json").read_text())
+    target_pages = set(config["pages"]) if config.get("pages") else None
+
     tables = [
         normalize_table(grid, page["page"], i, page["text"])
         for page in pages
-        if page["page"] in set(config["pages"])
+        if target_pages is None or page["page"] in target_pages
         for i, grid in enumerate(page["tables"])
     ]
     (out_dir / "02_tables.json").write_text(json.dumps(tables, ensure_ascii=False, indent=1))
