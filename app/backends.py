@@ -10,6 +10,22 @@ from docling.datamodel.pipeline_options import (
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.pipeline.vlm_pipeline import VlmPipeline
 
+import html
+import re
+import tempfile
+
+import torch
+from pdf2image import convert_from_path, pdfinfo_from_path
+from transformers import AutoModel, AutoTokenizer
+
+PROMPT = "<image>\n<|grounding|>Convert the document to markdown. "
+
+TABLE_RE = re.compile(r"<table.*?>.*?</table>", re.DOTALL | re.I)
+ROW_RE = re.compile(r"<tr.*?>(.*?)</tr>", re.DOTALL | re.I)
+CELL_RE = re.compile(r"<t[dh].*?>(.*?)</t[dh]>", re.DOTALL | re.I)
+GROUNDING_RE = re.compile(r"<\|(ref|det)\|>.*?<\|/\1\|>", re.DOTALL)
+
+
 class TableExtractor(ABC):
     @abstractmethod
     def extract(self, pdf: Path, pages: list[int] | None = None) -> list[dict]:
@@ -88,23 +104,6 @@ class DoclingExtractor(TableExtractor):
             {"page": p, "text": "\n".join(data["text"]), "tables": data["tables"]}
             for p, data in sorted(page_map.items())
         ]
-
-        
-import html
-import re
-import tempfile
-from pathlib import Path
-
-import torch
-from pdf2image import convert_from_path, pdfinfo_from_path
-from transformers import AutoModel, AutoTokenizer
-
-PROMPT = "<image>\n<|grounding|>Convert the document to markdown. "
-
-TABLE_RE = re.compile(r"<table.*?>.*?</table>", re.DOTALL | re.I)
-ROW_RE = re.compile(r"<tr.*?>(.*?)</tr>", re.DOTALL | re.I)
-CELL_RE = re.compile(r"<t[dh].*?>(.*?)</t[dh]>", re.DOTALL | re.I)
-GROUNDING_RE = re.compile(r"<\|(ref|det)\|>.*?<\|/\1\|>", re.DOTALL)
 
 
 def _cell_text(raw: str) -> str:
