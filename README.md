@@ -5,6 +5,7 @@
 
 - Using tesseract OCR on the PDF resulted in lots of OCR errors. EasyOCR also failed to properly extract the data.
 - SmallDocling failed as a VLM. The output quality is not good enough. 
+- Qwen 2.5 VL produced awful results. Only DeepSeek OCR 2 produced acceptable results, the numbers look very clean, only some table headers are misaligned, which can be post processed. I am also out of options, so DeepSeek it is.
 
 
 **The general pipeline idea is:**

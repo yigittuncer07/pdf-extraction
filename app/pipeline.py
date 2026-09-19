@@ -19,14 +19,16 @@ def ingest(
     )
     return pages_data
 
+from pathlib import Path
+from app.backends import QwenVlmExtractor
+from app.pipeline import ingest
 
 if __name__ == "__main__":
     t0 = time()
-    # Test on key statement pages
     ingest(
         Path("ornek_dokuman.pdf"),
         Path("artifacts"),
-        extractor=DoclingVlmExtractor(),
-        pages=[2,3,4,5, 6, 7],
+        extractor=QwenVlmExtractor(),
+        pages=[4, 5, 6, 7],
     )
     print(f"Finished in {time() - t0:.2f}s")
