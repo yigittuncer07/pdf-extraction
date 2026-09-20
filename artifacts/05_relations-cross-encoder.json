@@ -6,40 +6,34 @@
     "confidence_parts": {
       "model": 0.624,
       "rules": 0.85,
-      "upstream": 1.0,
-      "margin": 0.031
+      "upstream": 1.0
     },
     "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
-    "status": "low_confidence",
-    "runners_up": [
-      {
-        "target_id": "p053.t0.r04",
-        "confidence": 0.718,
-        "confidence_parts": {
-          "model": 0.583,
-          "rules": 0.85,
-          "upstream": 1.0
-        }
-      },
-      {
-        "target_id": "p053.t0.r00",
-        "confidence": 0.671,
-        "confidence_parts": {
-          "model": 0.609,
-          "rules": 0.675,
-          "upstream": 1.0
-        }
-      },
-      {
-        "target_id": "p054.t0.r01",
-        "confidence": 0.465,
-        "confidence_parts": {
-          "model": 0.585,
-          "rules": 0.125,
-          "upstream": 1.0
-        }
-      }
-    ]
+    "status": "accepted"
+  },
+  {
+    "source_id": "p005.t0.r12",
+    "target_id": "p053.t0.r04",
+    "confidence": 0.718,
+    "confidence_parts": {
+      "model": 0.583,
+      "rules": 0.85,
+      "upstream": 1.0
+    },
+    "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+    "status": "accepted"
+  },
+  {
+    "source_id": "p005.t0.r12",
+    "target_id": "p053.t0.r00",
+    "confidence": 0.671,
+    "confidence_parts": {
+      "model": 0.609,
+      "rules": 0.675,
+      "upstream": 1.0
+    },
+    "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+    "status": "accepted"
   },
   {
     "source_id": "p007.t0.r05",
@@ -48,39 +42,21 @@
     "confidence_parts": {
       "model": 0.646,
       "rules": 0.675,
-      "upstream": 0.7,
-      "margin": 0.054
+      "upstream": 0.7
     },
     "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
-    "status": "accepted",
-    "runners_up": [
-      {
-        "target_id": "p053.t0.r02",
-        "confidence": 0.626,
-        "confidence_parts": {
-          "model": 0.552,
-          "rules": 0.675,
-          "upstream": 0.86
-        }
-      },
-      {
-        "target_id": "p054.t0.r01",
-        "confidence": 0.457,
-        "confidence_parts": {
-          "model": 0.57,
-          "rules": 0.125,
-          "upstream": 1.0
-        }
-      },
-      {
-        "target_id": "p054.t1.r00",
-        "confidence": 0.451,
-        "confidence_parts": {
-          "model": 0.558,
-          "rules": 0.125,
-          "upstream": 1.0
-        }
-      }
-    ]
+    "status": "accepted"
+  },
+  {
+    "source_id": "p007.t0.r05",
+    "target_id": "p053.t0.r02",
+    "confidence": 0.626,
+    "confidence_parts": {
+      "model": 0.552,
+      "rules": 0.675,
+      "upstream": 0.86
+    },
+    "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+    "status": "accepted"
   }
 ]

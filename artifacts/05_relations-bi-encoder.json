@@ -6,40 +6,34 @@
     "confidence_parts": {
       "model": 0.941,
       "rules": 0.85,
-      "upstream": 1.0,
-      "margin": 0.002
+      "upstream": 1.0
     },
     "method": "embedding:intfloat/multilingual-e5-base",
-    "status": "low_confidence",
-    "runners_up": [
-      {
-        "target_id": "p053.t1.r04",
-        "confidence": 0.913,
-        "confidence_parts": {
-          "model": 0.937,
-          "rules": 0.85,
-          "upstream": 1.0
-        }
-      },
-      {
-        "target_id": "p053.t0.r00",
-        "confidence": 0.851,
-        "confidence_parts": {
-          "model": 0.935,
-          "rules": 0.675,
-          "upstream": 1.0
-        }
-      },
-      {
-        "target_id": "p054.t1.r00",
-        "confidence": 0.659,
-        "confidence_parts": {
-          "model": 0.937,
-          "rules": 0.125,
-          "upstream": 1.0
-        }
-      }
-    ]
+    "status": "accepted"
+  },
+  {
+    "source_id": "p005.t0.r12",
+    "target_id": "p053.t1.r04",
+    "confidence": 0.913,
+    "confidence_parts": {
+      "model": 0.937,
+      "rules": 0.85,
+      "upstream": 1.0
+    },
+    "method": "embedding:intfloat/multilingual-e5-base",
+    "status": "accepted"
+  },
+  {
+    "source_id": "p005.t0.r12",
+    "target_id": "p053.t0.r00",
+    "confidence": 0.851,
+    "confidence_parts": {
+      "model": 0.935,
+      "rules": 0.675,
+      "upstream": 1.0
+    },
+    "method": "embedding:intfloat/multilingual-e5-base",
+    "status": "accepted"
   },
   {
     "source_id": "p007.t0.r05",
@@ -48,39 +42,21 @@
     "confidence_parts": {
       "model": 0.925,
       "rules": 0.675,
-      "upstream": 0.86,
-      "margin": 0.018
+      "upstream": 0.86
     },
     "method": "embedding:intfloat/multilingual-e5-base",
-    "status": "low_confidence",
-    "runners_up": [
-      {
-        "target_id": "p053.t1.r03",
-        "confidence": 0.816,
-        "confidence_parts": {
-          "model": 0.926,
-          "rules": 0.675,
-          "upstream": 0.7
-        }
-      },
-      {
-        "target_id": "p053.t0.r04",
-        "confidence": 0.656,
-        "confidence_parts": {
-          "model": 0.931,
-          "rules": 0.125,
-          "upstream": 1.0
-        }
-      },
-      {
-        "target_id": "p054.t1.r00",
-        "confidence": 0.655,
-        "confidence_parts": {
-          "model": 0.929,
-          "rules": 0.125,
-          "upstream": 1.0
-        }
-      }
-    ]
+    "status": "accepted"
+  },
+  {
+    "source_id": "p007.t0.r05",
+    "target_id": "p053.t1.r03",
+    "confidence": 0.816,
+    "confidence_parts": {
+      "model": 0.926,
+      "rules": 0.675,
+      "upstream": 0.7
+    },
+    "method": "embedding:intfloat/multilingual-e5-base",
+    "status": "accepted"
   }
 ]

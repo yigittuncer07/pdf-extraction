@@ -24,7 +24,6 @@ RULE_WEIGHTS = {"value": 0.6, "period": 0.25, "label": 0.15}
 FUSION = {"model": 0.55, "rules": 0.35, "upstream": 0.1}
 
 THRESHOLD = 0.6
-MIN_MARGIN = 0.05  # closer than this to the runner-up is a coin flip
 RUNNERS_UP = 3
 
 
@@ -116,12 +115,18 @@ class CrossEncoderScorer(Scorer):
         return [round(1 / (1 + math.exp(-float(s))), 3) for s in scores]
 
 
-def link(candidates: dict, scorer: Scorer, threshold: float = THRESHOLD) -> list[dict]:
+def link(
+    candidates: dict,
+    scorer: Scorer,
+    threshold: float = THRESHOLD,
+    log_path: Path | None = None,
+) -> list[dict]:
     rules = RuleScorer()
     model_only = not isinstance(scorer, RuleScorer)
 
     targets = candidates["targets"]
     relations = []
+    log_records = []
 
     for source in candidates["sources"]:
         if not targets:
@@ -144,7 +149,6 @@ def link(candidates: dict, scorer: Scorer, threshold: float = THRESHOLD) -> list
             parts = {
                 "model": model,
                 "rules": rule,
-                # A relation cannot be surer than the rows it connects.
                 "upstream": round(
                     min(source.get("confidence", 1.0), target.get("confidence", 1.0)), 3
                 ),
@@ -152,46 +156,62 @@ def link(candidates: dict, scorer: Scorer, threshold: float = THRESHOLD) -> list
             total = round(sum(FUSION[k] * v for k, v in parts.items()), 3)
             scored.append((total, target, parts))
 
-        # if not scored:
-        #     relations.append({
-        #         "source_id": source["id"],
-        #         "target_id": None,
-        #         "confidence": 0.0,
-        #         "confidence_parts": {},
-        #         "method": scorer.name,
-        #         "status": "unlinked",
-        #         "runners_up": [],
-        #     })
-        #     continue
-
         scored.sort(key=lambda s: -s[0])
-        best, target, parts = scored[0]
-        runner_up = scored[1][0] if len(scored) > 1 else 0.0
-        margin = round((best - runner_up) / best, 3) if best else 0.0
 
-        if best < threshold:
-            status = "unlinked"
-        elif margin < MIN_MARGIN:
-            status = "low_confidence"
-        else:
-            status = "accepted"
+        # Record full candidate score distribution for threshold analysis
+        if log_path:
+            log_records.append({
+                "source_id": source["id"],
+                "source_label": source.get("label"),
+                "method": scorer.name,
+                "candidates": [
+                    {
+                        "target_id": t["id"],
+                        "target_label": t.get("label"),
+                        "confidence": total,
+                        "confidence_parts": parts,
+                        "passed_threshold": total >= threshold,
+                    }
+                    for total, t, parts in scored
+                ],
+            })
 
-        relations.append({
-            "source_id": source["id"],
-            "target_id": target["id"] if status != "unlinked" else None,
-            "confidence": best,
-            "confidence_parts": parts | {"margin": margin},
-            "method": scorer.name,
-            "status": status,
-            "runners_up": [
-                {
-                    "target_id": t["id"],
-                    "confidence": s,
-                    "confidence_parts": p,
-                }
-                for s, t, p in scored[1 : 1 + RUNNERS_UP]
-            ],
-        })
+        accepted = [s for s in scored if s[0] >= threshold]
+
+        if not accepted:
+            best_score, best_target, best_parts = scored[0]
+            relations.append({
+                "source_id": source["id"],
+                "target_id": None,
+                "confidence": best_score,
+                "confidence_parts": best_parts,
+                "method": scorer.name,
+                "status": "unlinked",
+                "runners_up": [
+                    {
+                        "target_id": t["id"],
+                        "confidence": s,
+                        "confidence_parts": p,
+                    }
+                    for s, t, p in scored[1 : 1 + RUNNERS_UP]
+                ],
+            })
+            continue
+
+        for total, target, parts in accepted:
+            relations.append({
+                "source_id": source["id"],
+                "target_id": target["id"],
+                "confidence": total,
+                "confidence_parts": parts,
+                "method": scorer.name,
+                "status": "accepted",
+            })
+
+    if log_path and log_records:
+        with open(log_path, "w", encoding="utf-8") as f:
+            for record in log_records:
+                f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
     return relations
 
@@ -199,7 +219,8 @@ def link(candidates: dict, scorer: Scorer, threshold: float = THRESHOLD) -> list
 def run(
     candidates: dict, scorer: Scorer, out_dir: Path, threshold: float = THRESHOLD
 ) -> list[dict]:
-    relations = link(candidates, scorer, threshold)
+    log_path = out_dir / "05_linking_candidates.jsonl"
+    relations = link(candidates, scorer, threshold, log_path=log_path)
     (out_dir / "05_relations.json").write_text(
         json.dumps(relations, ensure_ascii=False, indent=2)
     )

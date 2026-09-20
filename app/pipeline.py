@@ -66,25 +66,23 @@ if __name__ == "__main__":
         print(f"Embedding scorer unavailable ({e}); falling back to rules")
         scorer = RuleScorer()
 
-    relations = link_candidates(candidates, scorer, artifacts)
+    relations = link_candidates(candidates, scorer, artifacts, threshold=0.8) # determined after inspecting output logs. The bi encoder approach results in high simarities for all rows, very minimal difference, the rules are what choose really.    
     print(f"Linked in {time() - t0:.2f}s via {scorer.name}")
 
     accepted = sum(1 for r in relations if r["status"] == "accepted")
-    low_conf = sum(1 for r in relations if r["status"] == "low_confidence")
     unlinked = sum(1 for r in relations if r["status"] == "unlinked")
-    print(f"Relations: {accepted} accepted, {low_conf} low confidence, {unlinked} unlinked")
+    print(f"Relations: {accepted} accepted, {unlinked} unlinked")
     
-    # second experiment, try with a cross encoder scorer, which is more expensive but more accurate
+    # # second experiment, try with a cross encoder scorer, which is more expensive but more accurate
     try:
         scorer = CrossEncoderScorer()
     except Exception as e:
         print(f"cross-encoder unavailable ({e}); falling back to rules")
         scorer = RuleScorer()
 
-    relations = link_candidates(candidates, scorer, artifacts)
+    relations = link_candidates(candidates, scorer, artifacts, threshold=0.55)
     print(f"Linked in {time() - t0:.2f}s via {scorer.name}")
 
     accepted = sum(1 for r in relations if r["status"] == "accepted")
-    low_conf = sum(1 for r in relations if r["status"] == "low_confidence")
     unlinked = sum(1 for r in relations if r["status"] == "unlinked")
-    print(f"Relations: {accepted} accepted, {low_conf} low confidence, {unlinked} unlinked")
+    print(f"Relations: {accepted} accepted, {unlinked} unlinked")

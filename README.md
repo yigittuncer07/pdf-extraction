@@ -14,7 +14,9 @@
 
 A bi-encoder over row contexts produced almost no discrimination (0.019 spread over 18 candidates), because the context that makes a row interpretable is largely shared between candidates from the same note. The signal is in what differs, which is exactly what a bi-encoder averages away. Rules supplied the discrimination; the model contributed ordering that was correct for one source and wrong for the other.
 
+Initially, I was thinking about this as finding THE relavent row, but its obvious that multiple relevant rows can exist. So I'm updating the code to accept everything above a certain threshold
 
+after doing so I see that one OCR error, replacing . with , resulted in a relation being lost. The row and cell has low confidence in the table section, and the rule matching misses it. This is a good example of a failure. It came out at the table extraction stage. The upstream is still high because it is only tagged as a point differ, not a full miss.
 
 **The general pipeline idea is:**
 1. PDF ingestion, the goal here is to turn the PDF as is into a usable format.
