@@ -63,11 +63,17 @@ class CandidateGenerator:
 
     @staticmethod
     def _entry(row: dict, table: dict) -> dict:
+        periods = {c["id"]: c["period"]["year"] for c in table["columns"] if c["period"]}
         return {
             "id": row["id"],
             "label": row["label"],
             "table_id": table["id"],
             "context": render(row, table),
+            # Structured evidence, so the linker and its rule-based fallback
+            # never have to reach back into the tables.
+            "values": {c: v["number"] for c, v in row["values"].items() if v["number"]},
+            "periods": periods,
+            "confidence": row.get("confidence", 0.5),
         }
 
     def generate(self, note: int) -> dict:
