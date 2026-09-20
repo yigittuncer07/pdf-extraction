@@ -15,6 +15,7 @@ from __future__ import annotations
 import json
 from abc import ABC, abstractmethod
 from decimal import Decimal, InvalidOperation
+import math
 from pathlib import Path
 
 from .confidence import overlap
@@ -91,6 +92,28 @@ class EmbeddingScorer(Scorer):
         vectors = self.model.encode(texts, normalize_embeddings=True)
         cosines = vectors[1:] @ vectors[0]
         return [round((float(c) + 1) / 2, 3) for c in cosines]  # [-1,1] -> [0,1]
+
+class CrossEncoderScorer(Scorer):
+    """A reranker that sees both rows at once.
+
+    The bi-encoder embeds each row alone, so the context they share -- the
+    note title, the page, the column names -- dominates the vector and the
+    scores collapse into a narrow band. A cross-encoder attends across the
+    pair, so it can weigh what differs between them instead.
+    """
+
+    def __init__(self, model_name: str = "BAAI/bge-reranker-v2-m3"):
+        from sentence_transformers import CrossEncoder
+
+        self.name = f"cross-encoder:{model_name}"
+        self.model = CrossEncoder(model_name, max_length=512)
+
+    def score(self, source: dict, targets: list[dict]) -> list[float]:
+        pairs = [(source["context"], t["context"]) for t in targets]
+        # The reranker emits a logit; a sigmoid puts it in [0, 1] without
+        # rescaling against the other candidates.
+        scores = self.model.predict(pairs, apply_softmax=False, convert_to_numpy=True)
+        return [round(1 / (1 + math.exp(-float(s))), 3) for s in scores]
 
 
 def link(candidates: dict, scorer: Scorer, threshold: float = THRESHOLD) -> list[dict]:

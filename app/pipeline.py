@@ -14,7 +14,7 @@ from .candidates import run as generate_candidates
 from .locate import PageFinder
 from .normalize import run as normalize
 from .confidence import SecondOpinion, score
-from .linking import EmbeddingScorer, RuleScorer, run as link_candidates
+from .linking import EmbeddingScorer, CrossEncoderScorer, RuleScorer, run as link_candidates
 
 CONFIG = {
     "pages": [5, 6, 7],
@@ -64,6 +64,21 @@ if __name__ == "__main__":
         scorer = EmbeddingScorer()
     except Exception as e:
         print(f"Embedding scorer unavailable ({e}); falling back to rules")
+        scorer = RuleScorer()
+
+    relations = link_candidates(candidates, scorer, artifacts)
+    print(f"Linked in {time() - t0:.2f}s via {scorer.name}")
+
+    accepted = sum(1 for r in relations if r["status"] == "accepted")
+    low_conf = sum(1 for r in relations if r["status"] == "low_confidence")
+    unlinked = sum(1 for r in relations if r["status"] == "unlinked")
+    print(f"Relations: {accepted} accepted, {low_conf} low confidence, {unlinked} unlinked")
+    
+    # second experiment, try with a cross encoder scorer, which is more expensive but more accurate
+    try:
+        scorer = CrossEncoderScorer()
+    except Exception as e:
+        print(f"cross-encoder unavailable ({e}); falling back to rules")
         scorer = RuleScorer()
 
     relations = link_candidates(candidates, scorer, artifacts)
