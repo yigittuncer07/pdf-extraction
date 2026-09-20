@@ -48,9 +48,10 @@ if __name__ == "__main__":
     )
     print(f"Finished in {time() - t0:.2f}s")
 
-    tables = normalize(artifacts, artifacts, config={"pages": []})  # NORMALIZE ALL PAGES
+    # Uses the default in_file (artifacts / "01_pages.json") via dir
+    tables = normalize(directory=artifacts, config={"pages": []})
 
-    # Read directly from the ingestion artifact
+    # read directly from the ingestion artifact
     pages_data = json.loads((artifacts / "01_pages.json").read_text())
     found = PageFinder(pages_data).find(CONFIG["note"])
     print(f"note {found['note']} -> pages {found['pages']} (verified: {found['verified']})")

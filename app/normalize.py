@@ -150,8 +150,15 @@ def normalize_table(grid, page: int, index: int, text: str, heading: str = "") -
     }
 
 
-def run(in_dir: Path, out_dir: Path, config: dict = CONFIG) -> list[dict]:
-    pages = json.loads((in_dir / "01_pages.json").read_text())
+def run(
+    in_file: Path | str | None = None,
+    directory: Path = Path("artifacts"),
+    config: dict = CONFIG,
+) -> list[dict]:
+    directory = Path(directory)
+    in_path = Path(in_file) if in_file is not None else directory / "01_pages.json"
+
+    pages = json.loads(in_path.read_text())
     target_pages = set(config["pages"]) if config.get("pages") else None
 
     tables = []
@@ -163,5 +170,5 @@ def run(in_dir: Path, out_dir: Path, config: dict = CONFIG) -> list[dict]:
             heading = headings[i] if i < len(headings) else ""
             tables.append(normalize_table(grid, page["page"], i, page["text"], heading))
 
-    (out_dir / "02_tables.json").write_text(json.dumps(tables, ensure_ascii=False, indent=1))
+    (directory / "02_tables.json").write_text(json.dumps(tables, ensure_ascii=False, indent=1))
     return tables

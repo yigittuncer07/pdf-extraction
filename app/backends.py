@@ -191,7 +191,7 @@ class DeepSeekExtractor(TableExtractor):
 
     Docling's table model loses cells on this scan -- most damagingly the note
     reference "11" on the income statement, the one the task turns on. This
-    model reads every note reference correctly; what it gets wrong is table
+    model reads every note reference correctly; what it sometimes gets wrong is table
     structure, which is repairable here and only here.
     """
 
