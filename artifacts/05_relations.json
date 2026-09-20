@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "p005.t0.r12",
+    "target_id": "p053.t0.r00",
+    "confidence": 0.708,
+    "confidence_parts": {
+      "model": 0.675,
+      "rules": 0.675,
+      "upstream": 1.0,
+      "margin": 0.0
+    },
+    "method": "rules",
+    "status": "low_confidence",
+    "runners_up": [
+      {
+        "target_id": "p053.t0.r04",
+        "confidence": 0.708
+      },
+      {
+        "target_id": "p053.t1.r04",
+        "confidence": 0.708
+      },
+      {
+        "target_id": "p053.t1.r01",
+        "confidence": 0.213
+      }
+    ]
+  },
+  {
+    "source_id": "p007.t0.r05",
+    "target_id": "p053.t0.r02",
+    "confidence": 0.694,
+    "confidence_parts": {
+      "model": 0.675,
+      "rules": 0.675,
+      "upstream": 0.86,
+      "margin": 0.023
+    },
+    "method": "rules",
+    "status": "low_confidence",
+    "runners_up": [
+      {
+        "target_id": "p053.t1.r03",
+        "confidence": 0.678
+      },
+      {
+        "target_id": "p053.t0.r00",
+        "confidence": 0.213
+      },
+      {
+        "target_id": "p053.t0.r04",
+        "confidence": 0.213
+      }
+    ]
+  }
+]

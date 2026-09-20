@@ -89,5 +89,5 @@ class CandidateGenerator:
 
 def run(tables, summary_pages, note_pages, note: int, out_dir: Path) -> dict:
     result = CandidateGenerator(tables, summary_pages, note_pages).generate(note)
-    (out_dir / "03_candidates.json").write_text(json.dumps(result, ensure_ascii=False, indent=2))
+    (out_dir / "04_candidates.json").write_text(json.dumps(result, ensure_ascii=False, indent=2))
     return result
