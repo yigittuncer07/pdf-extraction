@@ -22,8 +22,16 @@ from pathlib import Path
 def render(row: dict, table: dict) -> str:
     """A row plus the context it needs to be understood on its own."""
     parts = [table["title"], f"sayfa {table['page']}"]
+    
+    # The label column's header names what the table is about. Empty on the
+    # summary statements, but on a note table it is often the only thing
+    # separating one table from the next.
+    label_header = next((c["header"] for c in table["columns"] if c["role"] == "label"), "")
+    if label_header:
+        parts.append(f"tablo: {label_header}")
 
     parent = next((r for r in table["rows"] if r["id"] == row["parent_id"]), None)
+
     if parent:
         parts.append(f"ana kalem: {parent['label']}")
     parts.append(f"kalem: {row['label']}")
