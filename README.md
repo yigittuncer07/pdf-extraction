@@ -6,6 +6,11 @@
 - Using tesseract OCR on the PDF resulted in lots of OCR errors. EasyOCR also failed to properly extract the data.
 - SmallDocling failed as a VLM. The output quality is not good enough. 
 - Qwen 2.5 VL produced awful results. Only DeepSeek OCR 2 produced acceptable results, the numbers look very clean, only some table headers are misaligned, which can be post processed. I am also out of options, so DeepSeek it is.
+- Deepseek works well with post patches, but this will break some functionality, for example merged header tables get broken, but this is a tradeoff I am accepting at this stage. 
+
+- Kept OCR from docling, as a second opinion, deepseek is considered more valuable, since it seems to work better. 
+- NOTE: Sideways tables are not rendered correctly. Need global fix for all renderers for this to work.
+- NOTE: MERGED HEADERS BREAK IN DEEPSEEK. Need to update postfix somehow, simplify.
 
 
 **The general pipeline idea is:**

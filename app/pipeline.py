@@ -13,6 +13,7 @@ from .backends import DeepSeekExtractor, ingest, DoclingExtractor
 from .candidates import run as generate_candidates
 from .locate import PageFinder
 from .normalize import run as normalize
+from .confidence import SecondOpinion, score
 
 CONFIG = {
     "pages": [5, 6, 7],
@@ -29,7 +30,7 @@ if __name__ == "__main__":
     print(f"DeepSeek ingested in {time() - t0:.2f}s")
     
     t0 = time()
-    # ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DoclingExtractor(), pages = [4,5,6,7,50,51,52,53,54,55], out_file="00_pages.json")
+    # ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DoclingExtractor(), pages = [], out_file="00_pages.json")
     print(f"Docling (OCR) ingested in {time() - t0:.2f}s")
     
     # ------------ 2. Normalize the extracted tables into a standard format ------------
@@ -48,3 +49,12 @@ if __name__ == "__main__":
     )
     print(f"{len(candidates['sources'])} sources x {len(candidates['targets'])} targets "
           f"= {len(candidates['pairs'])} pairs")
+
+    # ----------- 5. Score confidence using second opinion ------------
+    
+    docling = json.loads((artifacts / "00_pages.json").read_text()) 
+    tables = score(tables, SecondOpinion(docling))
+    # save as 04
+    with open(artifacts / "04_tables.json", "w") as f:
+        json.dump(tables, f, indent=2, ensure_ascii=False)
+    
