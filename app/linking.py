@@ -27,29 +27,27 @@ MIN_MARGIN = 0.05  # closer than this to the runner-up is a coin flip
 RUNNERS_UP = 3
 
 
-def features(source: dict, target: dict) -> dict:
-    """Structured evidence for one pair, computed without a model."""
-    hits = []
-    for sc, sv in source["values"].items():
-        if not sv:
-            continue
-        for tc, tv in target["values"].items():
-            if not tv:
-                continue
-            try:
-                if Decimal(str(sv)) == Decimal(str(tv)):
-                    hits.append((sc, tc))
-            except (InvalidOperation, TypeError):
-                continue
+def year_of(entry: dict, column: str) -> int | None:
+    """The period a value belongs to: its column's, or the row label's."""
+    return entry["periods"].get(column) or entry.get("label_year")
 
+
+def features(source: dict, target: dict) -> dict:
+    hits = [
+        (sc, tc)
+        for sc, sv in source["values"].items()
+        for tc, tv in target["values"].items()
+        if Decimal(sv) == Decimal(tv)
+    ]
+    
     period_match = any(
-        source["periods"].get(sc) == target["periods"].get(tc) for sc, tc in hits
+        year_of(source, sc) is not None
+        and year_of(source, sc) == year_of(target, tc)
+        for sc, tc in hits
     )
 
     return {
         "value": 1.0 if hits else 0.0,
-        # Only meaningful once a value matched: same number in the same period
-        # is a link, the same number in a different period is a coincidence.
         "period": 0.5 if not hits else (1.0 if period_match else 0.3),
         "label": round(overlap(source["label"], target["label"]), 3),
     }
@@ -89,7 +87,7 @@ class EmbeddingScorer(Scorer):
         self.model = SentenceTransformer(model_name)
 
     def score(self, source: dict, targets: list[dict]) -> list[float]:
-        texts = [source["context"]] + [t["context"] for t in targets]
+        texts = [f"query: {source['context']}"] + [f"passage: {t['context']}" for t in targets]
         vectors = self.model.encode(texts, normalize_embeddings=True)
         cosines = vectors[1:] @ vectors[0]
         return [round((float(c) + 1) / 2, 3) for c in cosines]  # [-1,1] -> [0,1]
@@ -163,8 +161,12 @@ def link(candidates: dict, scorer: Scorer, threshold: float = THRESHOLD) -> list
             "method": scorer.name,
             "status": status,
             "runners_up": [
-                {"target_id": t["id"], "confidence": s}
-                for s, t, _ in scored[1 : 1 + RUNNERS_UP]
+                {
+                    "target_id": t["id"],
+                    "confidence": s,
+                    "confidence_parts": p,
+                }
+                for s, t, p in scored[1 : 1 + RUNNERS_UP]
             ],
         })
 

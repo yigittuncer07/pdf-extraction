@@ -56,7 +56,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r01",
@@ -76,7 +77,8 @@
       "kind": "number",
       "number": "21380946"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r02",
@@ -98,7 +100,8 @@
       "kind": "number",
       "number": "7726696"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r03",
@@ -120,7 +123,8 @@
       "kind": "number",
       "number": "7801336"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r04",
@@ -142,7 +146,8 @@
       "kind": "number",
       "number": "2082986"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r05",
@@ -164,7 +169,8 @@
       "kind": "number",
       "number": "5718350"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r06",
@@ -186,7 +192,8 @@
       "kind": "number",
       "number": "56956"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r07",
@@ -208,7 +215,8 @@
       "kind": "number",
       "number": "1083886"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r08",
@@ -230,7 +238,8 @@
       "kind": "number",
       "number": "4712072"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r09",
@@ -250,7 +259,8 @@
       "kind": "number",
       "number": "760027331"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r10",
@@ -272,7 +282,8 @@
       "kind": "number",
       "number": "4224"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r11",
@@ -294,7 +305,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r12",
@@ -316,7 +328,8 @@
       "kind": "number",
       "number": "423580000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r13",
@@ -338,7 +351,8 @@
       "kind": "number",
       "number": "313618867"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r14",
@@ -360,7 +374,8 @@
       "kind": "number",
       "number": "14526075"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r15",
@@ -382,7 +397,8 @@
       "kind": "number",
       "number": "8262684"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r16",
@@ -404,7 +420,8 @@
       "kind": "number",
       "number": "35481"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p005.t0.r17",
@@ -424,7 +441,8 @@
       "kind": "number",
       "number": "781408277"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -485,7 +503,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r01",
@@ -505,7 +524,8 @@
       "kind": "number",
       "number": "107356816"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r02",
@@ -527,7 +547,8 @@
       "kind": "number",
       "number": "93250501"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r03",
@@ -549,7 +570,8 @@
       "kind": "number",
       "number": "4232740"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r04",
@@ -571,7 +593,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r05",
@@ -593,7 +616,8 @@
       "kind": "number",
       "number": "4232740"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r06",
@@ -615,7 +639,8 @@
       "kind": "number",
       "number": "3244930"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r07",
@@ -637,7 +662,8 @@
       "kind": "number",
       "number": "1887911"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r08",
@@ -659,7 +685,8 @@
       "kind": "number",
       "number": "1357019"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r09",
@@ -681,7 +708,8 @@
       "kind": "number",
       "number": "776915"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r10",
@@ -703,7 +731,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r11",
@@ -725,7 +754,8 @@
       "kind": "number",
       "number": "628306"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r12",
@@ -747,7 +777,8 @@
       "kind": "number",
       "number": "5223424"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r13",
@@ -767,7 +798,8 @@
       "kind": "number",
       "number": "54471741"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r14",
@@ -789,7 +821,8 @@
       "kind": "number",
       "number": "1180562"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r15",
@@ -811,7 +844,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r16",
@@ -833,7 +867,8 @@
       "kind": "number",
       "number": "122730"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r17",
@@ -855,7 +890,8 @@
       "kind": "number",
       "number": "53168449"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r18",
@@ -875,7 +911,8 @@
       "kind": "number",
       "number": "619579720"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r19",
@@ -895,7 +932,8 @@
       "kind": "number",
       "number": "492663853"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r20",
@@ -917,7 +955,8 @@
       "kind": "number",
       "number": "141483500"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r21",
@@ -937,7 +976,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r22",
@@ -957,7 +997,8 @@
       "kind": "number",
       "number": "124390608"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r23",
@@ -977,7 +1018,8 @@
       "kind": "number",
       "number": "111878913"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r24",
@@ -997,7 +1039,8 @@
       "kind": "number",
       "number": "53036"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r25",
@@ -1017,7 +1060,8 @@
       "kind": "number",
       "number": "-46784714"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r26",
@@ -1037,7 +1081,8 @@
       "kind": "number",
       "number": "161642510"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r27",
@@ -1057,7 +1102,8 @@
       "kind": "number",
       "number": "126915867"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p006.t0.r28",
@@ -1077,7 +1123,8 @@
       "kind": "number",
       "number": "781408277"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -1140,7 +1187,8 @@
       "kind": "number",
       "number": "76431595"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r01",
@@ -1162,7 +1210,8 @@
       "kind": "number",
       "number": "-44411839"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r02",
@@ -1182,7 +1231,8 @@
       "kind": "number",
       "number": "32019756"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r03",
@@ -1204,7 +1254,8 @@
       "kind": "number",
       "number": "-9733892"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r04",
@@ -1226,7 +1277,8 @@
       "kind": "number",
       "number": "-2680177"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r05",
@@ -1248,7 +1300,8 @@
       "kind": "number",
       "number": "151350000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r06",
@@ -1270,7 +1323,8 @@
       "kind": "number",
       "number": "5030355"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r07",
@@ -1292,7 +1346,8 @@
       "kind": "number",
       "number": "-561989"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r08",
@@ -1312,7 +1367,8 @@
       "kind": "number",
       "number": "175424053"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r09",
@@ -1334,7 +1390,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r10",
@@ -1356,7 +1413,8 @@
       "kind": "number",
       "number": "13834817"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r11",
@@ -1378,7 +1436,8 @@
       "kind": "number",
       "number": "-24329214"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r12",
@@ -1398,7 +1457,8 @@
       "kind": "number",
       "number": "164929656"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r13",
@@ -1418,7 +1478,8 @@
       "kind": "number",
       "number": "-3015405"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r14",
@@ -1440,7 +1501,8 @@
       "kind": "number",
       "number": "-3742633"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r15",
@@ -1462,7 +1524,8 @@
       "kind": "number",
       "number": "727228"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r16",
@@ -1482,7 +1545,8 @@
       "kind": "number",
       "number": "161914251"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r17",
@@ -1502,7 +1566,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r18",
@@ -1522,7 +1587,8 @@
       "kind": "number",
       "number": "271741"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r19",
@@ -1542,7 +1608,8 @@
       "kind": "number",
       "number": "161642510"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r20",
@@ -1562,7 +1629,8 @@
       "kind": "number",
       "number": "161914251"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r21",
@@ -1584,7 +1652,8 @@
       "kind": "number",
       "number": "1191"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r22",
@@ -1604,7 +1673,8 @@
       "kind": "number",
       "number": "196292383"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r23",
@@ -1624,7 +1694,8 @@
       "kind": "number",
       "number": "196292383"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r24",
@@ -1644,7 +1715,8 @@
       "kind": "number",
       "number": "358206634"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r25",
@@ -1664,7 +1736,8 @@
       "kind": "number",
       "number": "358206634"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r26",
@@ -1684,7 +1757,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r27",
@@ -1704,7 +1778,8 @@
       "kind": "number",
       "number": "84685211"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r28",
@@ -1724,7 +1799,8 @@
       "kind": "number",
       "number": "273521423"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r29",
@@ -1744,7 +1820,8 @@
       "kind": "number",
       "number": "358206634"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p007.t0.r30",
@@ -1764,7 +1841,8 @@
       "kind": "number",
       "number": "358"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -1890,7 +1968,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p008.t0.r01",
@@ -1945,7 +2024,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r02",
@@ -2000,7 +2080,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r03",
@@ -2055,7 +2136,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r04",
@@ -2110,7 +2192,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r05",
@@ -2165,7 +2248,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r06",
@@ -2220,7 +2304,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r07",
@@ -2275,7 +2360,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p008.t0.r08",
@@ -2330,7 +2416,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r09",
@@ -2385,7 +2472,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p008.t0.r10",
@@ -2440,7 +2528,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r11",
@@ -2495,7 +2584,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r12",
@@ -2550,7 +2640,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r13",
@@ -2605,7 +2696,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r14",
@@ -2660,7 +2752,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p008.t0.r15",
@@ -2715,7 +2808,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2012
    }
   ]
  },
@@ -2776,7 +2870,8 @@
       "kind": "number",
       "number": "164929656"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r01",
@@ -2798,7 +2893,8 @@
       "kind": "number",
       "number": "2926681"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r02",
@@ -2820,7 +2916,8 @@
       "kind": "number",
       "number": "-628275"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r03",
@@ -2842,7 +2939,8 @@
       "kind": "number",
       "number": "330213"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r04",
@@ -2864,7 +2962,8 @@
       "kind": "number",
       "number": "40186"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r05",
@@ -2886,7 +2985,8 @@
       "kind": "number",
       "number": "-151350000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r06",
@@ -2908,7 +3008,8 @@
       "kind": "number",
       "number": "-3260934"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r07",
@@ -2931,7 +3032,8 @@
       "kind": "number",
       "number": "87036"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r08",
@@ -2954,7 +3056,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r09",
@@ -2976,7 +3079,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r10",
@@ -2998,7 +3102,8 @@
       "kind": "number",
       "number": "184936"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r11",
@@ -3021,7 +3126,8 @@
       "kind": "number",
       "number": "8127295"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r12",
@@ -3041,7 +3147,8 @@
       "kind": "number",
       "number": "21386794"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r13",
@@ -3063,7 +3170,8 @@
       "kind": "number",
       "number": "-4775466"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r14",
@@ -3085,7 +3193,8 @@
       "kind": "number",
       "number": "-18992"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r15",
@@ -3107,7 +3216,8 @@
       "kind": "number",
       "number": "-734351"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r16",
@@ -3129,7 +3239,8 @@
       "kind": "number",
       "number": "3106329"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r17",
@@ -3151,7 +3262,8 @@
       "kind": "number",
       "number": "1106913"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r18",
@@ -3173,7 +3285,8 @@
       "kind": "number",
       "number": "72361422"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r19",
@@ -3193,7 +3306,8 @@
       "kind": "number",
       "number": "92432649"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r20",
@@ -3215,7 +3329,8 @@
       "kind": "number",
       "number": "-2965718"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r21",
@@ -3237,7 +3352,8 @@
       "kind": "number",
       "number": "-2926681"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r22",
@@ -3259,7 +3375,8 @@
       "kind": "number",
       "number": "628275"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r23",
@@ -3281,7 +3398,8 @@
       "kind": "number",
       "number": "-262790"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p009.t0.r24",
@@ -3301,7 +3419,8 @@
       "kind": "number",
       "number": "86905735"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -3362,7 +3481,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r01",
@@ -3384,7 +3504,8 @@
       "kind": "number",
       "number": "-1850538"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r02",
@@ -3404,7 +3525,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r03",
@@ -3426,7 +3548,8 @@
       "kind": "number",
       "number": "-77645032"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r04",
@@ -3449,7 +3572,8 @@
       "kind": "number",
       "number": "13710934"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r05",
@@ -3471,7 +3595,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r06",
@@ -3491,7 +3616,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r07",
@@ -3513,7 +3639,8 @@
       "kind": "number",
       "number": "-77398"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r08",
@@ -3533,7 +3660,8 @@
       "kind": "number",
       "number": "-65862034"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r09",
@@ -3555,7 +3683,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r10",
@@ -3577,7 +3706,8 @@
       "kind": "number",
       "number": "80744497"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r11",
@@ -3599,7 +3729,8 @@
       "kind": "number",
       "number": "-75126115"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r12",
@@ -3621,7 +3752,8 @@
       "kind": "number",
       "number": "-65604505"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r13",
@@ -3641,7 +3773,8 @@
       "kind": "number",
       "number": "34751750"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r14",
@@ -3661,7 +3794,8 @@
       "kind": "number",
       "number": "-2293231"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r15",
@@ -3681,7 +3815,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r16",
@@ -3701,7 +3836,8 @@
       "kind": "number",
       "number": "8886294"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r17",
@@ -3721,7 +3857,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r18",
@@ -3741,7 +3878,8 @@
       "kind": "number",
       "number": "-18641310"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r19",
@@ -3761,7 +3899,8 @@
       "kind": "number",
       "number": "2402391"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r20",
@@ -3783,7 +3922,8 @@
       "kind": "number",
       "number": "5324305"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p010.t0.r21",
@@ -3805,7 +3945,8 @@
       "kind": "number",
       "number": "7726696"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -3882,7 +4023,8 @@
       "kind": "number",
       "number": "57"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p012.t0.r01",
@@ -3912,7 +4054,8 @@
       "kind": "number",
       "number": "95"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p012.t0.r02",
@@ -3942,7 +4085,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -3991,7 +4135,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p012.t1.r01",
@@ -4011,7 +4156,8 @@
       "kind": "number",
       "number": "45.2"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -4082,7 +4228,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p014.t0.r01",
@@ -4112,7 +4259,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p014.t0.r02",
@@ -4142,7 +4290,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -4219,7 +4368,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p015.t0.r01",
@@ -4249,7 +4399,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -4287,7 +4438,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r01",
@@ -4302,7 +4454,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r02",
@@ -4317,7 +4470,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r03",
@@ -4332,7 +4486,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r04",
@@ -4347,7 +4502,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r05",
@@ -4362,7 +4518,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r06",
@@ -4377,7 +4534,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r07",
@@ -4392,7 +4550,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r08",
@@ -4407,7 +4566,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r09",
@@ -4422,7 +4582,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r10",
@@ -4437,7 +4598,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p018.t0.r11",
@@ -4452,7 +4614,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p018.t0.r12",
@@ -4467,7 +4630,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p018.t0.r13",
@@ -4482,7 +4646,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r14",
@@ -4497,7 +4662,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p018.t0.r15",
@@ -4512,7 +4678,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -4586,7 +4753,8 @@
       "kind": "number",
       "number": "77043573"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r01",
@@ -4616,7 +4784,8 @@
       "kind": "number",
       "number": "-49167330"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r02",
@@ -4646,7 +4815,8 @@
       "kind": "number",
       "number": "27876243"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r03",
@@ -4676,7 +4846,8 @@
       "kind": "number",
       "number": "-10043970"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r04",
@@ -4706,7 +4877,8 @@
       "kind": "number",
       "number": "-13500342"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r05",
@@ -4736,7 +4908,8 @@
       "kind": "number",
       "number": "3896434"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r06",
@@ -4766,7 +4939,8 @@
       "kind": "number",
       "number": "105590"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r07",
@@ -4796,7 +4970,8 @@
       "kind": "number",
       "number": "-346564"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r08",
@@ -4826,7 +5001,8 @@
       "kind": "number",
       "number": "7987391"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r09",
@@ -4856,7 +5032,8 @@
       "kind": "number",
       "number": "71896"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r10",
@@ -4886,7 +5063,8 @@
       "kind": "number",
       "number": "19727437"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r11",
@@ -4916,7 +5094,8 @@
       "kind": "number",
       "number": "-16289551"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r12",
@@ -4946,7 +5125,8 @@
       "kind": "number",
       "number": "11497173"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r13",
@@ -4976,7 +5156,8 @@
       "kind": "number",
       "number": "-778217"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r14",
@@ -5006,7 +5187,8 @@
       "kind": "number",
       "number": "-676668"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r15",
@@ -5036,7 +5218,8 @@
       "kind": "number",
       "number": "-101549"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r16",
@@ -5066,7 +5249,8 @@
       "kind": "number",
       "number": "10718956"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r17",
@@ -5096,7 +5280,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r18",
@@ -5126,7 +5311,8 @@
       "kind": "number",
       "number": "1658369"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r19",
@@ -5156,7 +5342,8 @@
       "kind": "number",
       "number": "9060587"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p042.t0.r20",
@@ -5186,7 +5373,8 @@
       "kind": "number",
       "number": "10718956"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -5260,7 +5448,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p043.t0.r01",
@@ -5290,7 +5479,8 @@
       "kind": "number",
       "number": "134557729"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p043.t0.r02",
@@ -5320,7 +5510,8 @@
       "kind": "number",
       "number": "717592075"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p043.t0.r03",
@@ -5350,7 +5541,8 @@
       "kind": "number",
       "number": "852149804"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p043.t0.r04",
@@ -5380,7 +5572,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p043.t0.r05",
@@ -5410,7 +5603,8 @@
       "kind": "number",
       "number": "24549060"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -5484,7 +5678,8 @@
       "kind": "number",
       "number": "63553798"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p043.t1.r01",
@@ -5514,7 +5709,8 @@
       "kind": "number",
       "number": "136150924"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p043.t1.r02",
@@ -5544,7 +5740,8 @@
       "kind": "number",
       "number": "652445082"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p043.t1.r03",
@@ -5574,7 +5771,8 @@
       "kind": "number",
       "number": "852149804"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -5648,7 +5846,8 @@
       "kind": "number",
       "number": "76431595"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r01",
@@ -5678,7 +5877,8 @@
       "kind": "number",
       "number": "-44411839"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r02",
@@ -5708,7 +5908,8 @@
       "kind": "number",
       "number": "32019756"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r03",
@@ -5738,7 +5939,8 @@
       "kind": "number",
       "number": "-9733892"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r04",
@@ -5768,7 +5970,8 @@
       "kind": "number",
       "number": "-2680177"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r05",
@@ -5798,7 +6001,8 @@
       "kind": "number",
       "number": "151350000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r06",
@@ -5828,7 +6032,8 @@
       "kind": "number",
       "number": "5030355"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r07",
@@ -5858,7 +6063,8 @@
       "kind": "number",
       "number": "-561989"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r08",
@@ -5888,7 +6094,8 @@
       "kind": "number",
       "number": "175424053"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r09",
@@ -5918,7 +6125,8 @@
       "kind": "number",
       "number": "13834817"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r10",
@@ -5948,7 +6156,8 @@
       "kind": "number",
       "number": "-24329214"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r11",
@@ -5978,7 +6187,8 @@
       "kind": "number",
       "number": "164929656"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r12",
@@ -6008,7 +6218,8 @@
       "kind": "number",
       "number": "-3015405"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r13",
@@ -6038,7 +6249,8 @@
       "kind": "number",
       "number": "-3742633"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r14",
@@ -6068,7 +6280,8 @@
       "kind": "number",
       "number": "727228"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r15",
@@ -6098,7 +6311,8 @@
       "kind": "number",
       "number": "161914251"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r16",
@@ -6128,7 +6342,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r17",
@@ -6158,7 +6373,8 @@
       "kind": "number",
       "number": "271741"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r18",
@@ -6188,7 +6404,8 @@
       "kind": "number",
       "number": "161642510"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p044.t0.r19",
@@ -6218,7 +6435,8 @@
       "kind": "number",
       "number": "161914251"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -6292,7 +6510,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r01",
@@ -6322,7 +6541,8 @@
       "kind": "number",
       "number": "21380946"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r02",
@@ -6352,7 +6572,8 @@
       "kind": "number",
       "number": "760027331"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r03",
@@ -6382,7 +6603,8 @@
       "kind": "number",
       "number": "781408277"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r04",
@@ -6412,7 +6634,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r05",
@@ -6442,7 +6665,8 @@
       "kind": "number",
       "number": "79572968"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r06",
@@ -6472,7 +6696,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r07",
@@ -6502,7 +6727,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r08",
@@ -6532,7 +6758,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r09",
@@ -6562,7 +6789,8 @@
       "kind": "number",
       "number": "107356816"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r10",
@@ -6592,7 +6820,8 @@
       "kind": "number",
       "number": "54471741"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r11",
@@ -6622,7 +6851,8 @@
       "kind": "number",
       "number": "619579720"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t0.r12",
@@ -6652,7 +6882,8 @@
       "kind": "number",
       "number": "781408277"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -6707,7 +6938,8 @@
       "kind": "number",
       "number": "8100091"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t1.r01",
@@ -6727,7 +6959,8 @@
       "kind": "number",
       "number": "27204"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p045.t1.r02",
@@ -6747,7 +6980,8 @@
       "kind": "number",
       "number": "8127295"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -6802,7 +7036,8 @@
       "kind": "number",
       "number": "136026"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t0.r01",
@@ -6822,7 +7057,8 @@
       "kind": "number",
       "number": "7590670"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t0.r02",
@@ -6842,7 +7078,8 @@
       "kind": "number",
       "number": "4714235"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t0.r03",
@@ -6862,7 +7099,8 @@
       "kind": "number",
       "number": "2876435"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t0.r04",
@@ -6882,7 +7120,8 @@
       "kind": "number",
       "number": "7726696"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -6945,7 +7184,8 @@
       "kind": "number",
       "number": "891577"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t1.r01",
@@ -6970,7 +7210,8 @@
       "kind": "number",
       "number": "1840457"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t1.r02",
@@ -6995,7 +7236,8 @@
       "kind": "number",
       "number": "4461101"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t1.r03",
@@ -7020,7 +7262,8 @@
       "kind": "number",
       "number": "4976077"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t1.r04",
@@ -7045,7 +7288,8 @@
       "kind": "number",
       "number": "7143079"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t1.r05",
@@ -7070,7 +7314,8 @@
       "kind": "number",
       "number": "17863200"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t1.r06",
@@ -7095,7 +7340,8 @@
       "kind": "number",
       "number": "2357186"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t1.r07",
@@ -7120,7 +7366,8 @@
       "kind": "number",
       "number": "39532677"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -7183,7 +7430,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t2.r01",
@@ -7208,7 +7456,8 @@
       "kind": "number",
       "number": "1604735"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t2.r02",
@@ -7233,7 +7482,8 @@
       "kind": "number",
       "number": "1887600"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t2.r03",
@@ -7258,7 +7508,8 @@
       "kind": "number",
       "number": "1221900"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p046.t2.r04",
@@ -7283,7 +7534,8 @@
       "kind": "number",
       "number": "4714235"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -7338,7 +7590,8 @@
       "kind": "number",
       "number": "4224"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -7415,7 +7668,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r01",
@@ -7445,7 +7699,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r02",
@@ -7475,7 +7730,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r03",
@@ -7505,7 +7761,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r04",
@@ -7535,7 +7792,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r05",
@@ -7565,7 +7823,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r06",
@@ -7595,7 +7854,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r07",
@@ -7625,7 +7885,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r08",
@@ -7655,7 +7916,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r09",
@@ -7685,7 +7947,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p047.t1.r10",
@@ -7715,7 +7978,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -7770,7 +8034,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p048.t0.r01",
@@ -7790,7 +8055,8 @@
       "kind": "number",
       "number": "94431063"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p048.t0.r02",
@@ -7810,7 +8076,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p048.t0.r03",
@@ -7830,7 +8097,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p048.t0.r04",
@@ -7850,7 +8118,8 @@
       "kind": "number",
       "number": "93250501"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p048.t0.r05",
@@ -7870,7 +8139,8 @@
       "kind": "number",
       "number": "1180562"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p048.t0.r06",
@@ -7890,7 +8160,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p048.t0.r07",
@@ -7910,7 +8181,8 @@
       "kind": "number",
       "number": "94431063"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -7973,7 +8245,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p049.t0.r01",
@@ -7998,7 +8271,8 @@
       "kind": "number",
       "number": "71554357"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p049.t0.r02",
@@ -8023,7 +8297,8 @@
       "kind": "number",
       "number": "71554357"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -8086,7 +8361,8 @@
       "kind": "number",
       "number": "1180562"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p049.t1.r01",
@@ -8111,7 +8387,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p049.t1.r02",
@@ -8136,7 +8413,8 @@
       "kind": "number",
       "number": "1180562"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -8191,7 +8469,8 @@
       "kind": "number",
       "number": "3568240"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t0.r01",
@@ -8211,7 +8490,8 @@
       "kind": "number",
       "number": "2789398"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t0.r02",
@@ -8231,7 +8511,8 @@
       "kind": "number",
       "number": "2082986"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t0.r03",
@@ -8251,7 +8532,8 @@
       "kind": "number",
       "number": "7988"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t0.r04",
@@ -8271,7 +8553,8 @@
       "kind": "number",
       "number": "-647276"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t0.r05",
@@ -8291,7 +8574,8 @@
       "kind": "number",
       "number": "7801336"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -8346,7 +8630,8 @@
       "kind": "number",
       "number": "-859696"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t1.r01",
@@ -8366,7 +8651,8 @@
       "kind": "number",
       "number": "-87036"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t1.r02",
@@ -8386,7 +8672,8 @@
       "kind": "number",
       "number": "299456"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t1.r03",
@@ -8406,7 +8693,8 @@
       "kind": "number",
       "number": "-647276"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -8461,7 +8749,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t2.r01",
@@ -8481,7 +8770,8 @@
       "kind": "number",
       "number": "4232740"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t2.r02",
@@ -8501,7 +8791,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p050.t2.r03",
@@ -8521,7 +8812,8 @@
       "kind": "number",
       "number": "4232740"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -8576,7 +8868,8 @@
       "kind": "number",
       "number": "56956"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -8631,7 +8924,8 @@
       "kind": "number",
       "number": "1887911"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p051.t1.r01",
@@ -8651,7 +8945,8 @@
       "kind": "number",
       "number": "350665"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p051.t1.r02",
@@ -8671,7 +8966,8 @@
       "kind": "number",
       "number": "500979"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p051.t1.r03",
@@ -8691,7 +8987,8 @@
       "kind": "number",
       "number": "505375"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p051.t1.r04",
@@ -8711,7 +9008,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p051.t1.r05",
@@ -8731,7 +9029,8 @@
       "kind": "number",
       "number": "3244930"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -8786,7 +9085,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t0.r01",
@@ -8806,7 +9106,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t0.r02",
@@ -8826,7 +9127,8 @@
       "kind": "number",
       "number": "1262845"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t0.r03",
@@ -8846,7 +9148,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t0.r04",
@@ -8866,7 +9169,8 @@
       "kind": "number",
       "number": "5977"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t0.r05",
@@ -8886,7 +9190,8 @@
       "kind": "number",
       "number": "-184936"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t0.r06",
@@ -8906,7 +9211,8 @@
       "kind": "number",
       "number": "1083886"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -8961,7 +9267,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t1.r01",
@@ -8981,7 +9288,8 @@
       "kind": "number",
       "number": "-184936"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t1.r02",
@@ -9001,7 +9309,8 @@
       "kind": "number",
       "number": "-184936"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t1.r03",
@@ -9021,7 +9330,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p052.t1.r04",
@@ -9041,7 +9351,8 @@
       "kind": "number",
       "number": "-184936"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -9101,7 +9412,8 @@
       "kind": "number",
       "number": "423580000"
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p053.t0.r01",
@@ -9126,7 +9438,8 @@
       "kind": "number",
       "number": "19197311"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p053.t0.r02",
@@ -9151,7 +9464,8 @@
       "kind": "number",
       "number": "3896434"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p053.t0.r03",
@@ -9176,7 +9490,8 @@
       "kind": "number",
       "number": "-72681523"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p053.t0.r04",
@@ -9201,7 +9516,8 @@
       "kind": "number",
       "number": "373992222"
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p053.t0.r05",
@@ -9226,7 +9542,8 @@
       "kind": "number",
       "number": "373.992222"
      }
-    }
+    },
+    "label_year": 2012
    }
   ]
  },
@@ -9286,7 +9603,8 @@
       "kind": "number",
       "number": "205034968"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p053.t1.r01",
@@ -9311,7 +9629,8 @@
       "kind": "number",
       "number": "77645032"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p053.t1.r02",
@@ -9336,7 +9655,8 @@
       "kind": "number",
       "number": "-10450000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p053.t1.r03",
@@ -9361,7 +9681,8 @@
       "kind": "number",
       "number": "151350000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p053.t1.r04",
@@ -9386,7 +9707,8 @@
       "kind": "number",
       "number": "423580000"
      }
-    }
+    },
+    "label_year": 2011
    }
   ]
  },
@@ -9441,7 +9763,8 @@
       "kind": "number",
       "number": "10.5"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p054.t0.r01",
@@ -9461,7 +9784,8 @@
       "kind": "number",
       "number": "80.8"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p054.t0.r02",
@@ -9481,7 +9805,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -9536,7 +9861,8 @@
       "kind": "number",
       "number": "21717000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p054.t1.r01",
@@ -9556,7 +9882,8 @@
       "kind": "number",
       "number": "138538000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p054.t1.r02",
@@ -9576,7 +9903,8 @@
       "kind": "number",
       "number": "81890000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p054.t1.r03",
@@ -9596,7 +9924,8 @@
       "kind": "number",
       "number": "181435000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p054.t1.r04",
@@ -9616,7 +9945,8 @@
       "kind": "number",
       "number": "423580000"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -9709,7 +10039,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p055.t0.r01",
@@ -9749,7 +10080,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p055.t0.r02",
@@ -9789,7 +10121,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p055.t0.r03",
@@ -9829,7 +10162,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p055.t0.r04",
@@ -9869,7 +10203,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p055.t0.r05",
@@ -9909,7 +10244,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p055.t0.r06",
@@ -9949,7 +10285,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p055.t0.r07",
@@ -9989,7 +10326,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": 2012
    }
   ]
  },
@@ -10071,7 +10409,8 @@
       "kind": "number",
       "number": "18681224"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p056.t0.r01",
@@ -10106,7 +10445,8 @@
       "kind": "number",
       "number": "1493646"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p056.t0.r02",
@@ -10141,7 +10481,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p056.t0.r03",
@@ -10176,7 +10517,8 @@
       "kind": "number",
       "number": "201748870"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p056.t0.r04",
@@ -10211,7 +10553,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p056.t0.r05",
@@ -10246,7 +10589,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p056.t0.r06",
@@ -10281,7 +10625,8 @@
       "kind": "number",
       "number": "-10626927"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p056.t0.r07",
@@ -10316,7 +10661,8 @@
       "kind": "number",
       "number": "-2870124"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p056.t0.r08",
@@ -10351,7 +10697,8 @@
       "kind": "number",
       "number": "-13497051"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p056.t0.r09",
@@ -10386,7 +10733,8 @@
       "kind": "number",
       "number": "6677819"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p056.t0.r10",
@@ -10421,7 +10769,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p056.t0.r11",
@@ -10456,7 +10805,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -10494,7 +10844,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t0.r01",
@@ -10509,7 +10860,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t0.r02",
@@ -10524,7 +10876,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t0.r03",
@@ -10539,7 +10892,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -10594,7 +10948,8 @@
       "kind": "number",
       "number": "67330240"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t1.r01",
@@ -10614,7 +10969,8 @@
       "kind": "number",
       "number": "-7536200"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t1.r02",
@@ -10634,7 +10990,8 @@
       "kind": "number",
       "number": "59794040"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -10694,7 +11051,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t2.r01",
@@ -10719,7 +11077,8 @@
       "kind": "number",
       "number": "16314187"
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p057.t2.r02",
@@ -10744,7 +11103,8 @@
       "kind": "number",
       "number": "420716"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t2.r03",
@@ -10769,7 +11129,8 @@
       "kind": "number",
       "number": "16734903"
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p057.t2.r04",
@@ -10794,7 +11155,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t2.r05",
@@ -10819,7 +11181,8 @@
       "kind": "number",
       "number": "-1788112"
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p057.t2.r06",
@@ -10844,7 +11207,8 @@
       "kind": "number",
       "number": "-388913"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p057.t2.r07",
@@ -10869,7 +11233,8 @@
       "kind": "number",
       "number": "-2177025"
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p057.t2.r08",
@@ -10894,7 +11259,8 @@
       "kind": "number",
       "number": "14557878"
      }
-    }
+    },
+    "label_year": 2012
    }
   ]
  },
@@ -10954,7 +11320,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p058.t0.r01",
@@ -10979,7 +11346,8 @@
       "kind": "number",
       "number": "16236789"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p058.t0.r02",
@@ -11004,7 +11372,8 @@
       "kind": "number",
       "number": "77398"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p058.t0.r03",
@@ -11029,7 +11398,8 @@
       "kind": "number",
       "number": "16314187"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p058.t0.r04",
@@ -11054,7 +11424,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p058.t0.r05",
@@ -11079,7 +11450,8 @@
       "kind": "number",
       "number": "-1392691"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p058.t0.r06",
@@ -11104,7 +11476,8 @@
       "kind": "number",
       "number": "-395421"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p058.t0.r07",
@@ -11129,7 +11502,8 @@
       "kind": "number",
       "number": "-1788112"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p058.t0.r08",
@@ -11154,7 +11528,8 @@
       "kind": "number",
       "number": "14526075"
      }
-    }
+    },
+    "label_year": 2011
    }
   ]
  },
@@ -11192,7 +11567,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p058.t1.r01",
@@ -11207,7 +11583,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -11262,7 +11639,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p058.t2.r01",
@@ -11282,7 +11660,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p058.t2.r02",
@@ -11302,7 +11681,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -11351,7 +11731,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p061.t0.r01",
@@ -11371,7 +11752,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p061.t0.r02",
@@ -11391,7 +11773,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -11446,7 +11829,8 @@
       "kind": "number",
       "number": "3620412"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p061.t1.r01",
@@ -11466,7 +11850,8 @@
       "kind": "number",
       "number": "536896"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p061.t1.r02",
@@ -11486,7 +11871,8 @@
       "kind": "number",
       "number": "4157308"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -11541,7 +11927,8 @@
       "kind": "number",
       "number": "161698"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p062.t0.r01",
@@ -11561,7 +11948,8 @@
       "kind": "number",
       "number": "466608"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p062.t0.r02",
@@ -11581,7 +11969,8 @@
       "kind": "number",
       "number": "628306"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -11630,7 +12019,8 @@
       "kind": "number",
       "number": "121512"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p062.t1.r01",
@@ -11650,7 +12040,8 @@
       "kind": "number",
       "number": "-121512"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p062.t1.r02",
@@ -11670,7 +12061,8 @@
       "kind": "number",
       "number": "161698"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p062.t1.r03",
@@ -11690,7 +12082,8 @@
       "kind": "number",
       "number": "161698"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -11739,7 +12132,8 @@
       "kind": "number",
       "number": "55307"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t0.r01",
@@ -11759,7 +12153,8 @@
       "kind": "number",
       "number": "327635"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t0.r02",
@@ -11779,7 +12174,8 @@
       "kind": "number",
       "number": "2578"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t0.r03",
@@ -11799,7 +12195,8 @@
       "kind": "number",
       "number": "-262790"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t0.r04",
@@ -11819,7 +12216,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t0.r05",
@@ -11839,7 +12237,8 @@
       "kind": "number",
       "number": "122730"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -11894,7 +12293,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r01",
@@ -11914,7 +12314,8 @@
       "kind": "number",
       "number": "399718"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r02",
@@ -11934,7 +12335,8 @@
       "kind": "number",
       "number": "3172243"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r03",
@@ -11954,7 +12356,8 @@
       "kind": "number",
       "number": "932007"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r04",
@@ -11974,7 +12377,8 @@
       "kind": "number",
       "number": "40742"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r05",
@@ -11994,7 +12398,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r06",
@@ -12014,7 +12419,8 @@
       "kind": "number",
       "number": "69657"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r07",
@@ -12034,7 +12440,8 @@
       "kind": "number",
       "number": "83602"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r08",
@@ -12054,7 +12461,8 @@
       "kind": "number",
       "number": "14103"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p063.t1.r09",
@@ -12074,7 +12482,8 @@
       "kind": "number",
       "number": "4712072"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -12129,7 +12538,8 @@
       "kind": "number",
       "number": "24753"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p064.t0.r01",
@@ -12149,7 +12559,8 @@
       "kind": "number",
       "number": "10728"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p064.t0.r02",
@@ -12169,7 +12580,8 @@
       "kind": "number",
       "number": "35481"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -12224,7 +12636,8 @@
       "kind": "number",
       "number": "731224"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p064.t1.r01",
@@ -12244,7 +12657,8 @@
       "kind": "number",
       "number": "2570296"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p064.t1.r02",
@@ -12264,7 +12678,8 @@
       "kind": "number",
       "number": "1921904"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p064.t1.r03",
@@ -12284,7 +12699,8 @@
       "kind": "number",
       "number": "5223424"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -12339,7 +12755,8 @@
       "kind": "number",
       "number": "20295169"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p064.t2.r01",
@@ -12359,7 +12776,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p064.t2.r02",
@@ -12379,7 +12797,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -12456,7 +12875,8 @@
       "kind": "number",
       "number": "103917733"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r01",
@@ -12486,7 +12906,8 @@
       "kind": "number",
       "number": "35881061"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r02",
@@ -12516,7 +12937,8 @@
       "kind": "number",
       "number": "203292"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r03",
@@ -12546,7 +12968,8 @@
       "kind": "number",
       "number": "418178"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r04",
@@ -12576,7 +12999,8 @@
       "kind": "number",
       "number": "847950"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r05",
@@ -12606,7 +13030,8 @@
       "kind": "number",
       "number": "214886"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r06",
@@ -12636,7 +13061,8 @@
       "kind": "number",
       "number": "100"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r07",
@@ -12666,7 +13092,8 @@
       "kind": "number",
       "number": "100"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r08",
@@ -12696,7 +13123,8 @@
       "kind": "number",
       "number": "100"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r09",
@@ -12726,7 +13154,8 @@
       "kind": "number",
       "number": "100"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r10",
@@ -12756,7 +13185,8 @@
       "kind": "number",
       "number": "141483500"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p065.t0.r11",
@@ -12786,7 +13216,8 @@
       "kind": "number",
       "number": "141483500"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -12841,7 +13272,8 @@
       "kind": "number",
       "number": "66581519"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r01",
@@ -12861,7 +13293,8 @@
       "kind": "number",
       "number": "10387229"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r02",
@@ -12881,7 +13314,8 @@
       "kind": "number",
       "number": "489196"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r03",
@@ -12901,7 +13335,8 @@
       "kind": "number",
       "number": "-173047"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r04",
@@ -12921,7 +13356,8 @@
       "kind": "number",
       "number": "-132489"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r05",
@@ -12941,7 +13377,8 @@
       "kind": "number",
       "number": "-720813"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r06",
@@ -12961,7 +13398,8 @@
       "kind": "number",
       "number": "76431595"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r07",
@@ -12981,7 +13419,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r08",
@@ -13001,7 +13440,8 @@
       "kind": "number",
       "number": "-15034588"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r09",
@@ -13021,7 +13461,8 @@
       "kind": "number",
       "number": "-7942486"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r10",
@@ -13041,7 +13482,8 @@
       "kind": "number",
       "number": "-8519981"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r11",
@@ -13061,7 +13503,8 @@
       "kind": "number",
       "number": "-1831287"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r12",
@@ -13081,7 +13524,8 @@
       "kind": "number",
       "number": "-809333"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r13",
@@ -13101,7 +13545,8 @@
       "kind": "number",
       "number": "-1750040"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r14",
@@ -13121,7 +13566,8 @@
       "kind": "number",
       "number": "-704442"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r15",
@@ -13141,7 +13587,8 @@
       "kind": "number",
       "number": "-987156"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r16",
@@ -13161,7 +13608,8 @@
       "kind": "number",
       "number": "-597387"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r17",
@@ -13181,7 +13629,8 @@
       "kind": "number",
       "number": "-759237"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r18",
@@ -13201,7 +13650,8 @@
       "kind": "number",
       "number": "-531194"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r19",
@@ -13221,7 +13671,8 @@
       "kind": "number",
       "number": "-441602"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r20",
@@ -13241,7 +13692,8 @@
       "kind": "number",
       "number": "-353232"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r21",
@@ -13261,7 +13713,8 @@
       "kind": "number",
       "number": "-268392"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r22",
@@ -13281,7 +13734,8 @@
       "kind": "number",
       "number": "-337623"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r23",
@@ -13301,7 +13755,8 @@
       "kind": "number",
       "number": "-291701"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r24",
@@ -13321,7 +13776,8 @@
       "kind": "number",
       "number": "-158345"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r25",
@@ -13341,7 +13797,8 @@
       "kind": "number",
       "number": "-444723"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r26",
@@ -13361,7 +13818,8 @@
       "kind": "number",
       "number": "-112555"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r27",
@@ -13381,7 +13839,8 @@
       "kind": "number",
       "number": "-79850"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r28",
@@ -13401,7 +13860,8 @@
       "kind": "number",
       "number": "-81671"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r29",
@@ -13421,7 +13881,8 @@
       "kind": "number",
       "number": "-2375014"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p068.t0.r30",
@@ -13441,7 +13902,8 @@
       "kind": "number",
       "number": "-44411839"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -13496,7 +13958,8 @@
       "kind": "number",
       "number": "-9733892"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r01",
@@ -13516,7 +13979,8 @@
       "kind": "number",
       "number": "-2680177"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r02",
@@ -13536,7 +14000,8 @@
       "kind": "number",
       "number": "-12414069"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r03",
@@ -13556,7 +14021,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r04",
@@ -13576,7 +14042,8 @@
       "kind": "number",
       "number": "-8592856"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r05",
@@ -13596,7 +14063,8 @@
       "kind": "number",
       "number": "-428217"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r06",
@@ -13616,7 +14084,8 @@
       "kind": "number",
       "number": "-41637"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r07",
@@ -13636,7 +14105,8 @@
       "kind": "number",
       "number": "-105090"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r08",
@@ -13656,7 +14126,8 @@
       "kind": "number",
       "number": "-75197"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r09",
@@ -13676,7 +14147,8 @@
       "kind": "number",
       "number": "-127028"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r10",
@@ -13696,7 +14168,8 @@
       "kind": "number",
       "number": "-9692"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r11",
@@ -13716,7 +14189,8 @@
       "kind": "number",
       "number": "-354175"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r12",
@@ -13736,7 +14210,8 @@
       "kind": "number",
       "number": "-9733892"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r13",
@@ -13756,7 +14231,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r14",
@@ -13776,7 +14252,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r15",
@@ -13796,7 +14273,8 @@
       "kind": "number",
       "number": "-745836"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r16",
@@ -13816,7 +14294,8 @@
       "kind": "number",
       "number": "-467558"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r17",
@@ -13836,7 +14315,8 @@
       "kind": "number",
       "number": "-184809"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r18",
@@ -13856,7 +14336,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r19",
@@ -13876,7 +14357,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r20",
@@ -13896,7 +14378,8 @@
       "kind": "number",
       "number": "-187845"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r21",
@@ -13916,7 +14399,8 @@
       "kind": "number",
       "number": "-229104"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r22",
@@ -13936,7 +14420,8 @@
       "kind": "number",
       "number": "-109174"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r23",
@@ -13956,7 +14441,8 @@
       "kind": "number",
       "number": "-96219"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r24",
@@ -13976,7 +14462,8 @@
       "kind": "number",
       "number": "-40875"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r25",
@@ -13996,7 +14483,8 @@
       "kind": "number",
       "number": "-80068"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r26",
@@ -14016,7 +14504,8 @@
       "kind": "number",
       "number": "-125396"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r27",
@@ -14036,7 +14525,8 @@
       "kind": "number",
       "number": "-87036"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r28",
@@ -14056,7 +14546,8 @@
       "kind": "number",
       "number": "-81431"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r29",
@@ -14076,7 +14567,8 @@
       "kind": "number",
       "number": "-83509"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r30",
@@ -14096,7 +14588,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r31",
@@ -14116,7 +14609,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r32",
@@ -14136,7 +14630,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r33",
@@ -14156,7 +14651,8 @@
       "kind": "number",
       "number": "-49634"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r34",
@@ -14176,7 +14672,8 @@
       "kind": "number",
       "number": "-8438"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r35",
@@ -14196,7 +14693,8 @@
       "kind": "number",
       "number": "-32321"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r36",
@@ -14216,7 +14714,8 @@
       "kind": "number",
       "number": "-3500"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r37",
@@ -14236,7 +14735,8 @@
       "kind": "number",
       "number": "-67424"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p069.t0.r38",
@@ -14256,7 +14756,8 @@
       "kind": "number",
       "number": "-2680177"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -14311,7 +14812,8 @@
       "kind": "number",
       "number": "-16208641"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r01",
@@ -14331,7 +14833,8 @@
       "kind": "number",
       "number": "-8519981"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r02",
@@ -14351,7 +14854,8 @@
       "kind": "number",
       "number": "-8127295"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r03",
@@ -14371,7 +14875,8 @@
       "kind": "number",
       "number": "-8592856"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r04",
@@ -14391,7 +14896,8 @@
       "kind": "number",
       "number": "-1831287"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r05",
@@ -14411,7 +14917,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r06",
@@ -14431,7 +14938,8 @@
       "kind": "number",
       "number": "-809333"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r07",
@@ -14451,7 +14959,8 @@
       "kind": "number",
       "number": "-1750040"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r08",
@@ -14471,7 +14980,8 @@
       "kind": "number",
       "number": "-704442"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r09",
@@ -14491,7 +15001,8 @@
       "kind": "number",
       "number": "-987156"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r10",
@@ -14511,7 +15022,8 @@
       "kind": "number",
       "number": "-597387"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r11",
@@ -14531,7 +15043,8 @@
       "kind": "number",
       "number": "-759237"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r12",
@@ -14551,7 +15064,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r13",
@@ -14571,7 +15085,8 @@
       "kind": "number",
       "number": "-531194"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r14",
@@ -14591,7 +15106,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r15",
@@ -14611,7 +15127,8 @@
       "kind": "number",
       "number": "-441602"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r16",
@@ -14631,7 +15148,8 @@
       "kind": "number",
       "number": "-467558"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r17",
@@ -14651,7 +15169,8 @@
       "kind": "number",
       "number": "-187845"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r18",
@@ -14671,7 +15190,8 @@
       "kind": "number",
       "number": "-238413"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r19",
@@ -14691,7 +15211,8 @@
       "kind": "number",
       "number": "-304301"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r20",
@@ -14711,7 +15232,8 @@
       "kind": "number",
       "number": "-421132"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r21",
@@ -14731,7 +15253,8 @@
       "kind": "number",
       "number": "-396791"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r22",
@@ -14751,7 +15274,8 @@
       "kind": "number",
       "number": "-167903"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r23",
@@ -14771,7 +15295,8 @@
       "kind": "number",
       "number": "-353232"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r24",
@@ -14791,7 +15316,8 @@
       "kind": "number",
       "number": "-109174"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r25",
@@ -14811,7 +15337,8 @@
       "kind": "number",
       "number": "-96219"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r26",
@@ -14831,7 +15358,8 @@
       "kind": "number",
       "number": "-268392"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r27",
@@ -14851,7 +15379,8 @@
       "kind": "number",
       "number": "-162630"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r28",
@@ -14871,7 +15400,8 @@
       "kind": "number",
       "number": "-444723"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r29",
@@ -14891,7 +15421,8 @@
       "kind": "number",
       "number": "-125396"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r30",
@@ -14911,7 +15442,8 @@
       "kind": "number",
       "number": "-87036"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r31",
@@ -14931,7 +15463,8 @@
       "kind": "number",
       "number": "-81431"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r32",
@@ -14951,7 +15484,8 @@
       "kind": "number",
       "number": "-79850"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r33",
@@ -14971,7 +15505,8 @@
       "kind": "number",
       "number": "-81671"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r34",
@@ -14991,7 +15526,8 @@
       "kind": "number",
       "number": "-49634"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r35",
@@ -15011,7 +15547,8 @@
       "kind": "number",
       "number": "-32321"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r36",
@@ -15031,7 +15568,8 @@
       "kind": "number",
       "number": "-2800113"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p070.t0.r37",
@@ -15051,7 +15589,8 @@
       "kind": "number",
       "number": "-56825908"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -15100,7 +15639,8 @@
       "kind": "number",
       "number": "79038"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t0.r01",
@@ -15120,7 +15660,8 @@
       "kind": "number",
       "number": "158289"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t0.r02",
@@ -15140,7 +15681,8 @@
       "kind": "number",
       "number": "3260934"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t0.r03",
@@ -15160,7 +15702,8 @@
       "kind": "number",
       "number": "590452"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t0.r04",
@@ -15180,7 +15723,8 @@
       "kind": "number",
       "number": "941642"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t0.r05",
@@ -15200,7 +15744,8 @@
       "kind": "number",
       "number": "5030355"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -15249,7 +15794,8 @@
       "kind": "number",
       "number": "-203725"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t1.r01",
@@ -15269,7 +15815,8 @@
       "kind": "number",
       "number": "-201538"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t1.r02",
@@ -15289,7 +15836,8 @@
       "kind": "number",
       "number": "-18316"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t1.r03",
@@ -15309,7 +15857,8 @@
       "kind": "number",
       "number": "-6408"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t1.r04",
@@ -15329,7 +15878,8 @@
       "kind": "number",
       "number": "-39333"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t1.r05",
@@ -15349,7 +15899,8 @@
       "kind": "number",
       "number": "-92669"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p071.t1.r06",
@@ -15369,7 +15920,8 @@
       "kind": "number",
       "number": "-561989"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -15424,7 +15976,8 @@
       "kind": "number",
       "number": "13206542"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p072.t0.r01",
@@ -15444,7 +15997,8 @@
       "kind": "number",
       "number": "613307"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p072.t0.r02",
@@ -15464,7 +16018,8 @@
       "kind": "number",
       "number": "14968"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p072.t0.r03",
@@ -15484,7 +16039,8 @@
       "kind": "number",
       "number": "13834817"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -15539,7 +16095,8 @@
       "kind": "number",
       "number": "-22344836"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p072.t1.r01",
@@ -15559,7 +16116,8 @@
       "kind": "number",
       "number": "942303"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p072.t1.r02",
@@ -15579,7 +16137,8 @@
       "kind": "number",
       "number": "-3297068"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p072.t1.r03",
@@ -15599,7 +16158,8 @@
       "kind": "number",
       "number": "372108"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p072.t1.r04",
@@ -15619,7 +16179,8 @@
       "kind": "number",
       "number": "-1721"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p072.t1.r05",
@@ -15639,7 +16200,8 @@
       "kind": "number",
       "number": "-24329214"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -15694,7 +16256,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p073.t0.r01",
@@ -15714,7 +16277,8 @@
       "kind": "number",
       "number": "3742633"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p073.t0.r02",
@@ -15734,7 +16298,8 @@
       "kind": "number",
       "number": "-2965718"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p073.t0.r03",
@@ -15754,7 +16319,8 @@
       "kind": "number",
       "number": "776915"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p073.t0.r04",
@@ -15774,7 +16340,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p073.t0.r05",
@@ -15794,7 +16361,8 @@
       "kind": "number",
       "number": "3742633"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p073.t0.r06",
@@ -15814,7 +16382,8 @@
       "kind": "number",
       "number": "-727228"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p073.t0.r07",
@@ -15834,7 +16403,8 @@
       "kind": "number",
       "number": "3015405"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -15889,7 +16459,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r01",
@@ -15909,7 +16480,8 @@
       "kind": "number",
       "number": "49073095"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r02",
@@ -15929,7 +16501,8 @@
       "kind": "number",
       "number": "3902294"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r03",
@@ -15949,7 +16522,8 @@
       "kind": "number",
       "number": "-7684933"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r04",
@@ -15969,7 +16543,8 @@
       "kind": "number",
       "number": "-31377"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r05",
@@ -15989,7 +16564,8 @@
       "kind": "number",
       "number": "-52718"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r06",
@@ -16009,7 +16585,8 @@
       "kind": "number",
       "number": "-300596"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r07",
@@ -16029,7 +16606,8 @@
       "kind": "number",
       "number": "44905765"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r08",
@@ -16049,7 +16627,8 @@
       "kind": "number",
       "number": "-8262684"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r09",
@@ -16069,7 +16648,8 @@
       "kind": "number",
       "number": "53168449"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t0.r10",
@@ -16089,7 +16669,8 @@
       "kind": "number",
       "number": "44905765"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -16144,7 +16725,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t1.r01",
@@ -16164,7 +16746,8 @@
       "kind": "number",
       "number": "-3440102"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t1.r02",
@@ -16184,7 +16767,8 @@
       "kind": "number",
       "number": "49073095"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t1.r03",
@@ -16204,7 +16788,8 @@
       "kind": "number",
       "number": "-727228"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p075.t1.r04",
@@ -16224,7 +16809,8 @@
       "kind": "number",
       "number": "44905765"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -16279,7 +16865,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t0.r01",
@@ -16299,7 +16886,8 @@
       "kind": "number",
       "number": "164929656"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t0.r02",
@@ -16319,7 +16907,8 @@
       "kind": "number",
       "number": "32985931"
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p076.t0.r03",
@@ -16339,7 +16928,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t0.r04",
@@ -16359,7 +16949,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t0.r05",
@@ -16379,7 +16970,8 @@
       "kind": "number",
       "number": "68699"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t0.r06",
@@ -16399,7 +16991,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t0.r07",
@@ -16419,7 +17012,8 @@
       "kind": "number",
       "number": "-30270000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t0.r08",
@@ -16439,7 +17033,8 @@
       "kind": "number",
       "number": "230775"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t0.r09",
@@ -16459,7 +17054,8 @@
       "kind": "number",
       "number": "3015405"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -16514,7 +17110,8 @@
       "kind": "number",
       "number": "135755190"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t1.r01",
@@ -16534,7 +17131,8 @@
       "kind": "number",
       "number": "161642510"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p076.t1.r02",
@@ -16554,7 +17152,8 @@
       "kind": "number",
       "number": "1.191"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -16672,7 +17271,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r01",
@@ -16722,7 +17322,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r02",
@@ -16772,7 +17373,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r03",
@@ -16822,7 +17424,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r04",
@@ -16872,7 +17475,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r05",
@@ -16922,7 +17526,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r06",
@@ -16972,7 +17577,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r07",
@@ -17022,7 +17628,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r08",
@@ -17072,7 +17679,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r09",
@@ -17122,7 +17730,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r10",
@@ -17172,7 +17781,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r11",
@@ -17222,7 +17832,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p078.t0.r12",
@@ -17272,7 +17883,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -17379,7 +17991,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r01",
@@ -17424,7 +18037,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r02",
@@ -17469,7 +18083,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r03",
@@ -17514,7 +18129,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r04",
@@ -17559,7 +18175,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r05",
@@ -17604,7 +18221,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r06",
@@ -17649,7 +18267,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r07",
@@ -17694,7 +18313,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r08",
@@ -17739,7 +18359,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p079.t0.r09",
@@ -17784,7 +18405,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -17891,7 +18513,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r01",
@@ -17936,7 +18559,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r02",
@@ -17981,7 +18605,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r03",
@@ -18026,7 +18651,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r04",
@@ -18071,7 +18697,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r05",
@@ -18116,7 +18743,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r06",
@@ -18161,7 +18789,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r07",
@@ -18206,7 +18835,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r08",
@@ -18251,7 +18881,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p080.t0.r09",
@@ -18296,7 +18927,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -18367,7 +18999,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r01",
@@ -18397,7 +19030,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r02",
@@ -18427,7 +19061,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r03",
@@ -18457,7 +19092,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r04",
@@ -18487,7 +19123,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r05",
@@ -18517,7 +19154,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r06",
@@ -18547,7 +19185,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r07",
@@ -18577,7 +19216,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r08",
@@ -18607,7 +19247,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p081.t0.r09",
@@ -18637,7 +19278,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -18686,7 +19328,8 @@
       "kind": "number",
       "number": "1368653"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -18790,7 +19433,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p083.t0.r01",
@@ -18835,7 +19479,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": 2012
    },
    {
     "id": "p083.t0.r02",
@@ -18880,7 +19525,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p083.t0.r03",
@@ -18925,7 +19571,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p083.t0.r04",
@@ -18970,7 +19617,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p083.t0.r05",
@@ -19015,7 +19663,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p083.t0.r06",
@@ -19060,7 +19709,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -19153,7 +19803,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p084.t0.r01",
@@ -19193,7 +19844,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p084.t0.r02",
@@ -19233,7 +19885,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -19296,7 +19949,8 @@
       "kind": "number",
       "number": "739738"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p085.t0.r01",
@@ -19321,7 +19975,8 @@
       "kind": "number",
       "number": "915714"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p085.t0.r02",
@@ -19346,7 +20001,8 @@
       "kind": "number",
       "number": "187928"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p085.t0.r03",
@@ -19371,7 +20027,8 @@
       "kind": "number",
       "number": "95384"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p085.t0.r04",
@@ -19396,7 +20053,8 @@
       "kind": "number",
       "number": "1938764"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p085.t0.r05",
@@ -19421,7 +20079,8 @@
       "kind": "number",
       "number": "18695"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -19481,7 +20140,8 @@
       "kind": "number",
       "number": "362386"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p086.t0.r01",
@@ -19506,7 +20166,8 @@
       "kind": "number",
       "number": "2407269"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p086.t0.r02",
@@ -19531,7 +20192,8 @@
       "kind": "number",
       "number": "257473"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p086.t0.r03",
@@ -19556,7 +20218,8 @@
       "kind": "number",
       "number": "139523"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p086.t0.r04",
@@ -19581,7 +20244,8 @@
       "kind": "number",
       "number": "3166651"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p086.t0.r05",
@@ -19606,7 +20270,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -19688,7 +20353,8 @@
       "kind": "number",
       "number": "75920571"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p087.t0.r01",
@@ -19723,7 +20389,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p087.t0.r02",
@@ -19758,7 +20425,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p087.t0.r03",
@@ -19793,7 +20461,8 @@
       "kind": "number",
       "number": "75920571"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -19875,7 +20544,8 @@
       "kind": "number",
       "number": "1191290"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p087.t1.r01",
@@ -19910,7 +20580,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p087.t1.r02",
@@ -19945,7 +20616,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p087.t1.r03",
@@ -19980,7 +20652,8 @@
       "kind": "number",
       "number": "1191290"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -20054,7 +20727,8 @@
       "kind": "number",
       "number": "1187530"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r01",
@@ -20084,7 +20758,8 @@
       "kind": "number",
       "number": "1146401"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r02",
@@ -20114,7 +20789,8 @@
       "kind": "number",
       "number": "2333931"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r03",
@@ -20144,7 +20820,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r04",
@@ -20174,7 +20851,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r05",
@@ -20204,7 +20882,8 @@
       "kind": "number",
       "number": "2333931"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r06",
@@ -20234,7 +20913,8 @@
       "kind": "number",
       "number": "-120006"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r07",
@@ -20264,7 +20944,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r08",
@@ -20294,7 +20975,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r09",
@@ -20324,7 +21006,8 @@
       "kind": "number",
       "number": "-120006"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r10",
@@ -20354,7 +21037,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r11",
@@ -20384,7 +21068,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r12",
@@ -20414,7 +21099,8 @@
       "kind": "number",
       "number": "-71554357"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r13",
@@ -20444,7 +21130,8 @@
       "kind": "number",
       "number": "-120006"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p088.t0.r14",
@@ -20474,7 +21161,8 @@
       "kind": "number",
       "number": "2213925"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -20548,7 +21236,8 @@
       "kind": "number",
       "number": "490427"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r01",
@@ -20578,7 +21267,8 @@
       "kind": "number",
       "number": "1134495"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r02",
@@ -20608,7 +21298,8 @@
       "kind": "number",
       "number": "151705"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r03",
@@ -20638,7 +21329,8 @@
       "kind": "number",
       "number": "1776627"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r04",
@@ -20668,7 +21360,8 @@
       "kind": "number",
       "number": "1776627"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r05",
@@ -20698,7 +21391,8 @@
       "kind": "number",
       "number": "-14730"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r06",
@@ -20728,7 +21422,8 @@
       "kind": "number",
       "number": "-842137"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r07",
@@ -20758,7 +21453,8 @@
       "kind": "number",
       "number": "-856867"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r08",
@@ -20788,7 +21484,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r09",
@@ -20818,7 +21515,8 @@
       "kind": "number",
       "number": "-396422"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r10",
@@ -20848,7 +21546,8 @@
       "kind": "number",
       "number": "-396422"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r11",
@@ -20878,7 +21577,8 @@
       "kind": "number",
       "number": "-1253289"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p089.t0.r12",
@@ -20908,7 +21608,8 @@
       "kind": "number",
       "number": "523338"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -20957,7 +21658,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p090.t0.r01",
@@ -20977,7 +21679,8 @@
       "kind": "number",
       "number": "4351836"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p090.t0.r02",
@@ -20997,7 +21700,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p090.t0.r03",
@@ -21017,7 +21721,8 @@
       "kind": "number",
       "number": "4351836"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -21066,7 +21771,8 @@
       "kind": "number",
       "number": "-221393"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p090.t1.r01",
@@ -21086,7 +21792,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p090.t1.r02",
@@ -21106,7 +21813,8 @@
       "kind": "number",
       "number": "-221393"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -21155,7 +21863,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p090.t2.r01",
@@ -21175,7 +21884,8 @@
       "kind": "number",
       "number": "-5510"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p090.t2.r02",
@@ -21195,7 +21905,8 @@
       "kind": "number",
       "number": "4124933"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -21244,7 +21955,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r01",
@@ -21264,7 +21976,8 @@
       "kind": "number",
       "number": "4646946"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r02",
@@ -21284,7 +21997,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r03",
@@ -21304,7 +22018,8 @@
       "kind": "number",
       "number": "4646946"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r04",
@@ -21324,7 +22039,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r05",
@@ -21344,7 +22060,8 @@
       "kind": "number",
       "number": "-49684"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r06",
@@ -21364,7 +22081,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r07",
@@ -21384,7 +22102,8 @@
       "kind": "number",
       "number": "-49684"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r08",
@@ -21404,7 +22123,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r09",
@@ -21424,7 +22144,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r10",
@@ -21444,7 +22165,8 @@
       "kind": "number",
       "number": "-5586"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r11",
@@ -21464,7 +22186,8 @@
       "kind": "number",
       "number": "-5586"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p091.t0.r12",
@@ -21484,7 +22207,8 @@
       "kind": "number",
       "number": "4591676"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -21539,7 +22263,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p092.t0.r01",
@@ -21559,7 +22284,8 @@
       "kind": "number",
       "number": "90717313"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p092.t0.r02",
@@ -21579,7 +22305,8 @@
       "kind": "empty",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p092.t0.r03",
@@ -21599,7 +22326,8 @@
       "kind": "number",
       "number": "3713750"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -21692,7 +22420,8 @@
       "kind": "number",
       "number": "4"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r01",
@@ -21732,7 +22461,8 @@
       "kind": "number",
       "number": "8"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r02",
@@ -21772,7 +22502,8 @@
       "kind": "number",
       "number": "8.28"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r03",
@@ -21812,7 +22543,8 @@
       "kind": "number",
       "number": "7"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r04",
@@ -21852,7 +22584,8 @@
       "kind": "number",
       "number": "8"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r05",
@@ -21892,7 +22625,8 @@
       "kind": "number",
       "number": "28"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r06",
@@ -21932,7 +22666,8 @@
       "kind": "number",
       "number": "28"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r07",
@@ -21972,7 +22707,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r08",
@@ -22012,7 +22748,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": 2011
    },
    {
     "id": "p093.t0.r09",
@@ -22052,7 +22789,8 @@
       "kind": "number",
       "number": "4"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r10",
@@ -22092,7 +22830,8 @@
       "kind": "number",
       "number": "8"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r11",
@@ -22132,7 +22871,8 @@
       "kind": "number",
       "number": "8.28"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r12",
@@ -22172,7 +22912,8 @@
       "kind": "number",
       "number": "8"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r13",
@@ -22212,7 +22953,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r14",
@@ -22252,7 +22994,8 @@
       "kind": "number",
       "number": "7"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r15",
@@ -22292,7 +23035,8 @@
       "kind": "number",
       "number": "8"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p093.t0.r16",
@@ -22332,7 +23076,8 @@
       "kind": "number",
       "number": "28"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -22387,7 +23132,8 @@
       "kind": "number",
       "number": "1682972"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r01",
@@ -22407,7 +23153,8 @@
       "kind": "number",
       "number": "423580000"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r02",
@@ -22427,7 +23174,8 @@
       "kind": "number",
       "number": "315209796"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r03",
@@ -22447,7 +23195,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r04",
@@ -22467,7 +23216,8 @@
       "kind": "number",
       "number": "4284130"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r05",
@@ -22487,7 +23237,8 @@
       "kind": "number",
       "number": "744756898"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r06",
@@ -22507,7 +23258,8 @@
       "kind": "number",
       "number": "90782338"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r07",
@@ -22527,7 +23279,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r08",
@@ -22547,7 +23300,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r09",
@@ -22567,7 +23321,8 @@
       "kind": "number",
       "number": "1673868"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r10",
@@ -22587,7 +23342,8 @@
       "kind": "number",
       "number": "624922066"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r11",
@@ -22607,7 +23363,8 @@
       "kind": "number",
       "number": "27378626"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t0.r12",
@@ -22627,7 +23384,8 @@
       "kind": "number",
       "number": "744756898"
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -22682,7 +23440,8 @@
       "kind": "number",
       "number": "1682972"
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p094.t1.r01",
@@ -22702,7 +23461,8 @@
       "kind": "dash",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  },
@@ -22768,7 +23528,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p095.t0.r01",
@@ -22793,7 +23554,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p095.t0.r02",
@@ -22818,7 +23580,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p095.t0.r03",
@@ -22843,7 +23606,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p095.t0.r04",
@@ -22868,7 +23632,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p095.t0.r05",
@@ -22893,7 +23658,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p095.t0.r06",
@@ -22918,7 +23684,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    },
    {
     "id": "p095.t0.r07",
@@ -22943,7 +23710,8 @@
       "kind": "text",
       "number": null
      }
-    }
+    },
+    "label_year": null
    }
   ]
  }

@@ -115,6 +115,7 @@ def normalize_table(grid, page: int, index: int, text: str, heading: str = "") -
     for i, raw in enumerate(body):
         raw = list(raw) + [""] * (len(columns) - len(raw))
         label = raw[0].strip()
+        label_year = YEAR_RE.search(label)
         values = {columns[j]["id"]: parse_value(raw[j]) for j in val_cols}
         refs = parse_note_refs(raw[ref_col]) if ref_col is not None else []
         rows.append({
@@ -125,6 +126,7 @@ def normalize_table(grid, page: int, index: int, text: str, heading: str = "") -
             "role": classify(label, values, refs),
             "parent_id": None,
             "values": values,
+            "label_year": int(label_year.group(1)) if label_year else None, 
         })
 
     # A sub-item belongs to the item above it, and inherits its note reference.

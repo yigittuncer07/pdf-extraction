@@ -3,14 +3,17 @@
 
 ## PERSONAL NOTES:
 
-- Using tesseract OCR on the PDF resulted in lots of OCR errors. EasyOCR also failed to properly extract the data.
-- SmallDocling failed as a VLM. The output quality is not good enough. 
+- Using tesseract OCR on the PDF resulted in lots of OCR errors. EasyOCR also failed to properly extract the data. Value errors, missing footnotes...
+- SmallDocling failed as a VLM. The output quality is awful.
 - Qwen 2.5 VL produced awful results. Only DeepSeek OCR 2 produced acceptable results, the numbers look very clean, only some table headers are misaligned, which can be post processed. I am also out of options, so DeepSeek it is.
 - Deepseek works well with post patches, but this will break some functionality, for example merged header tables get broken, but this is a tradeoff I am accepting at this stage. 
 
 - Kept OCR from docling, as a second opinion, deepseek is considered more valuable, since it seems to work better. 
 - NOTE: Sideways tables are not rendered correctly. Need global fix for all renderers for this to work.
 - NOTE: MERGED HEADERS BREAK IN DEEPSEEK. Need to update postfix somehow, simplify.
+
+A bi-encoder over row contexts produced almost no discrimination (0.019 spread over 18 candidates), because the context that makes a row interpretable is largely shared between candidates from the same note. The signal is in what differs, which is exactly what a bi-encoder averages away. Rules supplied the discrimination; the model contributed ordering that was correct for one source and wrong for the other.
+
 
 
 **The general pipeline idea is:**

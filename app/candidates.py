@@ -73,6 +73,7 @@ class CandidateGenerator:
             # never have to reach back into the tables.
             "values": {c: v["number"] for c, v in row["values"].items() if v["number"]},
             "periods": periods,
+            "label_year": row.get("label_year"),
             "confidence": row.get("confidence", 0.5),
         }
 
