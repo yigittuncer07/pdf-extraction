@@ -17,7 +17,7 @@ DASHES = {"-", "–", "—"}
 HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
 CURRENCY_RE = re.compile(r"\(Tüm tutarlar\s+(.+?)\s+olarak", re.I)
 YEAR_RE = re.compile(r"\b(20\d{2})\b")
-
+YEAR_ONLY_RE = re.compile(r"(19|20)\d{2}")
 
 def parse_value(raw: str) -> dict:
     """A dash, an empty cell and a zero are three different things."""
@@ -53,11 +53,16 @@ def split_header(grid: list[list[str]]) -> tuple[list[str], list[list[str]]]:
     """Peel off the header band, one flattened header per column.
 
     The income statement stacks its header over seven rows. A row belongs to
-    the band while its label cell is empty and none of its cells is a number.
+    the band while its label cell is empty and none of its cells is a number. This is a postfix for OCR errors splitting header cells into multiple rows, so we take the first row that looks like data as the start of the body.
     """
+    def is_data(cell: str) -> bool:
+        # A bare year belongs to the header band; any other number is data.
+        s = cell.strip()
+        return parse_value(s)["kind"] == "number" and not YEAR_ONLY_RE.fullmatch(s)
+
     n = 0
     for row in grid:
-        if row[0].strip() or any(parse_value(c)["kind"] == "number" for c in row[1:]):
+        if row[0].strip() or any(is_data(c) for c in row[1:]):
             break
         n += 1
     n = max(n, 1)
@@ -93,9 +98,11 @@ def classify(label: str, values: dict, refs: list[int]) -> str:
     return "item"
 
 
-def normalize_table(grid: list[list[str]], page: int, index: int, text: str) -> dict:
-    headings = [h for h in HEADING_RE.findall(text) if "ORTAKLIKLARI" not in h] # TODO: should remove, document specific
-    title = headings[-1] if headings else ""
+def normalize_table(grid, page: int, index: int, text: str, heading: str = "") -> dict:
+    # The extractor knows which heading preceded which table; fall back to the
+    # page's last heading for extractors that do not report it.
+    headings = HEADING_RE.findall(text)
+    title = heading or (headings[-1] if headings else "")
     kind = ("balance_sheet" if "BİLANÇO" in title
             else "income_statement" if "GELİR TABLOSU" in title else "note")
 
@@ -147,11 +154,14 @@ def run(in_dir: Path, out_dir: Path, config: dict = CONFIG) -> list[dict]:
     pages = json.loads((in_dir / "01_pages.json").read_text())
     target_pages = set(config["pages"]) if config.get("pages") else None
 
-    tables = [
-        normalize_table(grid, page["page"], i, page["text"])
-        for page in pages
-        if target_pages is None or page["page"] in target_pages
-        for i, grid in enumerate(page["tables"])
-    ]
+    tables = []
+    for page in pages:
+        if target_pages is not None and page["page"] not in target_pages:
+            continue
+        headings = page.get("headings") or []
+        for i, grid in enumerate(page["tables"]):
+            heading = headings[i] if i < len(headings) else ""
+            tables.append(normalize_table(grid, page["page"], i, page["text"], heading))
+
     (out_dir / "02_tables.json").write_text(json.dumps(tables, ensure_ascii=False, indent=1))
     return tables

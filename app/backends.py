@@ -24,12 +24,12 @@ TABLE_RE = re.compile(r"<table.*?>.*?</table>", re.DOTALL | re.I)
 ROW_RE = re.compile(r"<tr.*?>(.*?)</tr>", re.DOTALL | re.I)
 CELL_RE = re.compile(r"<t[dh].*?>(.*?)</t[dh]>", re.DOTALL | re.I)
 GROUNDING_RE = re.compile(r"<\|(ref|det)\|>.*?<\|/\1\|>", re.DOTALL)
-
+HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
 
 class TableExtractor(ABC):
     @abstractmethod
     def extract(self, pdf: Path, pages: list[int] | None = None) -> list[dict]:
-        """Extract pages returning a list of dicts: {'page': int, 'text': str, 'tables': list[list[list[str]]]}."""
+        """"Extract pages: {'page': int, 'text': str, 'tables': [...], 'headings': [str]}."""
 
 
 class DoclingVlmExtractor(TableExtractor):
@@ -60,7 +60,8 @@ class DoclingVlmExtractor(TableExtractor):
             page_map.setdefault(p, {"page": p, "text": [], "tables": []})["tables"].append(grid)
 
         return [
-            {"page": p, "text": "\n".join(data["text"]), "tables": data["tables"]}
+            {"page": p, "text": "\n".join(data["text"]), "tables": data["tables"],
+            "headings": [""] * len(data["tables"])}
             for p, data in sorted(page_map.items())
         ]
 
@@ -101,7 +102,8 @@ class DoclingExtractor(TableExtractor):
             page_map.setdefault(p, {"page": p, "text": [], "tables": []})["tables"].append(grid)
 
         return [
-            {"page": p, "text": "\n".join(data["text"]), "tables": data["tables"]}
+            {"page": p, "text": "\n".join(data["text"]), "tables": data["tables"],
+            "headings": [""] * len(data["tables"])}
             for p, data in sorted(page_map.items())
         ]
 
@@ -160,11 +162,28 @@ def _grid(table_html: str) -> list[list[str]]:
 
 
 def parse_page(raw: str) -> dict:
-    """Model output -> {'text', 'tables'}."""
+    """Model output -> {'text', 'tables', 'headings'}.
+
+    `headings[i]` is the last markdown heading seen before `tables[i]`, so a
+    page holding several tables can still tell them apart. Walking the raw
+    output in order is the only place that association exists -- once text and
+    tables are split into separate lists it is gone.
+    """
     raw = GROUNDING_RE.sub("", raw)
-    tables = [_grid(t) for t in TABLE_RE.findall(raw)]
+
+    tables, headings, heading, cursor = [], [], "", 0
+    for match in TABLE_RE.finditer(raw):
+        found = HEADING_RE.findall(raw[cursor:match.start()])
+        if found:
+            heading = found[-1]
+        grid = _grid(match.group(0))
+        if grid:
+            tables.append(grid)
+            headings.append(heading)
+        cursor = match.end()
+
     text = re.sub(r"\n{3,}", "\n\n", TABLE_RE.sub("\n", raw)).strip()
-    return {"text": html.unescape(text), "tables": [t for t in tables if t]}
+    return {"text": html.unescape(text), "tables": tables, "headings": headings}
 
 
 class DeepSeekExtractor(TableExtractor):
