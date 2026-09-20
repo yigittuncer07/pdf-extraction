@@ -13,6 +13,7 @@ from docling.pipeline.vlm_pipeline import VlmPipeline
 import html
 import re
 import tempfile
+import json
 
 import torch
 from pdf2image import convert_from_path, pdfinfo_from_path
@@ -97,8 +98,18 @@ class DoclingExtractor(TableExtractor):
                 page_map.setdefault(p, {"page": p, "text": [], "tables": []})["text"].append(item.text)
 
         for table in doc.tables:
-            p = table.prov[0].page_no
-            grid = table.export_to_dataframe().fillna("").values.tolist()
+            p = table.prov[0].page_no if table.prov else 1
+            df = table.export_to_dataframe().fillna("")
+
+            if hasattr(df.columns, "levels"):  # MultiIndex
+                header_row = [
+                    " ".join(str(part) for part in col if str(part).strip())
+                    for col in df.columns
+                ]
+            else:
+                header_row = [str(col) for col in df.columns]
+
+            grid = [header_row] + df.values.tolist()
             page_map.setdefault(p, {"page": p, "text": [], "tables": []})["tables"].append(grid)
 
         return [
@@ -245,3 +256,18 @@ class DeepSeekExtractor(TableExtractor):
             out.append({"page": page, **parsed})
             print(f"page {page}: {len(parsed['tables'])} tables")
         return out
+    
+def ingest(
+    pdf: Path,
+    out_dir: Path,
+    extractor: TableExtractor,
+    pages: list[int] | None = None,
+    out_file: str = "01_pages.json",
+) -> list[dict]:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    pages_data = extractor.extract(pdf, pages)
+
+    (out_dir / out_file).write_text(
+        json.dumps(pages_data, ensure_ascii=False, indent=2)
+    )
+    return pages_data

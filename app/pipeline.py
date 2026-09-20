@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 from time import time
 
-from .backends import DeepSeekExtractor, TableExtractor
+from .backends import DeepSeekExtractor, ingest, DoclingExtractor
 from .candidates import run as generate_candidates
 from .locate import PageFinder
 from .normalize import run as normalize
@@ -19,43 +19,30 @@ CONFIG = {
     "note": 11,
 }
 
-
-def ingest(
-    pdf: Path,
-    out_dir: Path,
-    extractor: TableExtractor,
-    pages: list[int] | None = None,
-) -> list[dict]:
-    out_dir.mkdir(parents=True, exist_ok=True)
-    pages_data = extractor.extract(pdf, pages)
-
-    (out_dir / "01_pages.json").write_text(
-        json.dumps(pages_data, ensure_ascii=False, indent=2)
-    )
-    return pages_data
-
-
 if __name__ == "__main__":
     artifacts = Path("artifacts")
 
+    # ------------ 1. Ingest the PDF, extract tables, titles, and text ------------
     t0 = time()
-    pages_data = ingest(
-        Path("ornek_dokuman.pdf"),
-        artifacts,
-        extractor=DeepSeekExtractor(),
-        # pages=[53, 54]  # EXTRACT ALL PAGES
-        # pages = [5, 6, 7, 50, 51, 52, 53, 54, 55]  
-    )
-    print(f"Finished in {time() - t0:.2f}s")
-
-    # Uses the default in_file (artifacts / "01_pages.json") via dir
-    tables = normalize(directory=artifacts, config={"pages": []})
-
-    # read directly from the ingestion artifact
+    # pages = [4, 5, 6, 7, 50, 51, 52, 53, 54, 55])
+    # ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DeepSeekExtractor(), pages = [], out_file="01_pages.json")
+    print(f"DeepSeek ingested in {time() - t0:.2f}s")
+    
+    t0 = time()
+    # ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DoclingExtractor(), pages = [4,5,6,7,50,51,52,53,54,55], out_file="00_pages.json")
+    print(f"Docling (OCR) ingested in {time() - t0:.2f}s")
+    
+    # ------------ 2. Normalize the extracted tables into a standard format ------------
+    t0 = time()
+    tables = normalize(in_file="01_pages.json", directory=artifacts, config={"pages": []})
+    print(f"normalized in {time() - t0:.2f}s")
+    
+    #------------ 3. Locate the note reference page numbers ------------
     pages_data = json.loads((artifacts / "01_pages.json").read_text())
     found = PageFinder(pages_data).find(CONFIG["note"])
-    print(f"note {found['note']} -> pages {found['pages']} (verified: {found['verified']})")
+    print(f"note {found['note']} -> pages {found['pages']} (verified: {found['verified']})") # verified means TOC confirmed
 
+    # ------------ 4. Generate candidate pairs of source and target tables ------------
     candidates = generate_candidates(
         tables, CONFIG["pages"], found["pages"], CONFIG["note"], artifacts
     )

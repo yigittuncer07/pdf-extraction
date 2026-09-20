@@ -156,7 +156,10 @@ def run(
     config: dict = CONFIG,
 ) -> list[dict]:
     directory = Path(directory)
-    in_path = Path(in_file) if in_file is not None else directory / "01_pages.json"
+    if in_file is None:
+        in_path = directory / "01_pages.json"
+    else:
+        in_path = directory / in_file if not Path(in_file).is_absolute() else Path(in_file)
 
     pages = json.loads(in_path.read_text())
     target_pages = set(config["pages"]) if config.get("pages") else None

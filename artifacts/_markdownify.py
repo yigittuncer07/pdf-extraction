@@ -1,4 +1,5 @@
 import json
+import sys
 from pathlib import Path
 
 
@@ -11,7 +12,6 @@ def matrix_to_markdown(table: list[list[str]]) -> str:
 
     for row in table:
         padded = row + [""] * (max_cols - len(row))
-        # Sanitize pipes and linebreaks inside cells
         cells = [c.replace("\n", " ").replace("|", "\\|").strip() for c in padded]
         cleaned_rows.append(cells)
 
@@ -22,7 +22,7 @@ def matrix_to_markdown(table: list[list[str]]) -> str:
     return "\n".join([header, separator] + body)
 
 
-def convert_file(input_file: str, output_file: str = "extracted_tables.md"):
+def convert_file(input_file: Path | str, output_file: Path | str):
     data = json.loads(Path(input_file).read_text(encoding="utf-8"))
     md_sections = []
 
@@ -43,5 +43,10 @@ def convert_file(input_file: str, output_file: str = "extracted_tables.md"):
 
 
 if __name__ == "__main__":
-    convert_file("01_pages.json", "01_pages.md")
-    convert_file("02_tables.json", "02_tables.md")
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <input_file.json>")
+        sys.exit(1)
+
+    in_path = Path(sys.argv[1])
+    out_path = in_path.with_suffix(".md")
+    convert_file(in_path, out_path)
