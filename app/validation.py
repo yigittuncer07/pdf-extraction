@@ -1,11 +1,6 @@
 """Stage 7 - validation.
 
-Confidence says how sure the pipeline is. Validation asks a different
-question: is the output consistent with what the document asserts about
-itself. Two extractors can agree on a wrong number and both cells score high;
-only the arithmetic notices.
-
-Three groups, as the task requires:
+Three groups:
   structural -- was the note found on the page we think it was
   format     -- did values parse, did period and currency survive
   financial  -- do sub-items add up, and do summary values appear in the note
@@ -54,10 +49,7 @@ def check_parsing(tables: list[dict]) -> list[dict]:
 
 
 def check_metadata(tables: list[dict]) -> list[dict]:
-    """Currency and period have to survive extraction.
-
-    Not every table has a period -- a note table may split by asset class
-    instead -- so the check is preservation, not presence: a column header
+    """Currency and period have to survive extraction. A column header
     naming a year must have produced a parsed period.
     """
     out = []

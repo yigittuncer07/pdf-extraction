@@ -1,22 +1,8 @@
 """Stage 8 - the deliverable.
 
-One document, assembled from the stage artifacts. Nothing is recomputed here;
+One document, assembled from the stage artifacts. Nothing is recomputed here.
 every field already exists upstream and this only decides what belongs in the
-final schema and how it is arranged.
-
-Shape:
-  document      company, periods, currency -- what the report is
-  note          which note was asked for, where it was found, and how
-  summary_rows  the rows on the configured pages, with values and confidence
-  note_rows     every row under the note -- the full candidate set, so a
-                relation can be read without the reader guessing what was
-                rejected
-  relations     the links, with their fused confidence and its parts
-  validation    the issues, grouped
-
-Rows are kept flat rather than nested inside tables: a relation points at a
-row id, and a flat list is what makes that dereferenceable in one lookup. The
-table each row came from is carried on the row itself.
+final schema and how it is arranged
 """
 
 from __future__ import annotations
@@ -25,8 +11,7 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
-
-HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
+from .helper import HEADING_RE
 
 
 def company_of(pages: list[dict]) -> str:
