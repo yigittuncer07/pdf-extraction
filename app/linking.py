@@ -1,12 +1,8 @@
 """Stage 5 - linking.
 
 A scorer says how well one summary row matches one note row. The model scorer
-answers that semantically; the rule scorer answers it from values, periods and
-labels. Both see the same candidates, so comparing them is comparing methods
-rather than problems.
-
-The final confidence is never the model's number alone: it is fused with the
-rule score and with the confidence the rows already carried out of extraction.
+answers that semantically; the rule scorer answers it from values, periods and labels.
+The final confidence is fused with the rule score and with the confidence the rows already carried out of extraction.
 The rule scorer also stands in as the fallback when the model cannot be loaded.
 """
 
@@ -20,10 +16,15 @@ from pathlib import Path
 
 from .helper import _overlap
 
+# weights for the rule based model. 
+# Value is value match,
+# period is value match + period match,
+# label is label overlap. Kept low because not a strong signal. 
 RULE_WEIGHTS = {"value": 0.6, "period": 0.25, "label": 0.15}
+
+# hybrid fusion, how much rule based, how much model based, how much OCR confidence.
 FUSION = {"model": 0.55, "rules": 0.35, "upstream": 0.1}
 
-THRESHOLD = 0.6
 RUNNERS_UP = 3
 
 
@@ -75,9 +76,6 @@ class RuleScorer(Scorer):
 
 class EmbeddingScorer(Scorer):
     """Cosine similarity between rendered contexts.
-
-    The chunk is the row: a relation is row-level, so one row plus its context
-    is the natural unit and nothing needs splitting.
     """
 
     def __init__(self, model_name: str = "intfloat/multilingual-e5-base"):
@@ -94,11 +92,6 @@ class EmbeddingScorer(Scorer):
 
 class CrossEncoderScorer(Scorer):
     """A reranker that sees both rows at once.
-
-    The bi-encoder embeds each row alone, so the context they share -- the
-    note title, the page, the column names -- dominates the vector and the
-    scores collapse into a narrow band. A cross-encoder attends across the
-    pair, so it can weigh what differs between them instead.
     """
 
     def __init__(self, model_name: str = "BAAI/bge-reranker-v2-m3"):
@@ -118,7 +111,7 @@ class CrossEncoderScorer(Scorer):
 def link(
     candidates: dict,
     scorer: Scorer,
-    threshold: float = THRESHOLD,
+    threshold: float,
     log_path: Path | None = None,
 ) -> list[dict]:
     rules = RuleScorer()
@@ -217,7 +210,7 @@ def link(
 
 
 def run(
-    candidates: dict, scorer: Scorer, out_dir: Path, threshold: float = THRESHOLD
+    candidates: dict, scorer: Scorer, out_dir: Path, threshold: float,
 ) -> list[dict]:
     log_path = out_dir / "05_linking_candidates.jsonl"
     relations = link(candidates, scorer, threshold, log_path=log_path)
