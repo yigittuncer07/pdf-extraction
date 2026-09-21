@@ -1,16 +1,7 @@
 """Stage 4 - candidate generation.
 
 Rules only, no model. Sources are the summary rows that reference the note;
-targets are every row on the note's pages. The candidate set is their cross
-product, and it is the same set whichever scorer runs next -- otherwise
-comparing two scorers would be comparing two different problems.
-
-Both page sets are passed in: the summary pages from config, the note pages
-from the page finder. Nothing here infers which table is which.
-
-Each row is also rendered to a string, because a note row's meaning is not in
-its own label -- "31 Aralık 2012 itibari ile kapanış bakiyesi" means nothing
-until you know which table it closes.
+targets are every row on the note's pages.
 """
 
 from __future__ import annotations
@@ -22,10 +13,8 @@ from pathlib import Path
 def render(row: dict, table: dict) -> str:
     """A row plus the context it needs to be understood on its own."""
     parts = [table["title"], f"sayfa {table['page']}"]
-    
-    # The label column's header names what the table is about. Empty on the
-    # summary statements, but on a note table it is often the only thing
-    # separating one table from the next.
+
+    # label headers don't mean anything in the summary tables but are important in the note tables.
     label_header = next((c["header"] for c in table["columns"] if c["role"] == "label"), "")
     if label_header:
         parts.append(f"tablo: {label_header}")
@@ -69,7 +58,7 @@ class CandidateGenerator:
             "label": row["label"],
             "table_id": table["id"],
             "context": render(row, table),
-            # Structured evidence, so the linker and its rule-based fallback
+            # so the linker and its rule-based fallback
             # never have to reach back into the tables.
             "values": {c: v["number"] for c, v in row["values"].items() if v["number"]},
             "periods": periods,
