@@ -2,7 +2,32 @@
 
 ## Yaklaşım Özeti
 
-7 aşamalı bir çözüm kullandım, öncelikle PDF ten tablolar ve gerekli bilgiler OCR ve 
+7 aşamalı bir çözüm kullandım, her aşama belli bir formatta girdi ve çıktı alıyor ve ara aşamalar JSON şeklinde kaydediliyor (artifacts altında).
+
+PDF -> **PDF EXTRACTION** -> **NORMALIZASYON** -> **TABLO CONFIDENCE HESABI** -> **SAYFA TESPITI** -> **ADAY ÜRETİMİ** -> **İLİŞKİLENDİRME** -> **DOĞRULAMA** -> Tüm bilgileri içeren JSON dosyası.
+
+Deney kolaylığı ve geliştirebilirlik sağlamak için yaklaşım olabildiğince mödüler tasarlandı, her aşamanın girdisi ve çıktısı veri formatına uyduğu sürece geliştirilebilir ve değiştirilebilir. 
+
+Aşamaların açıklamaları:
+1. **PDF EXTRACTION** 
+Öncelikle PDF ten tablolar, sayfa numaralı, başlıklar ve diğer gerekli bilgiler OCR ve VLM kullanılarak JSON formatında kaydedildi.
+2. **NORMALIZASYON**
+Çıkarılan bilgiler normalizasyon aşamasına gönderildi, burada kalemler arası hiyerarşı ve değerlerin parselanması gibi normalizasyondan geçirildi.
+3. **TABLO CONFIDENCE HESABI**
+Yapılan iki döküman extraction ile confidence değerleri hesaplandı, hem kıyaslama yaparak hem dokuman içi doğrulama ile.
+4. **SAYFA TESPITI**
+İçindekiler tablosu ve REGEX kullanılarak hedef sayfalar tespit edildi (verilen notu içeren).
+5. **ADAY ÜRETİMİ**
+Notu içeren tüm özet ve not satırları bağlamı ile beraber hazırlandı.
+6. **İLİŞKİLENDİRME**
+Kurallar, bi-encoder, cross-encoder ve önceden hesaplanmış confidence kullanılarak satırlar arası ilişkiler ve ilişkilerin güvenilebilirliği hesaplandı.
+7. **DOĞRULAMA**
+Tüm tablolar yapısal, format ve finansal doğrulamadan geçti.
+
+En sonunda ise tüm istenen bilgiler (doküman bilgileri, tablolar, alakalı bulunan satırlar) incelenmek üzere JSON formatında kaydedildi. 
+
+
+
 
 TODO: 
 - [x] Write readme detailing findings

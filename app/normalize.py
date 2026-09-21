@@ -18,6 +18,8 @@ HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
 CURRENCY_RE = re.compile(r"\(Tüm tutarlar\s+(.+?)\s+olarak", re.I)
 YEAR_RE = re.compile(r"\b(20\d{2})\b")
 YEAR_ONLY_RE = re.compile(r"(19|20)\d{2}")
+DOT_THOUSANDS = re.compile(r"\d{1,3}(\.\d{3})*(,\d+)?$")
+DECIMAL_DOT = re.compile(r"\d+\.\d+$")
 
 def tokens(text: str) -> frozenset[str]:
     """Order-insensitive key. docling writes "Gelirleri Satış" for "Satış Gelirleri"."""
@@ -64,6 +66,7 @@ def link_indents(rows: list[dict], tolerance: float = 4.0) -> None:
         if parent:
             row["parent_id"] = parent["id"]
 
+
 def parse_value(raw: str) -> dict:
     """A dash, an empty cell and a zero are three different things."""
     s = raw.strip()
@@ -74,13 +77,16 @@ def parse_value(raw: str) -> dict:
 
     negative = s.startswith("(") and s.endswith(")")
     body = s.strip("()").replace("%", "").strip()
-    if not re.fullmatch(r"[\d.,]+", body):
-        return {"raw": raw, "kind": "text", "number": None}
 
-    if "," in body:  # Turkish decimal comma
+    # Separators have to be in a shape one of the two conventions allows.
+    # "373,992.222" is neither -- a comma before a dot -- so it stays text and
+    # gets flagged rather than being silently turned into a number.
+    if DOT_THOUSANDS.fullmatch(body):
         body = body.replace(".", "").replace(",", ".")
-    elif not body.startswith("0."):  # a leading "0." can only be a decimal point
-        body = body.replace(".", "")
+    elif DECIMAL_DOT.fullmatch(body) and body.startswith("0."):
+        pass
+    else:
+        return {"raw": raw, "kind": "text", "number": None}
 
     try:
         n = Decimal(body)

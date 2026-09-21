@@ -394,18 +394,15 @@
         "parent_id": null,
         "values": {
           "c2": {
-            "raw": "717.592.071",
+            "raw": "717.592.075",
             "kind": "number",
-            "number": "717592071",
+            "number": "717592075",
             "confidence_parts": {
               "parse": 1.0,
-              "agreement": 0.3
+              "agreement": 1.0
             },
-            "confidence": 0.58,
-            "flags": [
-              "SUBITEM_MISMATCH",
-              "LOW_CONFIDENCE"
-            ]
+            "confidence": 1.0,
+            "flags": []
           },
           "c3": {
             "raw": "760.027.331",
@@ -422,7 +419,7 @@
         "label_year": null,
         "indent": 72.0,
         "level": 0,
-        "confidence": 0.79,
+        "confidence": 1.0,
         "flags": []
       },
       {
@@ -739,10 +736,10 @@
       }
     ],
     "confidence_parts": {
-      "rows": 0.937,
+      "rows": 0.948,
       "columns": 0.969
     },
-    "confidence": 0.943,
+    "confidence": 0.952,
     "flags": []
   },
   {
@@ -2718,7 +2715,7 @@
           "c2": {
             "raw": "0.058",
             "kind": "number",
-            "number": "0.058",
+            "number": "58",
             "confidence_parts": {
               "parse": 1.0,
               "agreement": 0.6
@@ -3045,26 +3042,31 @@
           },
           "c3": {
             "raw": "358.",
-            "kind": "number",
-            "number": "358",
+            "kind": "text",
+            "number": null,
             "confidence_parts": {
-              "parse": 1.0,
+              "parse": 0.0,
               "agreement": 0.5
             },
-            "confidence": 0.7,
-            "flags": []
+            "confidence": 0.3,
+            "flags": [
+              "VALUE_UNPARSED",
+              "LOW_CONFIDENCE"
+            ]
           }
         },
         "label_year": null,
-        "confidence": 0.7,
-        "flags": []
+        "confidence": 0.5,
+        "flags": [
+          "LOW_CONFIDENCE"
+        ]
       }
     ],
     "confidence_parts": {
-      "rows": 0.858,
+      "rows": 0.851,
       "columns": 1.0
     },
-    "confidence": 0.886,
+    "confidence": 0.881,
     "flags": []
   },
   {
@@ -4373,14 +4375,17 @@
           },
           "c8": {
             "raw": "126915,807",
-            "kind": "number",
-            "number": "126915.807",
+            "kind": "text",
+            "number": null,
             "confidence_parts": {
-              "parse": 1.0,
+              "parse": 0.0,
               "agreement": 0.5
             },
-            "confidence": 0.7,
-            "flags": []
+            "confidence": 0.3,
+            "flags": [
+              "VALUE_UNPARSED",
+              "LOW_CONFIDENCE"
+            ]
           },
           "c9": {
             "raw": "619,579,720",
@@ -4398,7 +4403,7 @@
           }
         },
         "label_year": 2012,
-        "confidence": 0.389,
+        "confidence": 0.344,
         "flags": [
           "LOW_CONFIDENCE"
         ]
@@ -5070,14 +5075,17 @@
           },
           "c5": {
             "raw": "100,574.161",
-            "kind": "number",
-            "number": "100.574161",
+            "kind": "text",
+            "number": null,
             "confidence_parts": {
-              "parse": 1.0,
+              "parse": 0.0,
               "agreement": 0.5
             },
-            "confidence": 0.7,
-            "flags": []
+            "confidence": 0.3,
+            "flags": [
+              "VALUE_UNPARSED",
+              "LOW_CONFIDENCE"
+            ]
           },
           "c6": {
             "raw": "2,569,141",
@@ -5137,17 +5145,17 @@
           }
         },
         "label_year": 2012,
-        "confidence": 0.389,
+        "confidence": 0.344,
         "flags": [
           "LOW_CONFIDENCE"
         ]
       }
     ],
     "confidence_parts": {
-      "rows": 0.517,
+      "rows": 0.511,
       "columns": 0.5
     },
-    "confidence": 0.514,
+    "confidence": 0.509,
     "flags": [
       "CURRENCY_MISSING",
       "LOW_CONFIDENCE"
@@ -5659,7 +5667,7 @@
             },
             "confidence": 0.7,
             "flags": [
-              "SUBITEM_MISMATCH"
+              "SUM_MISMATCH"
             ]
           },
           "c3": {
@@ -5672,7 +5680,7 @@
             },
             "confidence": 0.7,
             "flags": [
-              "SUBITEM_MISMATCH"
+              "SUM_MISMATCH"
             ]
           }
         },
@@ -10158,14 +10166,17 @@
           },
           "c3": {
             "raw": "346.19.457",
-            "kind": "number",
-            "number": "34619457",
+            "kind": "text",
+            "number": null,
             "confidence_parts": {
-              "parse": 1.0,
+              "parse": 0.0,
               "agreement": 0.5
             },
-            "confidence": 0.7,
-            "flags": []
+            "confidence": 0.3,
+            "flags": [
+              "VALUE_UNPARSED",
+              "LOW_CONFIDENCE"
+            ]
           },
           "c4": {
             "raw": "852.149.804",
@@ -10180,15 +10191,15 @@
           }
         },
         "label_year": null,
-        "confidence": 0.7,
+        "confidence": 0.6,
         "flags": []
       }
     ],
     "confidence_parts": {
-      "rows": 0.7,
+      "rows": 0.675,
       "columns": 0.5
     },
-    "confidence": 0.66,
+    "confidence": 0.64,
     "flags": []
   },
   {
@@ -12156,14 +12167,17 @@
           },
           "c3": {
             "raw": "390.11.7959",
-            "kind": "number",
-            "number": "390117959",
+            "kind": "text",
+            "number": null,
             "confidence_parts": {
-              "parse": 1.0,
+              "parse": 0.0,
               "agreement": 0.5
             },
-            "confidence": 0.7,
-            "flags": []
+            "confidence": 0.3,
+            "flags": [
+              "VALUE_UNPARSED",
+              "LOW_CONFIDENCE"
+            ]
           },
           "c4": {
             "raw": "781.408.277",
@@ -12178,15 +12192,15 @@
           }
         },
         "label_year": null,
-        "confidence": 0.7,
+        "confidence": 0.6,
         "flags": []
       }
     ],
     "confidence_parts": {
-      "rows": 0.662,
+      "rows": 0.654,
       "columns": 0.5
     },
-    "confidence": 0.63,
+    "confidence": 0.623,
     "flags": []
   },
   {
@@ -16517,26 +16531,31 @@
           },
           "c3": {
             "raw": "373,992.222",
-            "kind": "number",
-            "number": "373.992222",
+            "kind": "text",
+            "number": null,
             "confidence_parts": {
-              "parse": 1.0,
+              "parse": 0.0,
               "agreement": 0.5
             },
-            "confidence": 0.7,
-            "flags": []
+            "confidence": 0.3,
+            "flags": [
+              "VALUE_UNPARSED",
+              "LOW_CONFIDENCE"
+            ]
           }
         },
         "label_year": 2012,
-        "confidence": 0.7,
-        "flags": []
+        "confidence": 0.567,
+        "flags": [
+          "LOW_CONFIDENCE"
+        ]
       }
     ],
     "confidence_parts": {
-      "rows": 0.7,
+      "rows": 0.678,
       "columns": 0.5
     },
-    "confidence": 0.66,
+    "confidence": 0.642,
     "flags": []
   },
   {
@@ -28729,7 +28748,7 @@
             },
             "confidence": 0.7,
             "flags": [
-              "SUBITEM_MISMATCH"
+              "SUM_MISMATCH"
             ]
           },
           "c2": {

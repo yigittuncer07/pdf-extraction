@@ -40,7 +40,7 @@
       "title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
       "kind": "balance_sheet",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.943,
+      "confidence": 0.952,
       "flags": []
     },
     {
@@ -58,7 +58,7 @@
       "title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
       "kind": "income_statement",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.886,
+      "confidence": 0.881,
       "flags": []
     },
     {
@@ -67,7 +67,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.66,
+      "confidence": 0.642,
       "flags": []
     },
     {
@@ -481,14 +481,11 @@
             "kind": "instant",
             "year": 2012
           },
-          "raw": "717.592.071",
+          "raw": "717.592.075",
           "kind": "number",
-          "number": "717592071",
-          "confidence": 0.58,
-          "flags": [
-            "SUBITEM_MISMATCH",
-            "LOW_CONFIDENCE"
-          ]
+          "number": "717592075",
+          "confidence": 1.0,
+          "flags": []
         },
         {
           "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
@@ -503,7 +500,7 @@
           "flags": []
         }
       ],
-      "confidence": 0.79,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -2832,7 +2829,7 @@
           },
           "raw": "0.058",
           "kind": "number",
-          "number": "0.058",
+          "number": "58",
           "confidence": 0.76,
           "flags": []
         },
@@ -3333,14 +3330,19 @@
           "column": "Toplam",
           "period": null,
           "raw": "373,992.222",
-          "kind": "number",
-          "number": "373.992222",
-          "confidence": 0.7,
-          "flags": []
+          "kind": "text",
+          "number": null,
+          "confidence": 0.3,
+          "flags": [
+            "VALUE_UNPARSED",
+            "LOW_CONFIDENCE"
+          ]
         }
       ],
-      "confidence": 0.7,
-      "flags": []
+      "confidence": 0.567,
+      "flags": [
+        "LOW_CONFIDENCE"
+      ]
     },
     {
       "id": "p053.t1.r00",
@@ -3916,6 +3918,12 @@
       {
         "code": "VALUE_UNPARSED",
         "group": "format",
+        "scope": "p007.t0.r30.c3",
+        "message": "'358.' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
         "scope": "p008.t0.r00.c1",
         "message": "'106,731,750' did not parse"
       },
@@ -4180,6 +4188,12 @@
       {
         "code": "VALUE_UNPARSED",
         "group": "format",
+        "scope": "p008.t0.r09.c8",
+        "message": "'126915,807' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
         "scope": "p008.t0.r09.c9",
         "message": "'619,579,720' did not parse"
       },
@@ -4284,6 +4298,12 @@
         "group": "format",
         "scope": "p008.t0.r15.c4",
         "message": "'124,390,608' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r15.c5",
+        "message": "'100,574.161' did not parse"
       },
       {
         "code": "VALUE_UNPARSED",
@@ -4534,6 +4554,12 @@
       {
         "code": "VALUE_UNPARSED",
         "group": "format",
+        "scope": "p043.t1.r03.c3",
+        "message": "'346.19.457' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
         "scope": "p045.t0.r00.c4",
         "message": "'Toplam' did not parse"
       },
@@ -4560,6 +4586,12 @@
         "group": "format",
         "scope": "p045.t0.r08.c4",
         "message": "'Toplam' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p045.t0.r12.c3",
+        "message": "'390.11.7959' did not parse"
       },
       {
         "code": "VALUE_UNPARSED",
@@ -4692,6 +4724,12 @@
         "group": "format",
         "scope": "p049.t1.r00.c1",
         "message": "'%1,91 - %6,00' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p053.t0.r05.c3",
+        "message": "'373,992.222' did not parse"
       },
       {
         "code": "VALUE_UNPARSED",
@@ -5528,25 +5566,19 @@
         "message": "no currency on the page"
       },
       {
-        "code": "SUBITEM_MISMATCH",
-        "group": "financial",
-        "scope": "p005.t0.r09.c2",
-        "message": "sub-items sum to 717592075, 'Duran Varlıklar' says 717592071"
-      },
-      {
-        "code": "SUBITEM_MISMATCH",
+        "code": "SUM_MISMATCH",
         "group": "financial",
         "scope": "p009.t0.r12.c2",
         "message": "sub-items sum to 17737697, 'İşletme sermayesinde gerçekleşen değişimler' says 22197119"
       },
       {
-        "code": "SUBITEM_MISMATCH",
+        "code": "SUM_MISMATCH",
         "group": "financial",
         "scope": "p009.t0.r12.c3",
         "message": "sub-items sum to 71045855, 'İşletme sermayesinde gerçekleşen değişimler' says 21386794"
       },
       {
-        "code": "SUBITEM_MISMATCH",
+        "code": "SUM_MISMATCH",
         "group": "financial",
         "scope": "p076.t0.r02.c1",
         "message": "sub-items sum to -1521218, 'Gelir vergisi oranı %20 (2011: %20)' says 2299435"
@@ -5584,8 +5616,8 @@
     ],
     "counts": {
       "structural": 0,
-      "format": 269,
-      "financial": 9
+      "format": 275,
+      "financial": 8
     }
   }
 }

@@ -109,12 +109,11 @@
       "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: 31 Aralık 2012 itibari ile net defter değeri | Arazi ve Arsalar: 177.730.044 | Binalar: 196.262.178 | Toplam: 373,992.222",
       "values": {
         "c1": "177730044",
-        "c2": "196262178",
-        "c3": "373.992222"
+        "c2": "196262178"
       },
       "periods": {},
       "label_year": 2012,
-      "confidence": 0.7
+      "confidence": 0.567
     },
     {
       "id": "p053.t1.r00",
