@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     # ------------ 2. Normalize the extracted tables into a standard format ------------
     t0 = time()
-    tables = normalize(in_file="01_pages.json", directory=artifacts, config={"pages": []})
+    tables = normalize(in_file="01_pages.json", directory=artifacts)
     print(f"normalized in {time() - t0:.2f}s")
     
     # ----------- 3. Score confidence using second opinion ------------

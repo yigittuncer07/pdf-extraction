@@ -12,19 +12,19 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 from .config import ARTIFACTS_DIR, CONFIG
+from .helper import (
+    CURRENCY_RE,
+    DECIMAL_DOT,
+    DOT_THOUSANDS,
+    HEADING_RE,
+    YEAR_RE,
+    _parse_note_refs,
+    _split_header,
+    _tokens,
+)
 
 DASHES = {"-", "–", "—"}
-HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
-CURRENCY_RE = re.compile(r"\(Tüm tutarlar\s+(.+?)\s+olarak", re.I)
-YEAR_RE = re.compile(r"\b(20\d{2})\b")
-YEAR_ONLY_RE = re.compile(r"(19|20)\d{2}")
-DOT_THOUSANDS = re.compile(r"\d{1,3}(\.\d{3})*(,\d+)?$")
-DECIMAL_DOT = re.compile(r"\d+\.\d+$")
 
-def tokens(text: str) -> frozenset[str]:
-    """Order-insensitive key. docling writes "Gelirleri Satış" for "Satış Gelirleri"."""
-    lowered = text.replace("I", "ı").replace("İ", "i").lower()
-    return frozenset(re.findall(r"[0-9a-zçğıöşü]+", lowered))
 
 def attach_indents(rows: list[dict], indents: list[float | None],
                    labels: list[str] | None = None) -> None:
@@ -36,7 +36,7 @@ def attach_indents(rows: list[dict], indents: list[float | None],
     wrong hierarchy rather than none.
     """
     for i, (row, x) in enumerate(zip(rows, indents)):
-        if labels and not (tokens(row["label"]) & tokens(labels[i])):
+        if labels and not (_tokens(row["label"]) & _tokens(labels[i])):
             continue
         row["indent"] = x
 
@@ -78,9 +78,6 @@ def parse_value(raw: str) -> dict:
     negative = s.startswith("(") and s.endswith(")")
     body = s.strip("()").replace("%", "").strip()
 
-    # Separators have to be in a shape one of the two conventions allows.
-    # "373,992.222" is neither -- a comma before a dot -- so it stays text and
-    # gets flagged rather than being silently turned into a number.
     if DOT_THOUSANDS.fullmatch(body):
         body = body.replace(".", "").replace(",", ".")
     elif DECIMAL_DOT.fullmatch(body) and body.startswith("0."):
@@ -93,32 +90,6 @@ def parse_value(raw: str) -> dict:
     except InvalidOperation:
         return {"raw": raw, "kind": "text", "number": None}
     return {"raw": raw, "kind": "number", "number": str(-n if negative else n)}
-
-
-def parse_note_refs(raw: str) -> list[int]:
-    """"8,21" is two references, not a decimal."""
-    return [int(n) for n in re.findall(r"\d+", raw)]
-
-
-def split_header(grid: list[list[str]]) -> tuple[list[str], list[list[str]]]:
-    """Peel off the header band, one flattened header per column.
-
-    The income statement stacks its header over seven rows. A row belongs to
-    the band while its label cell is empty and none of its cells is a number. This is a postfix for OCR errors splitting header cells into multiple rows, so we take the first row that looks like data as the start of the body.
-    """
-    def is_data(cell: str) -> bool:
-        # A bare year belongs to the header band; any other number is data.
-        s = cell.strip()
-        return parse_value(s)["kind"] == "number" and not YEAR_ONLY_RE.fullmatch(s)
-
-    n = 0
-    for row in grid:
-        if row[0].strip() or any(is_data(c) for c in row[1:]):
-            break
-        n += 1
-    n = max(n, 1)
-    header = [" ".join(p.strip() for p in col if p.strip()) for col in zip(*grid[:n])]
-    return header, grid[n:]
 
 
 def build_columns(header: list[str], kind: str) -> list[dict]:
@@ -157,7 +128,7 @@ def normalize_table(grid, page: int, index: int, text: str, heading: str = "", i
     kind = ("balance_sheet" if "BİLANÇO" in title
             else "income_statement" if "GELİR TABLOSU" in title else "note")
 
-    header, body = split_header(grid)
+    header, body = _split_header(grid, parse_value)
     columns = build_columns(header, kind)
     ref_col = next((i for i, c in enumerate(columns) if c["role"] == "note_ref"), None)
     val_cols = [i for i, c in enumerate(columns) if c["role"] == "value"]
@@ -168,7 +139,7 @@ def normalize_table(grid, page: int, index: int, text: str, heading: str = "", i
         label = raw[0].strip()
         label_year = YEAR_RE.search(label)
         values = {columns[j]["id"]: parse_value(raw[j]) for j in val_cols}
-        refs = parse_note_refs(raw[ref_col]) if ref_col is not None else []
+        refs = _parse_note_refs(raw[ref_col]) if ref_col is not None else []
         rows.append({
             "id": f"p{page:03d}.t{index}.r{i:02d}",
             "label": label,
@@ -210,18 +181,14 @@ def normalize_table(grid, page: int, index: int, text: str, heading: str = "", i
 def run(
     in_file: Path | str | None = None,
     directory: Path = ARTIFACTS_DIR,
-    config: dict = CONFIG,
 ) -> list[dict]:
     directory = Path(directory)
     in_path = directory / (in_file or "01_pages.json")
 
     pages = json.loads(in_path.read_text())
-    target_pages = set(config["pages"]) if config.get("pages") else None
 
     tables = []
     for page in pages:
-        if target_pages is not None and page["page"] not in target_pages:
-            continue
         headings = page.get("headings") or []
         page_indents = page.get("indents") or []
 

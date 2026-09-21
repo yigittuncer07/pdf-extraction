@@ -6,6 +6,43 @@ ROW_RE = re.compile(r"<tr.*?>(.*?)</tr>", re.DOTALL | re.I)
 CELL_RE = re.compile(r"<t[dh].*?>(.*?)</t[dh]>", re.DOTALL | re.I)
 GROUNDING_RE = re.compile(r"<\|(ref|det)\|>.*?<\|/\1\|>", re.DOTALL)
 HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
+CURRENCY_RE = re.compile(r"\(Tüm tutarlar\s+(.+?)\s+olarak", re.I)
+YEAR_RE = re.compile(r"\b(20\d{2})\b")
+YEAR_ONLY_RE = re.compile(r"(19|20)\d{2}")
+DOT_THOUSANDS = re.compile(r"\d{1,3}(\.\d{3})*(,\d+)?$")
+DECIMAL_DOT = re.compile(r"\d+\.\d+$")
+
+
+def _tokens(text: str) -> frozenset[str]:
+    """Order-insensitive key. docling writes "Gelirleri Satış" for "Satış Gelirleri". Still want to keep since docling is a second opinion only."""
+    lowered = text.replace("I", "ı").replace("İ", "i").lower()
+    return frozenset(re.findall(r"[0-9a-zçğıöşü]+", lowered))
+
+
+def _parse_note_refs(raw: str) -> list[int]:
+    """"8,21" is two references, not a decimal."""
+    return [int(n) for n in re.findall(r"\d+", raw)]
+
+
+def _split_header(grid: list[list[str]], parse_value) -> tuple[list[str], list[list[str]]]:
+    """Peel off the header band, one flattened header per column.
+
+    The income statement stacks its header over seven rows. A row belongs to
+    the band while its label cell is empty and none of its cells is a number. This is a postfix for OCR errors splitting header cells into multiple rows, so we take the first row that looks like data as the start of the body.
+    """
+    def is_data(cell: str) -> bool:
+        # A bare year belongs to the header band; any other number is data.
+        s = cell.strip()
+        return parse_value(s)["kind"] == "number" and not YEAR_ONLY_RE.fullmatch(s)
+
+    n = 0
+    for row in grid:
+        if row[0].strip() or any(is_data(c) for c in row[1:]):
+            break
+        n += 1
+    n = max(n, 1)
+    header = [" ".join(p.strip() for p in col if p.strip()) for col in zip(*grid[:n])]
+    return header, grid[n:]
 
 
 def _cell_text(raw: str) -> str:

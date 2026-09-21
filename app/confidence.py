@@ -21,7 +21,7 @@ Scoring hierarchy:
       * 20% column alignment (token-level Jaccard similarity across column
         names, penalized if column counts differ).
 """
-from .normalize import tokens
+from .normalize import _tokens
 import re
 
 AGREE = 1.0      # same text
@@ -44,7 +44,7 @@ def digits(text: str) -> str:
 
 def overlap(a: str, b: str) -> float:
     ""
-    ta, tb = tokens(a), tokens(b)
+    ta, tb = _tokens(a), _tokens(b)
     if not ta and not tb:
         return 1.0
     return len(ta & tb) / len(ta | tb) if ta and tb else 0.0
@@ -66,11 +66,11 @@ class SecondOpinion:
                 for row in grid[1:]:
                     # Labels repeat, so extend rather than overwrite.
                     if row and row[0].strip():
-                        key = (n, tokens(row[0]))
+                        key = (n, _tokens(row[0]))
                         self.cells.setdefault(key, []).extend(c.strip() for c in row[1:])
 
     def cell(self, page: int, label: str, raw: str) -> float:
-        others = self.cells.get((page, tokens(label)))
+        others = self.cells.get((page, _tokens(label)))
         if not others:
             return NO_VOTE
         value = raw.strip()
