@@ -11,7 +11,7 @@ import re
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
-CONFIG = {"pages": [5, 6, 7], "note": 11}
+from .config import ARTIFACTS_DIR, CONFIG
 
 DASHES = {"-", "–", "—"}
 HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
@@ -209,7 +209,7 @@ def normalize_table(grid, page: int, index: int, text: str, heading: str = "", i
 
 def run(
     in_file: Path | str | None = None,
-    directory: Path = Path("artifacts"),
+    directory: Path = ARTIFACTS_DIR,
     config: dict = CONFIG,
 ) -> list[dict]:
     directory = Path(directory)

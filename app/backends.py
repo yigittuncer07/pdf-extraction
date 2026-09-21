@@ -34,7 +34,7 @@ class TableExtractor(ABC):
 
 
 class DoclingVlmExtractor(TableExtractor):
-    """Uses Docling's native Granite-Docling VLM end-to-end (no external OCR engine)."""
+    """Uses Docling's native Granite-Docling VLM"""
 
     def __init__(self):
         self.converter = DocumentConverter(

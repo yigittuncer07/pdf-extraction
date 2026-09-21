@@ -1,51 +1,18 @@
-"""The pipeline spine.
-
-Each stage reads the previous stage's artifact and writes its own, so a stage
-can be re-run without repeating the ones before it. That matters most at
-ingestion, where OCR costs seconds per page.
-"""
-
 import json
-from pathlib import Path
 from time import time
 
-from .backends import DeepSeekExtractor, ingest, DoclingExtractor
-from .candidates import run as generate_candidates
-from .locate import PageFinder
 from .normalize import run as normalize
 from .confidence import SecondOpinion, score
+from .locate import PageFinder
+from .candidates import run as generate_candidates
 from .linking import EmbeddingScorer, CrossEncoderScorer, RuleScorer, run as link_candidates
 from .validation import validate
 from .merge import run as export_deliverable
-
-# TODO: Seperate pipeline into 2, one for docling + deepseek, then the rest. 
-CONFIG = { # TODO: pull this from a config
-    "pages": [5, 6, 7],
-    "note": 11,
-}
+from .config import ARTIFACTS_DIR, CONFIG
 
 if __name__ == "__main__":
-    artifacts = Path("artifacts")
-
-    # ------------ 1. Ingest the PDF, extract tables, titles, and text ------------
-    t0 = time()
-    # pages = [4, 5, 6, 7, 50, 51, 52, 53, 54, 55]
-    pages = [5,6,7]
-    # pages = []
-    # ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DeepSeekExtractor(), pages = pages, out_file="01_pages.json")
-    print(f"DeepSeek ingested in {time() - t0:.2f}s")
-    
-    t0 = time()
-    ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DoclingExtractor(), pages=pages, out_file="00_pages.json")
-    print(f"Docling (OCR) ingested in {time() - t0:.2f}s")
-
-    # Splice Docling's indents into 01_pages.json by page
+    artifacts = ARTIFACTS_DIR
     docling = json.loads((artifacts / "00_pages.json").read_text())
-    deepseek_pages = json.loads((artifacts / "01_pages.json").read_text())
-    docling_indents = {p["page"]: p.get("indents", []) for p in docling}
-    for p in deepseek_pages:
-        p["indents"] = docling_indents.get(p["page"], [])
-    (artifacts / "01_pages.json").write_text(json.dumps(deepseek_pages, ensure_ascii=False, indent=2))
 
     # ------------ 2. Normalize the extracted tables into a standard format ------------
     t0 = time()
