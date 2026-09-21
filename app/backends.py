@@ -10,22 +10,15 @@ from docling.datamodel.pipeline_options import (
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.pipeline.vlm_pipeline import VlmPipeline
 
-import html
-import re
-import tempfile
 import json
+import tempfile
 
 import torch
 from pdf2image import convert_from_path, pdfinfo_from_path
 from transformers import AutoModel, AutoTokenizer
 
-PROMPT = "<image>\n<|grounding|>Convert the document to markdown. "
-
-TABLE_RE = re.compile(r"<table.*?>.*?</table>", re.DOTALL | re.I)
-ROW_RE = re.compile(r"<tr.*?>(.*?)</tr>", re.DOTALL | re.I)
-CELL_RE = re.compile(r"<t[dh].*?>(.*?)</t[dh]>", re.DOTALL | re.I)
-GROUNDING_RE = re.compile(r"<\|(ref|det)\|>.*?<\|/\1\|>", re.DOTALL)
-HEADING_RE = re.compile(r"^#+\s*(.+?)\s*$", re.M)
+from .config import PROMPT
+from .helper import _parse_page
 
 class TableExtractor(ABC):
     @abstractmethod
@@ -107,12 +100,8 @@ class DoclingExtractor(TableExtractor):
             else:
                 header_row = [str(col) for col in df.columns]
 
-            # The x position of each label is the only place the printed
-            # indentation survives, and indentation is how a balance sheet
-            # expresses its main-item / sub-item hierarchy. DeepSeek's markdown
-            # drops it; docling keeps a bbox per cell.
-            # +1 because export_to_dataframe puts the header in df.columns,
-            # so the grid has one more row than table.data indexes.
+            # extract index positions. Deepseek does not provide this information, but Docling does. 
+            # later on we will splice the indents from Docling's output into Deepseek's output, so that we can use them for table normalization.
             indents = [None] * (table.data.num_rows + 1)
             for cell in table.data.table_cells:
                 if cell.start_col_offset_idx == 0 and cell.bbox:
@@ -129,89 +118,11 @@ class DoclingExtractor(TableExtractor):
         ]
 
 
-def _cell_text(raw: str) -> str:
-    text = re.sub(r"<br\s*/?>", " ", raw, flags=re.I)
-    text = re.sub(r"<.*?>", "", text)
-    return re.sub(r"\s+", " ", html.unescape(text)).strip()
-
-
-def _rows(table_html: str) -> list[list[str]]:
-    """One list of cell texts per <tr>.
-
-    colspan and rowspan are ignored on purpose. They are the least reliable
-    thing the model emits -- it invents a colspan whenever a header label is
-    typeset on two lines -- and honouring them is what pushes every body cell
-    one column to the right. Counting <td> tags is stable.
-    """
-    out = []
-    for row in ROW_RE.findall(table_html):
-        cells = [_cell_text(c) for c in CELL_RE.findall(row)]
-        if cells:
-            out.append(cells)
-    return out
-
-
-def _fit(row: list[str], width: int) -> list[str]:
-    """Force a row to `width` by shedding empty cells from the ends."""
-    row = list(row)
-    while len(row) > width and row and row[-1] == "":
-        row.pop()
-    while len(row) > width and row and row[0] == "":
-        row.pop(0)
-    while len(row) < width:
-        row.insert(0, "")  # short rows are header fragments missing the label cell
-    return row[:width]
-
-
-def _grid(table_html: str) -> list[list[str]]:
-    rows = _rows(table_html)
-    if not rows:
-        return []
-
-    # The true column count is whatever most rows agree on. Header fragments
-    # are the minority and get fitted to it rather than defining it.
-    counts = [len(r) for r in rows]
-    width = max(set(counts), key=lambda n: (counts.count(n), n))
-    body = [r for r in rows if len(r) == width]
-
-    # A column empty in every body row is padding the model inserted. Drop it.
-    keep = [j for j in range(width) if any(r[j] for r in body)]
-    if len(keep) < 2:
-        keep = list(range(width))
-
-    return [_fit([r[j] for j in keep] if len(r) == width else r, len(keep)) for r in rows]
-
-
-def parse_page(raw: str) -> dict:
-    """Model output -> {'text', 'tables', 'headings'}.
-
-    `headings[i]` is the last markdown heading seen before `tables[i]`, so a
-    page holding several tables can still tell them apart. Walking the raw
-    output in order is the only place that association exists -- once text and
-    tables are split into separate lists it is gone.
-    """
-    raw = GROUNDING_RE.sub("", raw)
-
-    tables, headings, heading, cursor = [], [], "", 0
-    for match in TABLE_RE.finditer(raw):
-        found = HEADING_RE.findall(raw[cursor:match.start()])
-        if found:
-            heading = found[-1]
-        grid = _grid(match.group(0))
-        if grid:
-            tables.append(grid)
-            headings.append(heading)
-        cursor = match.end()
-
-    text = re.sub(r"\n{3,}", "\n\n", TABLE_RE.sub("\n", raw)).strip()
-    return {"text": html.unescape(text), "tables": tables, "headings": headings}
-
-
 class DeepSeekExtractor(TableExtractor):
     """DeepSeek-OCR-2, one page image at a time.
 
-    Docling's table model loses cells on this scan -- most damagingly the note
-    reference "11" on the income statement, the one the task turns on. This
+    Docling's table model loses cells on this scan, most damagingly the note
+    reference "11" on the income statement, the we need. This
     model reads every note reference correctly; what it sometimes gets wrong is table
     structure, which is repairable here and only here.
     """
@@ -262,11 +173,12 @@ class DeepSeekExtractor(TableExtractor):
                 work = Path(tmp)
                 image = work / f"page_{page:03d}.png"
                 convert_from_path(str(pdf), dpi=self.dpi, first_page=page, last_page=page)[0].save(image)
-                parsed = parse_page(self._infer(image, work))
+                parsed = _parse_page(self._infer(image, work))
             out.append({"page": page, **parsed})
             print(f"page {page}: {len(parsed['tables'])} tables")
         return out
-    
+
+
 def ingest(
     pdf: Path,
     out_dir: Path,

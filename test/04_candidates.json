@@ -1,0 +1,469 @@
+{
+  "note": 11,
+  "sources": [
+    {
+      "id": "p005.t0.r12",
+      "label": "Yatırım Amaçlı Gayrimenkuller",
+      "table_id": "p005.t0",
+      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO | sayfa 5 | ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller | dipnot: 11 | Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012: 373.992.222 | Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011: 423.580.000",
+      "values": {
+        "c2": "373992222",
+        "c3": "423580000"
+      },
+      "periods": {
+        "c2": 2012,
+        "c3": 2011
+      },
+      "label_year": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "p007.t0.r05",
+      "label": "Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
+      "table_id": "p007.t0",
+      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU | sayfa 7 | kalem: Yatırım Amaçlı Gayrimenkul Değerleme Farkları | dipnot: 11 | Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012: 3.896.434 | Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011: 151.350.000",
+      "values": {
+        "c2": "3896434",
+        "c3": "151350000"
+      },
+      "periods": {
+        "c2": 2012,
+        "c3": 2011
+      },
+      "label_year": null,
+      "confidence": 1.0
+    }
+  ],
+  "targets": [
+    {
+      "id": "p053.t0.r00",
+      "label": "1 Ocak 2012 itibari ile açılış bakiyesi",
+      "table_id": "p053.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: 1 Ocak 2012 itibari ile açılış bakiyesi | Arazi ve Arsalar: 227.317.822 | Binalar: 196.262.178 | Toplam: 423.580.000",
+      "values": {
+        "c1": "227317822",
+        "c2": "196262178",
+        "c3": "423580000"
+      },
+      "periods": {},
+      "label_year": 2012,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t0.r01",
+      "label": "Alım sonrası yapılan harcamalar",
+      "table_id": "p053.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: Alım sonrası yapılan harcamalar | Arazi ve Arsalar: 19.197.311 | Binalar: - | Toplam: 19.197.311",
+      "values": {
+        "c1": "19197311",
+        "c3": "19197311"
+      },
+      "periods": {},
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t0.r02",
+      "label": "Makul değer değişikliğinden kaynaklanan kazanç",
+      "table_id": "p053.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: Makul değer değişikliğinden kaynaklanan kazanç | Arazi ve Arsalar: 3.896.434 | Binalar: - | Toplam: 3.896.434",
+      "values": {
+        "c1": "3896434",
+        "c3": "3896434"
+      },
+      "periods": {},
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t0.r03",
+      "label": "Stoklara transferler (*)",
+      "table_id": "p053.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: Stoklara transferler (*) | Arazi ve Arsalar: (72.681.523) | Binalar: - | Toplam: (72.681.523)",
+      "values": {
+        "c1": "-72681523",
+        "c3": "-72681523"
+      },
+      "periods": {},
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t0.r04",
+      "label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
+      "table_id": "p053.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: 31 Aralık 2012 itibari ile kapanış bakiyesi | Arazi ve Arsalar: 177.730.044 | Binalar: 196.262.178 | Toplam: 373.992.222",
+      "values": {
+        "c1": "177730044",
+        "c2": "196262178",
+        "c3": "373992222"
+      },
+      "periods": {},
+      "label_year": 2012,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t0.r05",
+      "label": "31 Aralık 2012 itibari ile net defter değeri",
+      "table_id": "p053.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: 31 Aralık 2012 itibari ile net defter değeri | Arazi ve Arsalar: 177.730.044 | Binalar: 196.262.178 | Toplam: 373,992.222",
+      "values": {
+        "c1": "177730044",
+        "c2": "196262178"
+      },
+      "periods": {},
+      "label_year": 2012,
+      "confidence": 0.567
+    },
+    {
+      "id": "p053.t1.r00",
+      "label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
+      "table_id": "p053.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: 1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş) | Arazi ve Arsalar: 82.097.790 | Binalar: 122.937.178 | Toplam: 205.034.968",
+      "values": {
+        "c1": "82097790",
+        "c2": "122937178",
+        "c3": "205034968"
+      },
+      "periods": {},
+      "label_year": 2011,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t1.r01",
+      "label": "Alımlar (*)",
+      "table_id": "p053.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: Alımlar (*) | Arazi ve Arsalar: 64.046.943 | Binalar: 13.598.089 | Toplam: 77.645.032",
+      "values": {
+        "c1": "64046943",
+        "c2": "13598089",
+        "c3": "77645032"
+      },
+      "periods": {},
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t1.r02",
+      "label": "Çıkışlar (**)",
+      "table_id": "p053.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: Çıkışlar (**) | Arazi ve Arsalar: - | Binalar: (10.450.000) | Toplam: (10.450.000)",
+      "values": {
+        "c2": "-10450000",
+        "c3": "-10450000"
+      },
+      "periods": {},
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t1.r03",
+      "label": "Makul değer değişikliğinden kaynaklananan kazanç",
+      "table_id": "p053.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: Makul değer değişikliğinden kaynaklananan kazanç | Arazi ve Arsalar: 81.173.089 | Binalar: 70.176.911 | Toplam: 151.350.000",
+      "values": {
+        "c1": "81173089",
+        "c2": "70176911",
+        "c3": "151350000"
+      },
+      "periods": {},
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p053.t1.r04",
+      "label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
+      "table_id": "p053.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | sayfa 53 | kalem: 31 Aralık 2011 itibari ile kapanış bakiyesi | Arazi ve Arsalar: 227.317.822 | Binalar: 196.262.178 | Toplam: 423.580.000",
+      "values": {
+        "c1": "227317822",
+        "c2": "196262178",
+        "c3": "423580000"
+      },
+      "periods": {},
+      "label_year": 2011,
+      "confidence": 0.7
+    },
+    {
+      "id": "p054.t0.r00",
+      "label": "İskonto oranı (%)",
+      "table_id": "p054.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: İskonto oranı (%) | 31 Aralık 2012: %9 | 31 Aralık 2011: %10,5",
+      "values": {
+        "c1": "9",
+        "c2": "10.5"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p054.t0.r01",
+      "label": "Doluluk oranı (%)(*)",
+      "table_id": "p054.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: Doluluk oranı (%)(*) | 31 Aralık 2012: %86,6 | 31 Aralık 2011: %80,8",
+      "values": {
+        "c1": "86.6",
+        "c2": "80.8"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p054.t0.r02",
+      "label": "Kira artış oranı (%)",
+      "table_id": "p054.t0",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: Kira artış oranı (%) | 31 Aralık 2012: %3 | 31 Aralık 2011: %2-%4",
+      "values": {
+        "c1": "3"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.5
+    },
+    {
+      "id": "p054.t1.r00",
+      "label": "Bağcılar Arsa",
+      "table_id": "p054.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: Bağcılar Arsa | 31 Aralık 2012: 22.719.446 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 21.717.000",
+      "values": {
+        "c1": "22719446",
+        "c2": "21717000"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p054.t1.r01",
+      "label": "Bayrampaşa Arsa (*)",
+      "table_id": "p054.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: Bayrampaşa Arsa (*) | 31 Aralık 2012: 81.026.895 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 138.538.000",
+      "values": {
+        "c1": "81026895",
+        "c2": "138538000"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p054.t1.r02",
+      "label": "Güneşli Bina",
+      "table_id": "p054.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: Güneşli Bina | 31 Aralık 2012: 83.586.353 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 81.890.000",
+      "values": {
+        "c1": "83586353",
+        "c2": "81890000"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p054.t1.r03",
+      "label": "İkitelli Bina",
+      "table_id": "p054.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: İkitelli Bina | 31 Aralık 2012: 186.659.528 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 181.435.000",
+      "values": {
+        "c1": "186659528",
+        "c2": "181435000"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.7
+    },
+    {
+      "id": "p054.t1.r04",
+      "label": "",
+      "table_id": "p054.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: (toplam satırı) | 31 Aralık 2012: 373.992.222 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 423.580.000",
+      "values": {
+        "c1": "373992222",
+        "c2": "423580000"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.7
+    }
+  ],
+  "pairs": [
+    [
+      "p005.t0.r12",
+      "p053.t0.r00"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t0.r01"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t0.r02"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t0.r03"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t0.r04"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t0.r05"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t1.r00"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t1.r01"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t1.r02"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t1.r03"
+    ],
+    [
+      "p005.t0.r12",
+      "p053.t1.r04"
+    ],
+    [
+      "p005.t0.r12",
+      "p054.t0.r00"
+    ],
+    [
+      "p005.t0.r12",
+      "p054.t0.r01"
+    ],
+    [
+      "p005.t0.r12",
+      "p054.t0.r02"
+    ],
+    [
+      "p005.t0.r12",
+      "p054.t1.r00"
+    ],
+    [
+      "p005.t0.r12",
+      "p054.t1.r01"
+    ],
+    [
+      "p005.t0.r12",
+      "p054.t1.r02"
+    ],
+    [
+      "p005.t0.r12",
+      "p054.t1.r03"
+    ],
+    [
+      "p005.t0.r12",
+      "p054.t1.r04"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t0.r00"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t0.r01"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t0.r02"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t0.r03"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t0.r04"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t0.r05"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t1.r00"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t1.r01"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t1.r02"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t1.r03"
+    ],
+    [
+      "p007.t0.r05",
+      "p053.t1.r04"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t0.r00"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t0.r01"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t0.r02"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t1.r00"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t1.r01"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t1.r02"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t1.r03"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t1.r04"
+    ]
+  ]
+}

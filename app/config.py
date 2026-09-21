@@ -1,7 +1,9 @@
 from pathlib import Path
 
-ARTIFACTS_DIR = Path("artifacts")
+ARTIFACTS_DIR = Path("test")
 INPUT_DOCUMENT = Path("ornek_dokuman.pdf")
+
+PROMPT = "<image>\n<|grounding|>Convert the document to markdown. "
 
 CONFIG = {
     "pages": [5, 6, 7],
