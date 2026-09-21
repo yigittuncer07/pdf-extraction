@@ -1,53 +1,23 @@
 """Confidence scoring across cell, row, and table levels.
-
-Computes deterministic confidence scores in [0.0, 1.0] using two signals:
+Computes deterministic confidence scores in [0.0, 1.0] using:
   1. Parse validity: whether a cell resolved to a valid financial type
      (number, dash, or blank).
   2. Cross-extractor agreement: validation against a secondary extractor
      (Docling) voting on the primary extractor's (DeepSeek) output.
-
-Scoring hierarchy:
-  - Cell level:
-      * 40% parse validity (1.0 for number/dash/empty, 0.0 for unparsed text)
-      * 60% agreement vote:
-          - 1.0 (AGREE): exact string match in voter's corresponding row.
-          - 0.6 (SEPARATOR): identical digits, but differing separators.
-          - 0.3 (DIFFER): conflicting digits.
-          - 0.5 (NO_VOTE): row not detected by voter, or cell is blank.
-  - Row level:
-      * Arithmetic mean of all value cell confidences in the row.
-  - Table level:
-      * 80% mean row confidence.
-      * 20% column alignment (token-level Jaccard similarity across column
-        names, penalized if column counts differ).
 """
 from .normalize import _tokens
-import re
+from .helper import _overlap, _digits
 
 AGREE = 1.0      # same text
-SEPARATOR = 0.6  # same digits, different separators -- one of them is wrong
+SEPARATOR = 0.6  # same digits, different separators, one is wrong
 DIFFER = 0.3     # different digits
-NO_VOTE = 0.5    # the other extractor never saw this -- no opinion, no penalty
+NO_VOTE = 0.5    # the other extractor never saw this
 
+# how much parse vs agreement affect cell confidence
 CELL_WEIGHTS = {"parse": 0.4, "agreement": 0.6}
-# Rows aggregate every cell in the table; column names are a handful of
-# strings. Weighting them equally would let one bad name cancel out a clean
-# table.
+
+# How much columns vs rows affect table confidence
 TABLE_WEIGHTS = {"rows": 0.80, "columns": 0.20}
-
-
-
-
-def digits(text: str) -> str:
-    return re.sub(r"\D", "", text)
-
-
-def overlap(a: str, b: str) -> float:
-    ""
-    ta, tb = _tokens(a), _tokens(b)
-    if not ta and not tb:
-        return 1.0
-    return len(ta & tb) / len(ta | tb) if ta and tb else 0.0
 
 
 class SecondOpinion:
@@ -64,7 +34,6 @@ class SecondOpinion:
                     continue
                 self.columns[(n, index)] = [c.strip() for c in grid[0]]
                 for row in grid[1:]:
-                    # Labels repeat, so extend rather than overwrite.
                     if row and row[0].strip():
                         key = (n, _tokens(row[0]))
                         self.cells.setdefault(key, []).extend(c.strip() for c in row[1:])
@@ -74,9 +43,9 @@ class SecondOpinion:
         if not others:
             return NO_VOTE
         value = raw.strip()
-        if value in others: # TODO: this should be done on the cell level. Check if cells agree, not if cell is in second opinions row.
+        if value in others: # checks at row level, not cell level, so a different column value is still agreement.
             return AGREE
-        if digits(value) and any(digits(o) == digits(value) for o in others):
+        if _digits(value) and any(_digits(o) == _digits(value) for o in others):
             return SEPARATOR
         return DIFFER
 
@@ -89,7 +58,7 @@ class SecondOpinion:
         others = self.columns.get((page, index))
         if not others or not names:
             return NO_VOTE
-        matched = sum(overlap(a, b) for a, b in zip(names, others))
+        matched = sum(_overlap(a, b) for a, b in zip(names, others))
         return round(matched / max(len(names), len(others)), 3)
 
 

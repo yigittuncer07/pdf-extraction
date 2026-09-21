@@ -18,7 +18,7 @@ from decimal import Decimal, InvalidOperation
 import math
 from pathlib import Path
 
-from .confidence import overlap
+from .helper import _overlap
 
 RULE_WEIGHTS = {"value": 0.6, "period": 0.25, "label": 0.15}
 FUSION = {"model": 0.55, "rules": 0.35, "upstream": 0.1}
@@ -49,7 +49,7 @@ def features(source: dict, target: dict) -> dict:
     return {
         "value": 1.0 if hits else 0.0,
         "period": 0.5 if not hits else (1.0 if period_match else 0.3),
-        "label": round(overlap(source["label"], target["label"]), 3),
+        "label": round(_overlap(source["label"], target["label"]), 3),
     }
 
 

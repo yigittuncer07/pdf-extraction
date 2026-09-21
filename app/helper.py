@@ -19,6 +19,18 @@ def _tokens(text: str) -> frozenset[str]:
     return frozenset(re.findall(r"[0-9a-zçğıöşü]+", lowered))
 
 
+def _digits(text: str) -> str:
+    return re.sub(r"\D", "", text)
+
+
+def _overlap(a: str, b: str) -> float:
+    """Return the fraction of shared tokens between two strings, ignoring order and case."""
+    ta, tb = _tokens(a), _tokens(b)
+    if not ta and not tb:
+        return 1.0
+    return len(ta & tb) / len(ta | tb) if ta and tb else 0.0
+
+
 def _parse_note_refs(raw: str) -> list[int]:
     """"8,21" is two references, not a decimal."""
     return [int(n) for n in re.findall(r"\d+", raw)]
