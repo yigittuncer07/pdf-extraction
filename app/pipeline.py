@@ -15,6 +15,8 @@ from .locate import PageFinder
 from .normalize import run as normalize
 from .confidence import SecondOpinion, score
 from .linking import EmbeddingScorer, CrossEncoderScorer, RuleScorer, run as link_candidates
+from .validation import validate
+from .merge import run as export_deliverable
 
 CONFIG = {
     "pages": [5, 6, 7],
@@ -86,3 +88,31 @@ if __name__ == "__main__":
     accepted = sum(1 for r in relations if r["status"] == "accepted")
     unlinked = sum(1 for r in relations if r["status"] == "unlinked")
     print(f"Relations: {accepted} accepted, {unlinked} unlinked")
+    
+    # ------------ 7. Validate output (structural, format, financial) ------------
+    t0 = time()
+    issues = validate(tables, found, CONFIG["note"], relations=relations, out_dir=artifacts)
+    
+    # Re-save relations to persist the appended validation flags
+        # validate() writes flags in place, so both artifacts need re-saving
+    (artifacts / "07_final_table.json").write_text(
+        json.dumps(tables, ensure_ascii=False, indent=2)
+    )
+    (artifacts / "05_relations.json").write_text(
+        json.dumps(relations, ensure_ascii=False, indent=2)
+    )
+    counts = {g: sum(1 for i in issues if i["group"] == g) for g in ("structural", "format", "financial")}
+    print(f"Validated in {time() - t0:.2f}s: {len(issues)} issues found {counts}")
+
+    # ------------ 8. Build Deliverable ------------
+    t0 = time()
+    export_deliverable(
+        pages=pages_data,
+        tables=tables,
+        found=found,
+        relations=relations,
+        issues=issues,
+        config=CONFIG,
+        out_dir=artifacts,
+    )
+    print(f"Deliverable exported to {artifacts / '08_output.json'} in {time() - t0:.2f}s")

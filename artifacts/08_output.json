@@ -1,0 +1,5574 @@
+{
+  "document": {
+    "company": "ÖZAK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. VE BAĞLI ORTAKLIKLARI",
+    "periods": [
+      2012,
+      2011
+    ],
+    "currency": "Türk Lirası (TL)"
+  },
+  "config": {
+    "pages": [
+      5,
+      6,
+      7
+    ],
+    "note": 11
+  },
+  "note": {
+    "note": 11,
+    "pages": [
+      53,
+      54
+    ],
+    "toc_pages": [
+      53,
+      54
+    ],
+    "heading_pages": [
+      53,
+      54
+    ],
+    "offset": 4,
+    "source": "toc",
+    "verified": true
+  },
+  "tables": [
+    {
+      "id": "p005.t0",
+      "page": 5,
+      "title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "kind": "balance_sheet",
+      "currency": "Türk Lirası (TL)",
+      "confidence": 0.952,
+      "flags": []
+    },
+    {
+      "id": "p006.t0",
+      "page": 6,
+      "title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "kind": "balance_sheet",
+      "currency": "Türk Lirası (TL)",
+      "confidence": 0.924,
+      "flags": []
+    },
+    {
+      "id": "p007.t0",
+      "page": 7,
+      "title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "kind": "income_statement",
+      "currency": "Türk Lirası (TL)",
+      "confidence": 0.886,
+      "flags": []
+    },
+    {
+      "id": "p053.t0",
+      "page": 53,
+      "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "kind": "note",
+      "currency": "Türk Lirası (TL)",
+      "confidence": 0.912,
+      "flags": []
+    },
+    {
+      "id": "p053.t1",
+      "page": 53,
+      "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "kind": "note",
+      "currency": "Türk Lirası (TL)",
+      "confidence": 0.882,
+      "flags": []
+    },
+    {
+      "id": "p054.t0",
+      "page": 54,
+      "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "kind": "note",
+      "currency": "Türk Lirası (TL)",
+      "confidence": 0.89,
+      "flags": []
+    },
+    {
+      "id": "p054.t1",
+      "page": 54,
+      "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "kind": "note",
+      "currency": "Türk Lirası (TL)",
+      "confidence": 0.9,
+      "flags": []
+    }
+  ],
+  "summary_rows": [
+    {
+      "id": "p005.t0.r00",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "VARLIKLAR",
+      "role": "section",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "",
+          "kind": "empty",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "",
+          "kind": "empty",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r01",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Dönen Varlıklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "134.557.729",
+          "kind": "number",
+          "number": "134557729",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "21.380.946",
+          "kind": "number",
+          "number": "21380946",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r02",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Nakit ve Nakit Benzerleri",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        4
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "41.854.579",
+          "kind": "number",
+          "number": "41854579",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "7.726.696",
+          "kind": "number",
+          "number": "7726696",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r03",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Ticari Alacaklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        8
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "6.281.458",
+          "kind": "number",
+          "number": "6281458",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "7.801.336",
+          "kind": "number",
+          "number": "7801336",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r04",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "-İlişkili Taraflardan Ticari Alacaklar",
+      "role": "subitem",
+      "parent_id": "p005.t0.r03",
+      "note_refs": [
+        28
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "170.966",
+          "kind": "number",
+          "number": "170966",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "2.082.986",
+          "kind": "number",
+          "number": "2082986",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r05",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "-Diğer Ticari Alacaklar",
+      "role": "subitem",
+      "parent_id": "p005.t0.r03",
+      "note_refs": [
+        8
+      ],
+      "note_refs_inherited": true,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "6.110.492",
+          "kind": "number",
+          "number": "6110492",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "5.718.350",
+          "kind": "number",
+          "number": "5718350",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r06",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Diğer Alacaklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        9
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "3.993",
+          "kind": "number",
+          "number": "3993",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "56.956",
+          "kind": "number",
+          "number": "56956",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r07",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Stoklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        10
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "77.543.097",
+          "kind": "number",
+          "number": "77543097",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "1.083.886",
+          "kind": "number",
+          "number": "1083886",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r08",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Diğer Dönen Varlıklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        18
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "8.874.602",
+          "kind": "number",
+          "number": "8874602",
+          "confidence": 0.76,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "4.712.072",
+          "kind": "number",
+          "number": "4712072",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 0.88,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r09",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Duran Varlıklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "717.592.075",
+          "kind": "number",
+          "number": "717592075",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "760.027.331",
+          "kind": "number",
+          "number": "760027331",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r10",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Finansal Yatırımlar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        5
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "4.224",
+          "kind": "number",
+          "number": "4224",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "4.224",
+          "kind": "number",
+          "number": "4224",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r11",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Özkaynak Yönetimiyle Değerlenen Yatırımlar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        6
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "28.785.840",
+          "kind": "number",
+          "number": "28785840",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        }
+      ],
+      "confidence": 0.79,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r12",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Yatırım Amaçlı Gayrimenkuller",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        11
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "373.992.222",
+          "kind": "number",
+          "number": "373992222",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "423.580.000",
+          "kind": "number",
+          "number": "423580000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r13",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Maddi Duran Varlıklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        12
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "285.161.777",
+          "kind": "number",
+          "number": "285161777",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "313.618.867",
+          "kind": "number",
+          "number": "313618867",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r14",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Maddi Olmayan Duran Varlıklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        13
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "14.557.878",
+          "kind": "number",
+          "number": "14557878",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "14.526.075",
+          "kind": "number",
+          "number": "14526075",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r15",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Ertelenen Vergi Varlığı",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        26
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "4.065.781",
+          "kind": "number",
+          "number": "4065781",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "8.262.684",
+          "kind": "number",
+          "number": "8262684",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r16",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "Diğer Duran Varlıklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        18
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "11.024.353",
+          "kind": "number",
+          "number": "11024353",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "35.481",
+          "kind": "number",
+          "number": "35481",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p005.t0.r17",
+      "table_id": "p005.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 5,
+      "label": "TOPLAM VARLIKLAR",
+      "role": "total",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "852.149.804",
+          "kind": "number",
+          "number": "852149804",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "781.408.277",
+          "kind": "number",
+          "number": "781408277",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r00",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "KAYNAKLAR",
+      "role": "section",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "",
+          "kind": "empty",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "",
+          "kind": "empty",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r01",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Kısa Vadeli Yükümlülükler",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "63.553.798",
+          "kind": "number",
+          "number": "63553798",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "107.356.816",
+          "kind": "number",
+          "number": "107356816",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r02",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Finansal Borçlar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        7
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "38.216.987",
+          "kind": "number",
+          "number": "38216987",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "93.250.501",
+          "kind": "number",
+          "number": "93250501",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r03",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Ticari Borçlar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        8
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "7.932.336",
+          "kind": "number",
+          "number": "7932336",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "4.232.740",
+          "kind": "number",
+          "number": "4232740",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r04",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "-İlişkili Taraflara Ticari Borçlar",
+      "role": "subitem",
+      "parent_id": "p006.t0.r03",
+      "note_refs": [
+        28
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "4.993.230",
+          "kind": "number",
+          "number": "4993230",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        }
+      ],
+      "confidence": 0.79,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r05",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "-Diğer Ticari Borçlar",
+      "role": "subitem",
+      "parent_id": "p006.t0.r03",
+      "note_refs": [
+        8
+      ],
+      "note_refs_inherited": true,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "2.939.106",
+          "kind": "number",
+          "number": "2939106",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "4.232.740",
+          "kind": "number",
+          "number": "4232740",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r06",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Diğer Borçlar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        9
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "2.784.832",
+          "kind": "number",
+          "number": "2784832",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "3.244.930",
+          "kind": "number",
+          "number": "3244930",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r07",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "-İlişkili Taraflara Diğer Borçlar",
+      "role": "subitem",
+      "parent_id": "p006.t0.r06",
+      "note_refs": [
+        28
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "1.500.000",
+          "kind": "number",
+          "number": "1500000",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "1.887.911",
+          "kind": "number",
+          "number": "1887911",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r08",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "-Diğer Borçlar",
+      "role": "subitem",
+      "parent_id": "p006.t0.r06",
+      "note_refs": [
+        9
+      ],
+      "note_refs_inherited": true,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "1.284.832",
+          "kind": "number",
+          "number": "1284832",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "1.357.019",
+          "kind": "number",
+          "number": "1357019",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r09",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Dönem Karı Vergi Yükümlülüğü",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        26
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "776.915",
+          "kind": "number",
+          "number": "776915",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r10",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Borç Karşılıkları",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        15
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "504.851",
+          "kind": "number",
+          "number": "504851",
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        }
+      ],
+      "confidence": 0.58,
+      "flags": [
+        "LOW_CONFIDENCE"
+      ]
+    },
+    {
+      "id": "p006.t0.r11",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        17
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "1.016.352",
+          "kind": "number",
+          "number": "1016352",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "628.306",
+          "kind": "number",
+          "number": "628306",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r12",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Diğer Kısa Vadeli Yükümlülükler",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        18
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "13.098.440",
+          "kind": "number",
+          "number": "13098440",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "5.223.424",
+          "kind": "number",
+          "number": "5223424",
+          "confidence": 0.76,
+          "flags": []
+        }
+      ],
+      "confidence": 0.88,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r13",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Uzun Vadeli Yükümlülükler",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "136.150.924",
+          "kind": "number",
+          "number": "136150924",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "54.471.741",
+          "kind": "number",
+          "number": "54471741",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r14",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Finansal Borçlar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        7
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "71.554.357",
+          "kind": "number",
+          "number": "71554357",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "1.180.562",
+          "kind": "number",
+          "number": "1180562",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r15",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Diğer Uzun Vadeli Yükümlülükler",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        18
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "20.384.859",
+          "kind": "number",
+          "number": "20384859",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        }
+      ],
+      "confidence": 0.79,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r16",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Çalışanlara Sağlanan Faydalarla İlişkin Karşılıklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        17
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "100.330",
+          "kind": "number",
+          "number": "100330",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "122.730",
+          "kind": "number",
+          "number": "122730",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r17",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Ertelenmiş Vergi Yüktümlülüğü",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        26
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "44.111.378",
+          "kind": "number",
+          "number": "44111378",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "53.168.449",
+          "kind": "number",
+          "number": "53168449",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r18",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "ÖZKAYNAKLAR",
+      "role": "total",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "652.445.082",
+          "kind": "number",
+          "number": "652445082",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "619.579.720",
+          "kind": "number",
+          "number": "619579720",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r19",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Ana Ortaklığa Ait Özkaynaklar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "527.217.933",
+          "kind": "number",
+          "number": "527217933",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "492.663.853",
+          "kind": "number",
+          "number": "492663853",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r20",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Çıkarılmış Sermaye",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        19
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "157.000.000",
+          "kind": "number",
+          "number": "157000000",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "141.483.500",
+          "kind": "number",
+          "number": "141483500",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r21",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Hisse Senedi İhraç Primleri",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "22.322.361",
+          "kind": "number",
+          "number": "22322361",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r22",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Sermaye Rezervleri",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "124.390.608",
+          "kind": "number",
+          "number": "124390608",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "124.390.608",
+          "kind": "number",
+          "number": "124390608",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r23",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Maddi Duran Varlık Yeniden Değerleme Fonu",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "100.574.161",
+          "kind": "number",
+          "number": "100574161",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "111.878.913",
+          "kind": "number",
+          "number": "111878913",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r24",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Kardan Ayrılan Kısıtlanmış Yedekler",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "2.569.141",
+          "kind": "number",
+          "number": "2569141",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "53.036",
+          "kind": "number",
+          "number": "53036",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r25",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Geçmiş Yıllar Karları / (Zararları)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "111.301.075",
+          "kind": "number",
+          "number": "111301075",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "(46.784.714)",
+          "kind": "number",
+          "number": "-46784714",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r26",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Net Dönem Karı",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "9.060.587",
+          "kind": "number",
+          "number": "9060587",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "161.642.510",
+          "kind": "number",
+          "number": "161642510",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r27",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "Kontrol Gücü Olmayan Paylar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "125.227.149",
+          "kind": "number",
+          "number": "125227149",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "126.915.867",
+          "kind": "number",
+          "number": "126915867",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p006.t0.r28",
+      "table_id": "p006.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
+      "page": 6,
+      "label": "TOPLAM KAYNAKLAR",
+      "role": "total",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012",
+          "period": {
+            "kind": "instant",
+            "year": 2012
+          },
+          "raw": "852.149.804",
+          "kind": "number",
+          "number": "852149804",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011",
+          "period": {
+            "kind": "instant",
+            "year": 2011
+          },
+          "raw": "781.408.277",
+          "kind": "number",
+          "number": "781408277",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r00",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Satış Gelirleri",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        20
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "77.043.573",
+          "kind": "number",
+          "number": "77043573",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "76.431.595",
+          "kind": "number",
+          "number": "76431595",
+          "confidence": 0.76,
+          "flags": []
+        }
+      ],
+      "confidence": 0.88,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r01",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Satışların Maliyeti (-)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        20
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(49.167.330)",
+          "kind": "number",
+          "number": "-49167330",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "(44.411.839)",
+          "kind": "number",
+          "number": "-44411839",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r02",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "BRÜT KAR",
+      "role": "total",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "27.876.243",
+          "kind": "number",
+          "number": "27876243",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "32.019.756",
+          "kind": "number",
+          "number": "32019756",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r03",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Pazarlama, Satış ve Dağıtım Giderleri (-)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        21
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(10.043.970)",
+          "kind": "number",
+          "number": "-10043970",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "(9.733.892)",
+          "kind": "number",
+          "number": "-9733892",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r04",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Genel Yönetim Giderleri (-)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        21
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(13.500.342)",
+          "kind": "number",
+          "number": "-13500342",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "(2.680.177)",
+          "kind": "number",
+          "number": "-2680177",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r05",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        11
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "3.896.434",
+          "kind": "number",
+          "number": "3896434",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "151.350.000",
+          "kind": "number",
+          "number": "151350000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r06",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Diğer Faaliyet Gelirleri",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        23
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "105.590",
+          "kind": "number",
+          "number": "105590",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "5.030.355",
+          "kind": "number",
+          "number": "5030355",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r07",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Diğer Faaliyet Giderleri (-)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        23
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(346.564)",
+          "kind": "number",
+          "number": "-346564",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "(561.989)",
+          "kind": "number",
+          "number": "-561989",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r08",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "FAALİYET KARI",
+      "role": "total",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "7.987.391",
+          "kind": "number",
+          "number": "7987391",
+          "confidence": 0.76,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "175.424.053",
+          "kind": "number",
+          "number": "175424053",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 0.88,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r09",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Özkaynak Yöntemiyle Değerlenen Yatırımların Kar/Zararlarındaki Paylar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        6
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "71.896",
+          "kind": "number",
+          "number": "71896",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r10",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "(Eas Faaliyet Dışı) Finansal Gelirler",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        24
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "19.727.437",
+          "kind": "number",
+          "number": "19727437",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "13.834.817",
+          "kind": "number",
+          "number": "13834817",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r11",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "(Eas Faaliyet Dışı) Finansal Giderler (-)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        25
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(16.289.551)",
+          "kind": "number",
+          "number": "-16289551",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "(24.329.214)",
+          "kind": "number",
+          "number": "-24329214",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r12",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "VERGİ ÖNCESİ KAR",
+      "role": "total",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "11.497.173",
+          "kind": "number",
+          "number": "11497173",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "164.929.656",
+          "kind": "number",
+          "number": "164929656",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r13",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Vergi Gelir / (Gideri)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(778.217)",
+          "kind": "number",
+          "number": "-778217",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "(3.015.405)",
+          "kind": "number",
+          "number": "-3015405",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r14",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Dönem Vergi Gideri",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        26
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(676.668)",
+          "kind": "number",
+          "number": "-676668",
+          "confidence": 0.76,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "(3.742.633)",
+          "kind": "number",
+          "number": "-3742633",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 0.88,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r15",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Ertelenmiş Vergi Geliri",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        26
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(101.549)",
+          "kind": "number",
+          "number": "-101549",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "727.228",
+          "kind": "number",
+          "number": "727228",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r16",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "DÖNEM KARI",
+      "role": "total",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "10.718.956",
+          "kind": "number",
+          "number": "10718956",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "161.914.251",
+          "kind": "number",
+          "number": "161914251",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r17",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Dönem Karı Dağılımı",
+      "role": "section",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "",
+          "kind": "empty",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "",
+          "kind": "empty",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r18",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Kontrol Gücü Olmayan Paylar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "1.658.369",
+          "kind": "number",
+          "number": "1658369",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "271.741",
+          "kind": "number",
+          "number": "271741",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r19",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Ana Ortaklık Payları",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "9.060.587",
+          "kind": "number",
+          "number": "9060587",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "161.642.510",
+          "kind": "number",
+          "number": "161642510",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r21",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Hisse başına kazanç",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [
+        27
+      ],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "0.058",
+          "kind": "number",
+          "number": "0.058",
+          "confidence": 0.76,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "1.191",
+          "kind": "number",
+          "number": "1191",
+          "confidence": 0.76,
+          "flags": []
+        }
+      ],
+      "confidence": 0.76,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r23",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Diğer Kapsamlı (Gider) / Gelir",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(19.846.865)",
+          "kind": "number",
+          "number": "-19846865",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "196.292.383",
+          "kind": "number",
+          "number": "196292383",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r24",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Duran Varlıklar Değer Artış Fonundaki Değişim",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(9.127.909)",
+          "kind": "number",
+          "number": "-9127909",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "358.206.634",
+          "kind": "number",
+          "number": "358206634",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r25",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "TOPLAM KAPSAMLI (GİDER) / GELİR",
+      "role": "total",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(9.127.909)",
+          "kind": "number",
+          "number": "-9127909",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "358.206.634",
+          "kind": "number",
+          "number": "358206634",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r26",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Toplam Kapsamlı (Giderin) / Gelirin Dağılımı",
+      "role": "section",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "",
+          "kind": "empty",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "",
+          "kind": "empty",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r27",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Kontrol Gücün Olmayan Paylar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(6.883.744)",
+          "kind": "number",
+          "number": "-6883744",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "84.685.211",
+          "kind": "number",
+          "number": "84685211",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p007.t0.r28",
+      "table_id": "p007.t0",
+      "table_title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU",
+      "page": 7,
+      "label": "Ana Ortaklık Payları",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "(2.244.165)",
+          "kind": "number",
+          "number": "-2244165",
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        },
+        {
+          "column": "Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "273.521.423",
+          "kind": "number",
+          "number": "273521423",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 0.79,
+      "flags": []
+    }
+  ],
+  "note_rows": [
+    {
+      "id": "p053.t0.r00",
+      "table_id": "p053.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "1 Ocak 2012 itibari ile açılış bakiyesi",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "227.317.822",
+          "kind": "number",
+          "number": "227317822",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "196.262.178",
+          "kind": "number",
+          "number": "196262178",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "423.580.000",
+          "kind": "number",
+          "number": "423580000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p053.t0.r01",
+      "table_id": "p053.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "Alım sonrası yapılan harcamalar",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "19.197.311",
+          "kind": "number",
+          "number": "19197311",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "19.197.311",
+          "kind": "number",
+          "number": "19197311",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p053.t0.r02",
+      "table_id": "p053.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "Makul değer değişikliğinden kaynaklanan kazanç",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "3.896.434",
+          "kind": "number",
+          "number": "3896434",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "3.896.434",
+          "kind": "number",
+          "number": "3896434",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 0.86,
+      "flags": []
+    },
+    {
+      "id": "p053.t0.r03",
+      "table_id": "p053.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "Stoklara transferler (*)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "(72.681.523)",
+          "kind": "number",
+          "number": "-72681523",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "(72.681.523)",
+          "kind": "number",
+          "number": "-72681523",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 0.86,
+      "flags": []
+    },
+    {
+      "id": "p053.t0.r04",
+      "table_id": "p053.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "177.730.044",
+          "kind": "number",
+          "number": "177730044",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "196.262.178",
+          "kind": "number",
+          "number": "196262178",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "373.992.222",
+          "kind": "number",
+          "number": "373992222",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p053.t0.r05",
+      "table_id": "p053.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "31 Aralık 2012 itibari ile net defter değeri",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "177.730.044",
+          "kind": "number",
+          "number": "177730044",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "196.262.178",
+          "kind": "number",
+          "number": "196262178",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "373,992.222",
+          "kind": "number",
+          "number": "373.992222",
+          "confidence": 0.76,
+          "flags": []
+        }
+      ],
+      "confidence": 0.92,
+      "flags": []
+    },
+    {
+      "id": "p053.t1.r00",
+      "table_id": "p053.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "82.097.790",
+          "kind": "number",
+          "number": "82097790",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "122.937.178",
+          "kind": "number",
+          "number": "122937178",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "205.034.968",
+          "kind": "number",
+          "number": "205034968",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p053.t1.r01",
+      "table_id": "p053.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "Alımlar (*)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "64.046.943",
+          "kind": "number",
+          "number": "64046943",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "13.598.089",
+          "kind": "number",
+          "number": "13598089",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "77.645.032",
+          "kind": "number",
+          "number": "77645032",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p053.t1.r02",
+      "table_id": "p053.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "Çıkışlar (**)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "-",
+          "kind": "dash",
+          "number": null,
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "(10.450.000)",
+          "kind": "number",
+          "number": "-10450000",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "(10.450.000)",
+          "kind": "number",
+          "number": "-10450000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 0.86,
+      "flags": []
+    },
+    {
+      "id": "p053.t1.r03",
+      "table_id": "p053.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "Makul değer değişikliğinden kaynaklananan kazanç",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "81.173.089",
+          "kind": "number",
+          "number": "81173089",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "70.176.911",
+          "kind": "number",
+          "number": "70176911",
+          "confidence": 0.7,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "151.350.000",
+          "kind": "number",
+          "number": "151350000",
+          "confidence": 0.7,
+          "flags": []
+        }
+      ],
+      "confidence": 0.7,
+      "flags": []
+    },
+    {
+      "id": "p053.t1.r04",
+      "table_id": "p053.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
+      "page": 53,
+      "label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "Arazi ve Arsalar",
+          "period": null,
+          "raw": "227.317.822",
+          "kind": "number",
+          "number": "227317822",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Binalar",
+          "period": null,
+          "raw": "196.262.178",
+          "kind": "number",
+          "number": "196262178",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "Toplam",
+          "period": null,
+          "raw": "423.580.000",
+          "kind": "number",
+          "number": "423580000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p054.t0.r00",
+      "table_id": "p054.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "page": 54,
+      "label": "İskonto oranı (%)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "%9",
+          "kind": "number",
+          "number": "9",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "%10,5",
+          "kind": "number",
+          "number": "10.5",
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
+        }
+      ],
+      "confidence": 0.79,
+      "flags": []
+    },
+    {
+      "id": "p054.t0.r01",
+      "table_id": "p054.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "page": 54,
+      "label": "Doluluk oranı (%)(*)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "%86,6",
+          "kind": "number",
+          "number": "86.6",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "%80,8",
+          "kind": "number",
+          "number": "80.8",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p054.t0.r02",
+      "table_id": "p054.t0",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "page": 54,
+      "label": "Kira artış oranı (%)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "%3",
+          "kind": "number",
+          "number": "3",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "31 Aralık 2011",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "%2-%4",
+          "kind": "text",
+          "number": null,
+          "confidence": 0.6,
+          "flags": [
+            "VALUE_UNPARSED"
+          ]
+        }
+      ],
+      "confidence": 0.8,
+      "flags": []
+    },
+    {
+      "id": "p054.t1.r00",
+      "table_id": "p054.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "page": 54,
+      "label": "Bağcılar Arsa",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "22.719.446",
+          "kind": "number",
+          "number": "22719446",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "31 Aralık 2011 Gerçeğe Uygun Değeri",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "21.717.000",
+          "kind": "number",
+          "number": "21717000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p054.t1.r01",
+      "table_id": "p054.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "page": 54,
+      "label": "Bayrampaşa Arsa (*)",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "81.026.895",
+          "kind": "number",
+          "number": "81026895",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "31 Aralık 2011 Gerçeğe Uygun Değeri",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "138.538.000",
+          "kind": "number",
+          "number": "138538000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p054.t1.r02",
+      "table_id": "p054.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "page": 54,
+      "label": "Güneşli Bina",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "83.586.353",
+          "kind": "number",
+          "number": "83586353",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "31 Aralık 2011 Gerçeğe Uygun Değeri",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "81.890.000",
+          "kind": "number",
+          "number": "81890000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    },
+    {
+      "id": "p054.t1.r03",
+      "table_id": "p054.t1",
+      "table_title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
+      "page": 54,
+      "label": "İkitelli Bina",
+      "role": "item",
+      "parent_id": null,
+      "note_refs": [],
+      "note_refs_inherited": false,
+      "values": [
+        {
+          "column": "31 Aralık 2012",
+          "period": {
+            "kind": "duration",
+            "year": 2012
+          },
+          "raw": "186.659.528",
+          "kind": "number",
+          "number": "186659528",
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "column": "31 Aralık 2011 Gerçeğe Uygun Değeri",
+          "period": {
+            "kind": "duration",
+            "year": 2011
+          },
+          "raw": "181.435.000",
+          "kind": "number",
+          "number": "181435000",
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "confidence": 1.0,
+      "flags": []
+    }
+  ],
+  "relations": [
+    {
+      "source_id": "p005.t0.r12",
+      "target_id": "p053.t1.r04",
+      "confidence": 0.741,
+      "confidence_parts": {
+        "model": 0.624,
+        "rules": 0.85,
+        "upstream": 1.0
+      },
+      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+      "status": "accepted",
+      "flags": []
+    },
+    {
+      "source_id": "p005.t0.r12",
+      "target_id": "p053.t0.r04",
+      "confidence": 0.718,
+      "confidence_parts": {
+        "model": 0.583,
+        "rules": 0.85,
+        "upstream": 1.0
+      },
+      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+      "status": "accepted",
+      "flags": []
+    },
+    {
+      "source_id": "p005.t0.r12",
+      "target_id": "p053.t0.r00",
+      "confidence": 0.671,
+      "confidence_parts": {
+        "model": 0.609,
+        "rules": 0.675,
+        "upstream": 1.0
+      },
+      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+      "status": "accepted",
+      "flags": []
+    },
+    {
+      "source_id": "p007.t0.r05",
+      "target_id": "p053.t1.r03",
+      "confidence": 0.662,
+      "confidence_parts": {
+        "model": 0.646,
+        "rules": 0.675,
+        "upstream": 0.7
+      },
+      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+      "status": "accepted",
+      "flags": []
+    },
+    {
+      "source_id": "p007.t0.r05",
+      "target_id": "p053.t0.r02",
+      "confidence": 0.626,
+      "confidence_parts": {
+        "model": 0.552,
+        "rules": 0.675,
+        "upstream": 0.86
+      },
+      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+      "status": "accepted",
+      "flags": []
+    }
+  ],
+  "validation": {
+    "issues": [
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r00.c1",
+        "message": "'106,731,750' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r00.c3",
+        "message": "'124,390,608' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r00.c5",
+        "message": "'9,428,094' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r00.c6",
+        "message": "'(150,677,544)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r00.c7",
+        "message": "'189,925,944' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r00.c8",
+        "message": "'33,363,263' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r00.c9",
+        "message": "'22,329,207' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r01.c8",
+        "message": "'161,914,251' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r01.c9",
+        "message": "'161,914,251' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r02.c3",
+        "message": "'Diğer kapsamlı gelir (yeriş sonrası)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r03.c1",
+        "message": "'Transferler' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r04.c1",
+        "message": "'34,751,750' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r04.c4",
+        "message": "'11,878,913' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r04.c6",
+        "message": "'9,428,094' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r04.c7",
+        "message": "'34,751,750' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r04.c8",
+        "message": "'8,886,294' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r04.c9",
+        "message": "'43,638,044' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r05.c7",
+        "message": "'(3,038,864)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r05.c8",
+        "message": "'(3,038,864)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r05.c9",
+        "message": "'(3,106,765)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r06.c7",
+        "message": "'Değerleri olmayan paydaşlık' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r06.c9",
+        "message": "'(9,428,094)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r07.c1",
+        "message": "'141,483,500' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r07.c3",
+        "message": "'124,390,608' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r07.c4",
+        "message": "'111,878,913' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r07.c6",
+        "message": "'16,164,215.10' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r07.c7",
+        "message": "'(46,784,714)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r07.c8",
+        "message": "'49,263,835' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r07.c9",
+        "message": "'126,915,807' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c1",
+        "message": "'Düşüm' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c2",
+        "message": "'Çıkarılmış Sıçmeye' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c3",
+        "message": "'Hisse Senedi Rüzerleri Değerlerine Fonu' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c4",
+        "message": "'Matild Duran Varlık Yükleme' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c5",
+        "message": "'Kalan Ayrılan Kalan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c6",
+        "message": "'Geçmiş Yıllar (Zararlan)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c7",
+        "message": "'Ara Ortalığı Art.' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c8",
+        "message": "'Kontrol Gücü Özkaynaklar' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r08.c9",
+        "message": "'Toplam' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r09.c1",
+        "message": "'141,483,500' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r09.c3",
+        "message": "'Hisse Senedi Rüzerleri Değerlerine Fonu' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r09.c4",
+        "message": "'Kalan Ayrılan Kalan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r09.c5",
+        "message": "'Geçmiş Yıllar' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r09.c6",
+        "message": "'(46,784,714)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r09.c7",
+        "message": "'49,263,835' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r09.c9",
+        "message": "'619,579,720' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r10.c1",
+        "message": "'Dönen İklim' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r10.c4",
+        "message": "'--' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r11.c1",
+        "message": "'Diğer kapsamlı gelir (yeriş sonras)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r11.c7",
+        "message": "'--' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r12.c1",
+        "message": "'Transferler' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r13.c1",
+        "message": "'Hisse senedi harcı primleri' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r14.c2",
+        "message": "'15,516,500' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r14.c3",
+        "message": "'22,323,261' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r14.c4",
+        "message": "'124,390,608' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r14.c5",
+        "message": "'100,574,161' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r14.c6",
+        "message": "'2,569,141' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r14.c7",
+        "message": "'9,060,587' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r14.c8",
+        "message": "'57,217,935' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r14.c9",
+        "message": "'152,212,149' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r15.c1",
+        "message": "'15,060,000' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r15.c3",
+        "message": "'22,323,261' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r15.c4",
+        "message": "'124,390,608' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r15.c6",
+        "message": "'2,569,141' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r15.c7",
+        "message": "'9,060,587' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r15.c8",
+        "message": "'57,212,935' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p008.t0.r15.c9",
+        "message": "'152,212,149' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t0.r00.c1",
+        "message": "'Turizm' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t0.r00.c2",
+        "message": "'Otelcilik' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t0.r01.c1",
+        "message": "'Turizm' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t0.r01.c2",
+        "message": "'Otelcilik' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t0.r02.c1",
+        "message": "'İnşaat' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t0.r02.c2",
+        "message": "'Taahhüt işleri' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t1.r00.c1",
+        "message": "'31 Aralık 2001' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t1.r00.c2",
+        "message": "'Ana faaliyeti' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p012.t1.r01.c1",
+        "message": "'Balmumcu/ İstanbul' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p014.t0.r00.c1",
+        "message": "'Turizm' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p014.t0.r00.c2",
+        "message": "'Otelcilik' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p014.t0.r01.c1",
+        "message": "'Turizm' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p014.t0.r01.c2",
+        "message": "'Otelcilık' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p014.t0.r02.c1",
+        "message": "'İnşaat' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p014.t0.r02.c2",
+        "message": "'Taahhüt işleri' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p015.t0.r01.c1",
+        "message": "'Balmumcu/ İstanbul' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p015.t0.r01.c4",
+        "message": "'Gayrimenkul Yatırımı' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r00.c1",
+        "message": "'Karşılaştırmalı Bilgi Sunumuna İlişkin Yükümlülüklerin Netleştirilmesi2' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r01.c1",
+        "message": "'Finansal Araçlar3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r02.c1",
+        "message": "'Konsolide Finansal Tablolar3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r03.c1",
+        "message": "'Müşterek Anlaşmalar3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r04.c1",
+        "message": "'Diğer İşletmelerdeki Paylara İlişkin Açıklamalar3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r05.c1",
+        "message": "'Gerçeğe Uygun Değer Ölçümleri3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r06.c1",
+        "message": "'Sunum - Finansal Varlık ve Finansal Borçların Netleştirilmesi3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r07.c1",
+        "message": "'UFRS 9 ve Geçiş Açıklamaları için Zorunlu Yürürlük Tarihi5' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r08.c1",
+        "message": "'Konsolide Finansal Tablolar, Müşterek Anlaşmalar ve' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r09.c1",
+        "message": "'Diğer İşletmelerdeki Paylara İlişkin Acıklamalar: Geçiş Kuralları3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r10.c1",
+        "message": "'Çalışanlara Sağlanan Faydalar3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r11.c1",
+        "message": "'Bireysel Finansal Tablolar3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r12.c1",
+        "message": "'İştiraklerdeki ve İş Ortaklıklarındaki Yatırımlar3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r13.c1",
+        "message": "'Finansal Varlık ve Finansal Borçların Netleştirilmesı4' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r14.c1",
+        "message": "'UMS 1’e Yapılan Değişiklikler Dışındaki Yıllık İyileştirmeler 2009/2011 Dönemi3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p018.t0.r15.c1",
+        "message": "'Yerüstü Maden İşletmelerinde Üretim Aşamasındaki Hafriyat (Dekapaj) Maliyetleri3' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p043.t0.r00.c1",
+        "message": "'Yatırım Ortaklığı' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p043.t0.r00.c2",
+        "message": "'Turizm- Otelcilik' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p043.t0.r00.c3",
+        "message": "'UFRs Düzeltmeleri' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p043.t0.r00.c4",
+        "message": "'Toplam' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p045.t0.r00.c4",
+        "message": "'Toplam' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p045.t0.r06.c4",
+        "message": "'31 Aralık 2010' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p045.t0.r07.c3",
+        "message": "'Gayrimenkul Yatırım Ortakılığı' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p045.t0.r07.c4",
+        "message": "'Konsolidasyon ve UFRS Düzeltmeleri' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p045.t0.r08.c4",
+        "message": "'Toplam' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t1.r00.c2",
+        "message": "'29 Ocak 2013' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t1.r01.c2",
+        "message": "'8 Ocak 2013' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t1.r02.c2",
+        "message": "'21 Ocak 2013' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t1.r03.c1",
+        "message": "'Günlük Değişken Faizli' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t1.r04.c2",
+        "message": "'14 Ocak 2013' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t1.r05.c2",
+        "message": "'4 Ocak 2013' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t1.r06.c2",
+        "message": "'7 Ocak 2013' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t2.r00.c1",
+        "message": "'ABD Doları' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t2.r00.c3",
+        "message": "'1 Ocak 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t2.r01.c2",
+        "message": "'2 Ocak 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p046.t2.r02.c2",
+        "message": "'2 Ocak 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p047.t1.r00.c1",
+        "message": "'Başakşehir/ İstanbul' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p047.t1.r00.c4",
+        "message": "'Gayrimenkul Yatırımı' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p047.t1.r01.c3",
+        "message": "'31 Aralık 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p047.t1.r01.c4",
+        "message": "'31 Aralık 2 011' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p047.t1.r06.c1",
+        "message": "'•' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p047.t1.r08.c3",
+        "message": "'1 Ocak- 31 Aralık 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p047.t1.r08.c4",
+        "message": "'1 Ocak- 31 Aralık 2011' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p048.t0.r03.c1",
+        "message": "'31 Aralık 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p048.t0.r03.c2",
+        "message": "'31 Aralık 201' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p049.t0.r01.c1",
+        "message": "'%2,95 - %6,00' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p049.t1.r00.c1",
+        "message": "'%1,91 - %6,00' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p054.t0.r02.c2",
+        "message": "'%2-%4' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r00.c2",
+        "message": "'313 040,713' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r00.c3",
+        "message": "'7,156,275' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r00.c5",
+        "message": "'20,174,870' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r00.c6",
+        "message": "'341,189,068' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r01.c2",
+        "message": "'1,606,783' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r01.c5",
+        "message": "'2,955,055' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r01.c6",
+        "message": "'4,931,033' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r02.c2",
+        "message": "'(24,808,581)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r02.c6",
+        "message": "'(24,808,581)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r03.c2",
+        "message": "'289 838,915' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r03.c3",
+        "message": "'7,525,470' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r03.c5",
+        "message": "'23,129,925' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r03.c6",
+        "message": "'32,311,152' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r05.c2",
+        "message": "'(10,139,740)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r05.c3",
+        "message": "'(3,434,237)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r05.c5",
+        "message": "'(13,497,051)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r05.c6",
+        "message": "'(27,570,201)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r06.c2",
+        "message": "'(5,751,778)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r06.c5",
+        "message": "'(2,158,518)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p055.t0.r06.c6",
+        "message": "'(8,579,542)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p057.t0.r00.c1",
+        "message": "'35-50 yıl' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p057.t0.r01.c1",
+        "message": "'9-14 yıl' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p057.t0.r02.c1",
+        "message": "'4-5 yıl' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p057.t0.r03.c1",
+        "message": "'8-10 yıl' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p058.t1.r00.c1",
+        "message": "'49 yıl' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p058.t1.r01.c1",
+        "message": "'3 yıl' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p064.t2.r00.c1",
+        "message": "'Alınan sipariş avansları (***)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r02.c1",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r03.c1",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r04.c1",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r05.c1",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r05.c3",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r06.c1",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r06.c3",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r07.c1",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r08.c1",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r08.c3",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r09.c1",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p065.t0.r09.c3",
+        "message": "'<%1' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p068.t0.r07.c1",
+        "message": "'1 Ocak-31 Aralık 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p068.t0.r07.c2",
+        "message": "'1 Ocak- 31 Aralık 2011' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p069.t0.r03.c1",
+        "message": "'1 Ocak-31 Aralık 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p069.t0.r03.c2",
+        "message": "'1 Ocак-31 Aralık 2011' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p069.t0.r13.c1",
+        "message": "'1 Ocak-31 Aralık 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p073.t0.r04.c1",
+        "message": "'1 Ocak- 31 Aralık 2012' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p073.t0.r04.c2",
+        "message": "'1 Ocak- 31 Aralık 2011' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p078.t0.r02.c8",
+        "message": "'1,500,000' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p078.t0.r05.c1",
+        "message": "'Ayrıt, yüzün katı, iş, Sağ, iş, AŞ, Ama ortak tahvilden diğer süreçler' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p078.t0.r05.c8",
+        "message": "'1,500,000' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p078.t0.r07.c5",
+        "message": "'4,450,356' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p079.t0.r01.c2",
+        "message": "'Üfî Akbulk' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p079.t0.r02.c3",
+        "message": "'1,434,044' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p079.t0.r03.c4",
+        "message": "'1,434,044' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p079.t0.r04.c1",
+        "message": "'6,053,364' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p079.t0.r04.c6",
+        "message": "'2,096,470' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p079.t0.r05.c4",
+        "message": "'5,959,718' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p079.t0.r08.c1",
+        "message": "'1,228,945' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p080.t0.r00.c1",
+        "message": "'Ticari olmayan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p080.t0.r00.c2",
+        "message": "'Uzun vadeli' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p080.t0.r00.c3",
+        "message": "'Ticari olmayan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p080.t0.r00.c4",
+        "message": "'Ticari olmayan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p080.t0.r00.c5",
+        "message": "'Ticari olmayan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p080.t0.r00.c6",
+        "message": "'Tücari olmayan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p080.t0.r00.c7",
+        "message": "'Tücari olmayan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p081.t0.r00.c1",
+        "message": "'Hizmet alınan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p081.t0.r00.c2",
+        "message": "'Hizmet satışan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p081.t0.r00.c3",
+        "message": "'31 Aralık 2011 Fuarı giderleri' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p081.t0.r00.c4",
+        "message": "'Sabit kıymet satışan' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p081.t0.r09.c3",
+        "message": "'1,912,886' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r00.c1",
+        "message": "'Difer-Tarih' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r00.c2",
+        "message": "'İktisat Tarih' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r00.c3",
+        "message": "'Difer-Tarih' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r00.c4",
+        "message": "'İkti' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r00.c5",
+        "message": "'Difer-Tarih' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r00.c6",
+        "message": "'Difer-Tarih' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r02.c2",
+        "message": "'6,110,492' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r02.c6",
+        "message": "'41,795,839' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r04.c2",
+        "message": "'4,175,721' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r04.c6",
+        "message": "'41,795,839' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p083.t0.r05.c2",
+        "message": "'1,934,771' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p084.t0.r00.c2",
+        "message": "'2,082,986' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p084.t0.r00.c3",
+        "message": "'5,718,350' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p084.t0.r00.c6",
+        "message": "'7,590,670' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p084.t0.r01.c2",
+        "message": "'2,082,986' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p084.t0.r01.c3",
+        "message": "'5,718,350' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p088.t0.r12.c3",
+        "message": "'13. ÜZÜN VADELİ YÜKÜMLÜLÜKLER' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p091.t0.r04.c2",
+        "message": "\"Avro'nun TL karşısında % 10 değerlenmesi halinde\" did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p091.t0.r08.c2",
+        "message": "'Diğer döviz kurlarının TL karşısında % 10 değerlenmesi halinde' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p091.t0.r09.c2",
+        "message": "'7- Diğer döviz net varlık / yükümlülüğü' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r00.c1",
+        "message": "'41,854,579' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r00.c5",
+        "message": "'41,854,579' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r01.c1",
+        "message": "'6,110,492' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r01.c5",
+        "message": "'6,110,492' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r03.c2",
+        "message": "'109,771,344' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r03.c5",
+        "message": "'109,771,344' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r04.c2",
+        "message": "'7,932,336' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r04.c5",
+        "message": "'7,932,336' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r05.c2",
+        "message": "'1,500,000' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r05.c5",
+        "message": "'1,500,000' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r07.c6",
+        "message": "'İfad edilen diğer borçlar' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r08.c1",
+        "message": "'Krediler ve alacaklar (katıt ve nakit benzeri dahil)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r08.c2",
+        "message": "'Krediler ve alacaklar (katıt ve naki benzeri dahil)' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r08.c3",
+        "message": "'İfad edilmiş öğretmen gösterilen finansayılım mülkler' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r08.c4",
+        "message": "'İfad edilmiş öğretmen gösterilen fin' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r08.c5",
+        "message": "'Diferansiyel' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r08.c6",
+        "message": "'Diferansiyel' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r09.c1",
+        "message": "'7,726,696' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r09.c5",
+        "message": "'7,726,696' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r10.c1",
+        "message": "'5,718,350' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r10.c5",
+        "message": "'5,718,350' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r11.c1",
+        "message": "'2,082,986' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r11.c5",
+        "message": "'2,082,986' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r12.c1",
+        "message": "'İfad edilen diğer borçlar' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r12.c2",
+        "message": "'--' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r13.c5",
+        "message": "'Finansal yıllık mülkler' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r14.c1",
+        "message": "'94,431,063' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r14.c5",
+        "message": "'94,431,063' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r15.c1",
+        "message": "'4,232,740' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r15.c5",
+        "message": "'4,232,740' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r16.c1",
+        "message": "'1,887,911' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p093.t0.r16.c5",
+        "message": "'1,887,911' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p095.t0.r00.c3",
+        "message": "'%10 en fazla' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p095.t0.r01.c3",
+        "message": "'%50 en az' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p095.t0.r02.c3",
+        "message": "'%50 en fazla' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p095.t0.r03.c3",
+        "message": "'%49 en fazla' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p095.t0.r04.c3",
+        "message": "'%20 en fazla' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p095.t0.r05.c3",
+        "message": "'%10 en fazla' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p095.t0.r06.c3",
+        "message": "'%500 en fazla' did not parse"
+      },
+      {
+        "code": "VALUE_UNPARSED",
+        "group": "format",
+        "scope": "p095.t0.r07.c3",
+        "message": "'%10 en fazla' did not parse"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p008.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p055.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p056.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p078.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p079.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p080.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p081.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p083.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "CURRENCY_MISSING",
+        "group": "format",
+        "scope": "p093.t0",
+        "message": "no currency on the page"
+      },
+      {
+        "code": "SUBITEM_MISMATCH",
+        "group": "financial",
+        "scope": "p009.t0.r12",
+        "message": "c2: sub-items sum to 17737697, 'İşletme sermayesinde gerçekleşen değişimler' says 22197119"
+      },
+      {
+        "code": "SUBITEM_MISMATCH",
+        "group": "financial",
+        "scope": "p009.t0.r12",
+        "message": "c3: sub-items sum to 71045855, 'İşletme sermayesinde gerçekleşen değişimler' says 21386794"
+      },
+      {
+        "code": "SUBITEM_MISMATCH",
+        "group": "financial",
+        "scope": "p076.t0.r02",
+        "message": "c1: sub-items sum to -1521218, 'Gelir vergisi oranı %20 (2011: %20)' says 2299435"
+      },
+      {
+        "code": "VALUE_NOT_IN_NOTE",
+        "group": "financial",
+        "scope": "p009.t0.r05.c2",
+        "message": "'- Yatırım amaçlı gayrimenkullerin değerlemesinden kaynaklanan kazanç' = -3896434 does not appear in note 11"
+      },
+      {
+        "code": "VALUE_NOT_IN_NOTE",
+        "group": "financial",
+        "scope": "p009.t0.r05.c3",
+        "message": "'- Yatırım amaçlı gayrimenkullerin değerlemesinden kaynaklanan kazanç' = -151350000 does not appear in note 11"
+      },
+      {
+        "code": "VALUE_NOT_IN_NOTE",
+        "group": "financial",
+        "scope": "p010.t0.r03.c2",
+        "message": "'için yapılan ödemeler' = -19197311 does not appear in note 11"
+      },
+      {
+        "code": "VALUE_NOT_IN_NOTE",
+        "group": "financial",
+        "scope": "p010.t0.r03.c3",
+        "message": "'için yapılan ödemeler' = -77645032 does not appear in note 11"
+      },
+      {
+        "code": "VALUE_NOT_IN_NOTE",
+        "group": "financial",
+        "scope": "p010.t0.r04.c3",
+        "message": "'Yatırım amaçlı gayrimenkul satışından elde edilen nakit' = 13710934 does not appear in note 11"
+      }
+    ],
+    "counts": {
+      "structural": 0,
+      "format": 269,
+      "financial": 8
+    }
+  }
+}

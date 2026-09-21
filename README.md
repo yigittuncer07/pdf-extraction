@@ -18,6 +18,12 @@ Initially, I was thinking about this as finding THE relavent row, but its obviou
 
 after doing so I see that one OCR error, replacing . with , resulted in a relation being lost. The row and cell has low confidence in the table section, and the rule matching misses it. This is a good example of a failure. It came out at the table extraction stage. The upstream is still high because it is only tagged as a point differ, not a full miss.
 
+The bi encoder just classified everything as the same, the rule saved it. The cross encoder produced meaningful resulst on its own, validated by the rule check.
+
+validator checks sums, format, structure. 
+
+
+
 **The general pipeline idea is:**
 1. PDF ingestion, the goal here is to turn the PDF as is into a usable format.
 2. Normalization, as described in the task description.
