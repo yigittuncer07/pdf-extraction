@@ -295,6 +295,22 @@
       },
       "label_year": null,
       "confidence": 1.0
+    },
+    {
+      "id": "p054.t1.r04",
+      "label": "",
+      "table_id": "p054.t1",
+      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | sayfa 54 | kalem: (toplam satırı) | 31 Aralık 2012: 373.992.222 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 423.580.000",
+      "values": {
+        "c1": "373992222",
+        "c2": "423580000"
+      },
+      "periods": {
+        "c1": 2012,
+        "c2": 2011
+      },
+      "label_year": null,
+      "confidence": 0.7
     }
   ],
   "pairs": [
@@ -371,6 +387,10 @@
       "p054.t1.r03"
     ],
     [
+      "p005.t0.r12",
+      "p054.t1.r04"
+    ],
+    [
       "p007.t0.r05",
       "p053.t0.r00"
     ],
@@ -441,6 +461,10 @@
     [
       "p007.t0.r05",
       "p054.t1.r03"
+    ],
+    [
+      "p007.t0.r05",
+      "p054.t1.r04"
     ]
   ]
 }

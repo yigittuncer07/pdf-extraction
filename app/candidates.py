@@ -34,7 +34,7 @@ def render(row: dict, table: dict) -> str:
 
     if parent:
         parts.append(f"ana kalem: {parent['label']}")
-    parts.append(f"kalem: {row['label']}")
+    parts.append(f"kalem: {row['label']}" if row["label"] else "kalem: (toplam satırı)") # assuming unlabeled rows are totals.
 
     if row["note_refs"]:
         refs = ", ".join(str(n) for n in row["note_refs"])
@@ -58,7 +58,7 @@ class CandidateGenerator:
         for table in self.tables:
             if table["page"] in pages:
                 for row in table["rows"]:
-                    if row["label"]:
+                    if row["label"] or any(v["number"] is not None for v in row["values"].values()):
                         yield row, table
 
     @staticmethod

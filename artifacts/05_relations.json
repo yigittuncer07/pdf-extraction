@@ -14,6 +14,19 @@
   },
   {
     "source_id": "p005.t0.r12",
+    "target_id": "p054.t1.r04",
+    "confidence": 0.738,
+    "confidence_parts": {
+      "model": 0.673,
+      "rules": 0.85,
+      "upstream": 0.7
+    },
+    "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+    "status": "accepted",
+    "flags": []
+  },
+  {
+    "source_id": "p005.t0.r12",
     "target_id": "p053.t0.r04",
     "confidence": 0.718,
     "confidence_parts": {
