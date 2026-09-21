@@ -43,6 +43,7 @@ def digits(text: str) -> str:
 
 
 def overlap(a: str, b: str) -> float:
+    ""
     ta, tb = tokens(a), tokens(b)
     if not ta and not tb:
         return 1.0
@@ -73,7 +74,7 @@ class SecondOpinion:
         if not others:
             return NO_VOTE
         value = raw.strip()
-        if value in others:
+        if value in others: # TODO: this should be done on the cell level. Check if cells agree, not if cell is in second opinions row.
             return AGREE
         if digits(value) and any(digits(o) == digits(value) for o in others):
             return SEPARATOR

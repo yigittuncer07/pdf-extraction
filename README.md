@@ -1,8 +1,12 @@
 # yapikredi-pdf-extraction
 
+## Yaklaşım Özeti
+
+7 aşamalı bir çözüm kullandım, öncelikle PDF ten tablolar ve gerekli bilgiler OCR ve 
+
 TODO: 
-- [ ] Write readme detailing findings
-- [ ] Try to get this out of the table using indentation from DeepSeek: ana kalem / alt kalem / toplam ilişkisi.
+- [x] Write readme detailing findings
+- [x] Try to get this out of the table using indentation from DeepSeek: ana kalem / alt kalem / toplam ilişkisi.
 
 ## PERSONAL NOTES:
 

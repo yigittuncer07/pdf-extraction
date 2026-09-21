@@ -18,7 +18,8 @@ from .linking import EmbeddingScorer, CrossEncoderScorer, RuleScorer, run as lin
 from .validation import validate
 from .merge import run as export_deliverable
 
-CONFIG = {
+# TODO: Seperate pipeline into 2, one for docling + deepseek, then the rest. 
+CONFIG = { # TODO: pull this from a config
     "pages": [5, 6, 7],
     "note": 11,
 }
