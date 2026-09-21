@@ -1,6 +1,6 @@
 from pathlib import Path
 
-ARTIFACTS_DIR = Path("test")
+ARTIFACTS_DIR = Path("artifacts")
 INPUT_DOCUMENT = Path("ornek_dokuman.pdf")
 
 CONFIG = {
