@@ -2,11 +2,11 @@
   {
     "source_id": "p005.t0.r12",
     "target_id": "p053.t1.r04",
-    "confidence": 0.741,
+    "confidence": 0.707,
     "confidence_parts": {
-      "model": 0.624,
+      "model": 0.618,
       "rules": 0.85,
-      "upstream": 1.0
+      "upstream": 0.7
     },
     "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
     "status": "accepted",
@@ -15,9 +15,9 @@
   {
     "source_id": "p005.t0.r12",
     "target_id": "p054.t1.r04",
-    "confidence": 0.738,
+    "confidence": 0.704,
     "confidence_parts": {
-      "model": 0.673,
+      "model": 0.611,
       "rules": 0.85,
       "upstream": 0.7
     },
@@ -28,11 +28,11 @@
   {
     "source_id": "p005.t0.r12",
     "target_id": "p053.t0.r04",
-    "confidence": 0.718,
+    "confidence": 0.682,
     "confidence_parts": {
-      "model": 0.583,
+      "model": 0.572,
       "rules": 0.85,
-      "upstream": 1.0
+      "upstream": 0.7
     },
     "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
     "status": "accepted",
@@ -41,11 +41,11 @@
   {
     "source_id": "p005.t0.r12",
     "target_id": "p053.t0.r00",
-    "confidence": 0.671,
+    "confidence": 0.649,
     "confidence_parts": {
-      "model": 0.609,
+      "model": 0.623,
       "rules": 0.675,
-      "upstream": 1.0
+      "upstream": 0.7
     },
     "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
     "status": "accepted",
@@ -67,11 +67,11 @@
   {
     "source_id": "p007.t0.r05",
     "target_id": "p053.t0.r02",
-    "confidence": 0.626,
+    "confidence": 0.61,
     "confidence_parts": {
       "model": 0.552,
       "rules": 0.675,
-      "upstream": 0.86
+      "upstream": 0.7
     },
     "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
     "status": "accepted",

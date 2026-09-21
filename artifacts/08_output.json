@@ -40,7 +40,7 @@
       "title": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO",
       "kind": "balance_sheet",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.952,
+      "confidence": 0.943,
       "flags": []
     },
     {
@@ -67,7 +67,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.912,
+      "confidence": 0.66,
       "flags": []
     },
     {
@@ -76,7 +76,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.882,
+      "confidence": 0.66,
       "flags": []
     },
     {
@@ -85,7 +85,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.89,
+      "confidence": 0.606,
       "flags": []
     },
     {
@@ -94,7 +94,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.9,
+      "confidence": 0.66,
       "flags": []
     }
   ],
@@ -184,7 +184,7 @@
       "page": 5,
       "label": "Nakit ve Nakit Benzerleri",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r01",
       "note_refs": [
         4
       ],
@@ -225,7 +225,7 @@
       "page": 5,
       "label": "Ticari Alacaklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r01",
       "note_refs": [
         8
       ],
@@ -348,7 +348,7 @@
       "page": 5,
       "label": "Diğer Alacaklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r01",
       "note_refs": [
         9
       ],
@@ -389,7 +389,7 @@
       "page": 5,
       "label": "Stoklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r01",
       "note_refs": [
         10
       ],
@@ -430,7 +430,7 @@
       "page": 5,
       "label": "Diğer Dönen Varlıklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r01",
       "note_refs": [
         18
       ],
@@ -481,11 +481,14 @@
             "kind": "instant",
             "year": 2012
           },
-          "raw": "717.592.075",
+          "raw": "717.592.071",
           "kind": "number",
-          "number": "717592075",
-          "confidence": 1.0,
-          "flags": []
+          "number": "717592071",
+          "confidence": 0.58,
+          "flags": [
+            "SUBITEM_MISMATCH",
+            "LOW_CONFIDENCE"
+          ]
         },
         {
           "column": "Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011",
@@ -500,7 +503,7 @@
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.79,
       "flags": []
     },
     {
@@ -510,7 +513,7 @@
       "page": 5,
       "label": "Finansal Yatırımlar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r09",
       "note_refs": [
         5
       ],
@@ -551,7 +554,7 @@
       "page": 5,
       "label": "Özkaynak Yönetimiyle Değerlenen Yatırımlar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r09",
       "note_refs": [
         6
       ],
@@ -594,7 +597,7 @@
       "page": 5,
       "label": "Yatırım Amaçlı Gayrimenkuller",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r09",
       "note_refs": [
         11
       ],
@@ -635,7 +638,7 @@
       "page": 5,
       "label": "Maddi Duran Varlıklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r09",
       "note_refs": [
         12
       ],
@@ -676,7 +679,7 @@
       "page": 5,
       "label": "Maddi Olmayan Duran Varlıklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r09",
       "note_refs": [
         13
       ],
@@ -717,7 +720,7 @@
       "page": 5,
       "label": "Ertelenen Vergi Varlığı",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r09",
       "note_refs": [
         26
       ],
@@ -758,7 +761,7 @@
       "page": 5,
       "label": "Diğer Duran Varlıklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p005.t0.r09",
       "note_refs": [
         18
       ],
@@ -916,7 +919,7 @@
       "page": 6,
       "label": "Finansal Borçlar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r01",
       "note_refs": [
         7
       ],
@@ -957,7 +960,7 @@
       "page": 6,
       "label": "Ticari Borçlar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r01",
       "note_refs": [
         8
       ],
@@ -1082,7 +1085,7 @@
       "page": 6,
       "label": "Diğer Borçlar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r01",
       "note_refs": [
         9
       ],
@@ -1205,7 +1208,7 @@
       "page": 6,
       "label": "Dönem Karı Vergi Yükümlülüğü",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r01",
       "note_refs": [
         26
       ],
@@ -1246,7 +1249,7 @@
       "page": 6,
       "label": "Borç Karşılıkları",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r01",
       "note_refs": [
         15
       ],
@@ -1293,7 +1296,7 @@
       "page": 6,
       "label": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r01",
       "note_refs": [
         17
       ],
@@ -1334,7 +1337,7 @@
       "page": 6,
       "label": "Diğer Kısa Vadeli Yükümlülükler",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r01",
       "note_refs": [
         18
       ],
@@ -1414,7 +1417,7 @@
       "page": 6,
       "label": "Finansal Borçlar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r13",
       "note_refs": [
         7
       ],
@@ -1455,7 +1458,7 @@
       "page": 6,
       "label": "Diğer Uzun Vadeli Yükümlülükler",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r13",
       "note_refs": [
         18
       ],
@@ -1498,7 +1501,7 @@
       "page": 6,
       "label": "Çalışanlara Sağlanan Faydalarla İlişkin Karşılıklar",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r13",
       "note_refs": [
         17
       ],
@@ -1539,7 +1542,7 @@
       "page": 6,
       "label": "Ertelenmiş Vergi Yüktümlülüğü",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r13",
       "note_refs": [
         26
       ],
@@ -1658,7 +1661,7 @@
       "page": 6,
       "label": "Çıkarılmış Sermaye",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r19",
       "note_refs": [
         19
       ],
@@ -1699,7 +1702,7 @@
       "page": 6,
       "label": "Hisse Senedi İhraç Primleri",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r19",
       "note_refs": [],
       "note_refs_inherited": false,
       "values": [
@@ -1738,7 +1741,7 @@
       "page": 6,
       "label": "Sermaye Rezervleri",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r19",
       "note_refs": [],
       "note_refs_inherited": false,
       "values": [
@@ -1777,7 +1780,7 @@
       "page": 6,
       "label": "Maddi Duran Varlık Yeniden Değerleme Fonu",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r19",
       "note_refs": [],
       "note_refs_inherited": false,
       "values": [
@@ -1816,7 +1819,7 @@
       "page": 6,
       "label": "Kardan Ayrılan Kısıtlanmış Yedekler",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r19",
       "note_refs": [],
       "note_refs_inherited": false,
       "values": [
@@ -1855,7 +1858,7 @@
       "page": 6,
       "label": "Geçmiş Yıllar Karları / (Zararları)",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r19",
       "note_refs": [],
       "note_refs_inherited": false,
       "values": [
@@ -1894,7 +1897,7 @@
       "page": 6,
       "label": "Net Dönem Karı",
       "role": "item",
-      "parent_id": null,
+      "parent_id": "p006.t0.r19",
       "note_refs": [],
       "note_refs_inherited": false,
       "values": [
@@ -3104,7 +3107,7 @@
           "raw": "227.317.822",
           "kind": "number",
           "number": "227317822",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3113,7 +3116,7 @@
           "raw": "196.262.178",
           "kind": "number",
           "number": "196262178",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3122,11 +3125,11 @@
           "raw": "423.580.000",
           "kind": "number",
           "number": "423580000",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3188,7 +3191,7 @@
           "raw": "3.896.434",
           "kind": "number",
           "number": "3896434",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3197,10 +3200,8 @@
           "raw": "-",
           "kind": "dash",
           "number": null,
-          "confidence": 0.58,
-          "flags": [
-            "LOW_CONFIDENCE"
-          ]
+          "confidence": 0.7,
+          "flags": []
         },
         {
           "column": "Toplam",
@@ -3208,11 +3209,11 @@
           "raw": "3.896.434",
           "kind": "number",
           "number": "3896434",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 0.86,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3232,7 +3233,7 @@
           "raw": "(72.681.523)",
           "kind": "number",
           "number": "-72681523",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3241,10 +3242,8 @@
           "raw": "-",
           "kind": "dash",
           "number": null,
-          "confidence": 0.58,
-          "flags": [
-            "LOW_CONFIDENCE"
-          ]
+          "confidence": 0.7,
+          "flags": []
         },
         {
           "column": "Toplam",
@@ -3252,11 +3251,11 @@
           "raw": "(72.681.523)",
           "kind": "number",
           "number": "-72681523",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 0.86,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3276,7 +3275,7 @@
           "raw": "177.730.044",
           "kind": "number",
           "number": "177730044",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3285,7 +3284,7 @@
           "raw": "196.262.178",
           "kind": "number",
           "number": "196262178",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3294,11 +3293,11 @@
           "raw": "373.992.222",
           "kind": "number",
           "number": "373992222",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3318,7 +3317,7 @@
           "raw": "177.730.044",
           "kind": "number",
           "number": "177730044",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3327,7 +3326,7 @@
           "raw": "196.262.178",
           "kind": "number",
           "number": "196262178",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3336,11 +3335,11 @@
           "raw": "373,992.222",
           "kind": "number",
           "number": "373.992222",
-          "confidence": 0.76,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 0.92,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3402,7 +3401,7 @@
           "raw": "64.046.943",
           "kind": "number",
           "number": "64046943",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3411,7 +3410,7 @@
           "raw": "13.598.089",
           "kind": "number",
           "number": "13598089",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3420,11 +3419,11 @@
           "raw": "77.645.032",
           "kind": "number",
           "number": "77645032",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3444,10 +3443,8 @@
           "raw": "-",
           "kind": "dash",
           "number": null,
-          "confidence": 0.58,
-          "flags": [
-            "LOW_CONFIDENCE"
-          ]
+          "confidence": 0.7,
+          "flags": []
         },
         {
           "column": "Binalar",
@@ -3455,7 +3452,7 @@
           "raw": "(10.450.000)",
           "kind": "number",
           "number": "-10450000",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3464,11 +3461,11 @@
           "raw": "(10.450.000)",
           "kind": "number",
           "number": "-10450000",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 0.86,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3530,7 +3527,7 @@
           "raw": "227.317.822",
           "kind": "number",
           "number": "227317822",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3539,7 +3536,7 @@
           "raw": "196.262.178",
           "kind": "number",
           "number": "196262178",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3548,11 +3545,11 @@
           "raw": "423.580.000",
           "kind": "number",
           "number": "423580000",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3575,7 +3572,7 @@
           "raw": "%9",
           "kind": "number",
           "number": "9",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3587,13 +3584,11 @@
           "raw": "%10,5",
           "kind": "number",
           "number": "10.5",
-          "confidence": 0.58,
-          "flags": [
-            "LOW_CONFIDENCE"
-          ]
+          "confidence": 0.7,
+          "flags": []
         }
       ],
-      "confidence": 0.79,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3616,7 +3611,7 @@
           "raw": "%86,6",
           "kind": "number",
           "number": "86.6",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3628,11 +3623,11 @@
           "raw": "%80,8",
           "kind": "number",
           "number": "80.8",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3655,7 +3650,7 @@
           "raw": "%3",
           "kind": "number",
           "number": "3",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3667,14 +3662,17 @@
           "raw": "%2-%4",
           "kind": "text",
           "number": null,
-          "confidence": 0.6,
+          "confidence": 0.3,
           "flags": [
-            "VALUE_UNPARSED"
+            "VALUE_UNPARSED",
+            "LOW_CONFIDENCE"
           ]
         }
       ],
-      "confidence": 0.8,
-      "flags": []
+      "confidence": 0.5,
+      "flags": [
+        "LOW_CONFIDENCE"
+      ]
     },
     {
       "id": "p054.t1.r00",
@@ -3696,7 +3694,7 @@
           "raw": "22.719.446",
           "kind": "number",
           "number": "22719446",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3708,11 +3706,11 @@
           "raw": "21.717.000",
           "kind": "number",
           "number": "21717000",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3735,7 +3733,7 @@
           "raw": "81.026.895",
           "kind": "number",
           "number": "81026895",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3747,11 +3745,11 @@
           "raw": "138.538.000",
           "kind": "number",
           "number": "138538000",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3774,7 +3772,7 @@
           "raw": "83.586.353",
           "kind": "number",
           "number": "83586353",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3786,11 +3784,11 @@
           "raw": "81.890.000",
           "kind": "number",
           "number": "81890000",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     },
     {
@@ -3813,7 +3811,7 @@
           "raw": "186.659.528",
           "kind": "number",
           "number": "186659528",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         },
         {
@@ -3825,11 +3823,11 @@
           "raw": "181.435.000",
           "kind": "number",
           "number": "181435000",
-          "confidence": 1.0,
+          "confidence": 0.7,
           "flags": []
         }
       ],
-      "confidence": 1.0,
+      "confidence": 0.7,
       "flags": []
     }
   ],
@@ -3837,11 +3835,11 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p053.t1.r04",
-      "confidence": 0.741,
+      "confidence": 0.707,
       "confidence_parts": {
-        "model": 0.624,
+        "model": 0.618,
         "rules": 0.85,
-        "upstream": 1.0
+        "upstream": 0.7
       },
       "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
       "status": "accepted",
@@ -3850,9 +3848,9 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p054.t1.r04",
-      "confidence": 0.738,
+      "confidence": 0.704,
       "confidence_parts": {
-        "model": 0.673,
+        "model": 0.611,
         "rules": 0.85,
         "upstream": 0.7
       },
@@ -3863,11 +3861,11 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p053.t0.r04",
-      "confidence": 0.718,
+      "confidence": 0.682,
       "confidence_parts": {
-        "model": 0.583,
+        "model": 0.572,
         "rules": 0.85,
-        "upstream": 1.0
+        "upstream": 0.7
       },
       "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
       "status": "accepted",
@@ -3876,11 +3874,11 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p053.t0.r00",
-      "confidence": 0.671,
+      "confidence": 0.649,
       "confidence_parts": {
-        "model": 0.609,
+        "model": 0.623,
         "rules": 0.675,
-        "upstream": 1.0
+        "upstream": 0.7
       },
       "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
       "status": "accepted",
@@ -3902,11 +3900,11 @@
     {
       "source_id": "p007.t0.r05",
       "target_id": "p053.t0.r02",
-      "confidence": 0.626,
+      "confidence": 0.61,
       "confidence_parts": {
         "model": 0.552,
         "rules": 0.675,
-        "upstream": 0.86
+        "upstream": 0.7
       },
       "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
       "status": "accepted",
@@ -5532,20 +5530,26 @@
       {
         "code": "SUBITEM_MISMATCH",
         "group": "financial",
-        "scope": "p009.t0.r12",
-        "message": "c2: sub-items sum to 17737697, 'İşletme sermayesinde gerçekleşen değişimler' says 22197119"
+        "scope": "p005.t0.r09.c2",
+        "message": "sub-items sum to 717592075, 'Duran Varlıklar' says 717592071"
       },
       {
         "code": "SUBITEM_MISMATCH",
         "group": "financial",
-        "scope": "p009.t0.r12",
-        "message": "c3: sub-items sum to 71045855, 'İşletme sermayesinde gerçekleşen değişimler' says 21386794"
+        "scope": "p009.t0.r12.c2",
+        "message": "sub-items sum to 17737697, 'İşletme sermayesinde gerçekleşen değişimler' says 22197119"
       },
       {
         "code": "SUBITEM_MISMATCH",
         "group": "financial",
-        "scope": "p076.t0.r02",
-        "message": "c1: sub-items sum to -1521218, 'Gelir vergisi oranı %20 (2011: %20)' says 2299435"
+        "scope": "p009.t0.r12.c3",
+        "message": "sub-items sum to 71045855, 'İşletme sermayesinde gerçekleşen değişimler' says 21386794"
+      },
+      {
+        "code": "SUBITEM_MISMATCH",
+        "group": "financial",
+        "scope": "p076.t0.r02.c1",
+        "message": "sub-items sum to -1521218, 'Gelir vergisi oranı %20 (2011: %20)' says 2299435"
       },
       {
         "code": "VALUE_NOT_IN_NOTE",
@@ -5581,7 +5585,7 @@
     "counts": {
       "structural": 0,
       "format": 269,
-      "financial": 8
+      "financial": 9
     }
   }
 }

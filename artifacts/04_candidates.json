@@ -5,7 +5,7 @@
       "id": "p005.t0.r12",
       "label": "Yatırım Amaçlı Gayrimenkuller",
       "table_id": "p005.t0",
-      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO | sayfa 5 | kalem: Yatırım Amaçlı Gayrimenkuller | dipnot: 11 | Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012: 373.992.222 | Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011: 423.580.000",
+      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO | sayfa 5 | ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller | dipnot: 11 | Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012: 373.992.222 | Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011: 423.580.000",
       "values": {
         "c2": "373992222",
         "c3": "423580000"
@@ -47,7 +47,7 @@
       },
       "periods": {},
       "label_year": 2012,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p053.t0.r01",
@@ -73,7 +73,7 @@
       },
       "periods": {},
       "label_year": null,
-      "confidence": 0.86
+      "confidence": 0.7
     },
     {
       "id": "p053.t0.r03",
@@ -86,7 +86,7 @@
       },
       "periods": {},
       "label_year": null,
-      "confidence": 0.86
+      "confidence": 0.7
     },
     {
       "id": "p053.t0.r04",
@@ -100,7 +100,7 @@
       },
       "periods": {},
       "label_year": 2012,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p053.t0.r05",
@@ -114,7 +114,7 @@
       },
       "periods": {},
       "label_year": 2012,
-      "confidence": 0.92
+      "confidence": 0.7
     },
     {
       "id": "p053.t1.r00",
@@ -142,7 +142,7 @@
       },
       "periods": {},
       "label_year": null,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p053.t1.r02",
@@ -155,7 +155,7 @@
       },
       "periods": {},
       "label_year": null,
-      "confidence": 0.86
+      "confidence": 0.7
     },
     {
       "id": "p053.t1.r03",
@@ -183,7 +183,7 @@
       },
       "periods": {},
       "label_year": 2011,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p054.t0.r00",
@@ -199,7 +199,7 @@
         "c2": 2011
       },
       "label_year": null,
-      "confidence": 0.79
+      "confidence": 0.7
     },
     {
       "id": "p054.t0.r01",
@@ -215,7 +215,7 @@
         "c2": 2011
       },
       "label_year": null,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p054.t0.r02",
@@ -230,7 +230,7 @@
         "c2": 2011
       },
       "label_year": null,
-      "confidence": 0.8
+      "confidence": 0.5
     },
     {
       "id": "p054.t1.r00",
@@ -246,7 +246,7 @@
         "c2": 2011
       },
       "label_year": null,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p054.t1.r01",
@@ -262,7 +262,7 @@
         "c2": 2011
       },
       "label_year": null,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p054.t1.r02",
@@ -278,7 +278,7 @@
         "c2": 2011
       },
       "label_year": null,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p054.t1.r03",
@@ -294,7 +294,7 @@
         "c2": 2011
       },
       "label_year": null,
-      "confidence": 1.0
+      "confidence": 0.7
     },
     {
       "id": "p054.t1.r04",

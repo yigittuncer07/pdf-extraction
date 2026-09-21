@@ -76,9 +76,9 @@ def check_metadata(tables: list[dict]) -> list[dict]:
 def check_subitems(tables: list[dict]) -> list[dict]:
     """Sub-items must add up to the item they hang off.
 
-    Only this tier is checked. The subtotal tier is expressed in the document
-    by indentation, which the extractor does not preserve, so the pipeline
-    never claims it.
+    Scoped to the parent's cell in that column: the check is per column, and
+    the failure belongs to the value that did not reconcile rather than to the
+    whole row, whose other columns may be fine.
     """
     out = []
     for table in tables:
@@ -93,8 +93,9 @@ def check_subitems(tables: list[dict]) -> list[dict]:
                 if None in parts:
                     continue
                 if sum(parts) != total:
-                    out.append(issue("SUBITEM_MISMATCH", "financial", parent["id"],
-                                     f"{col}: sub-items sum to {sum(parts)}, "
+                    out.append(issue("SUM_MISMATCH", "financial",
+                                     f"{parent['id']}.{col}",
+                                     f"sub-items sum to {sum(parts)}, "
                                      f"{parent['label']!r} says {total}"))
     return out
 

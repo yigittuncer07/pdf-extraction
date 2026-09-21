@@ -21,9 +21,7 @@ Scoring hierarchy:
       * 20% column alignment (token-level Jaccard similarity across column
         names, penalized if column counts differ).
 """
-
-from __future__ import annotations
-
+from .normalize import tokens
 import re
 
 AGREE = 1.0      # same text
@@ -38,10 +36,6 @@ CELL_WEIGHTS = {"parse": 0.4, "agreement": 0.6}
 TABLE_WEIGHTS = {"rows": 0.80, "columns": 0.20}
 
 
-def tokens(text: str) -> frozenset[str]:
-    """Order-insensitive key. docling writes "Gelirleri Satış" for "Satış Gelirleri"."""
-    lowered = text.replace("I", "ı").replace("İ", "i").lower()
-    return frozenset(re.findall(r"[0-9a-zçğıöşü]+", lowered))
 
 
 def digits(text: str) -> str:

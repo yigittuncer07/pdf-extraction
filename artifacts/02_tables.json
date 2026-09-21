@@ -57,7 +57,9 @@
       "number": null
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 72.7,
+    "level": 0
    },
    {
     "id": "p005.t0.r01",
@@ -78,7 +80,9 @@
       "number": "21380946"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 72.7,
+    "level": 0
    },
    {
     "id": "p005.t0.r02",
@@ -88,7 +92,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r01",
     "values": {
      "c2": {
       "raw": "41.854.579",
@@ -101,7 +105,9 @@
       "number": "7726696"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 80.0,
+    "level": 1
    },
    {
     "id": "p005.t0.r03",
@@ -111,7 +117,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r01",
     "values": {
      "c2": {
       "raw": "6.281.458",
@@ -124,7 +130,9 @@
       "number": "7801336"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 80.0,
+    "level": 1
    },
    {
     "id": "p005.t0.r04",
@@ -147,7 +155,9 @@
       "number": "2082986"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 86.3,
+    "level": 2
    },
    {
     "id": "p005.t0.r05",
@@ -170,7 +180,9 @@
       "number": "5718350"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 87.0,
+    "level": 2
    },
    {
     "id": "p005.t0.r06",
@@ -180,7 +192,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r01",
     "values": {
      "c2": {
       "raw": "3.993",
@@ -193,7 +205,9 @@
       "number": "56956"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 78.3,
+    "level": 1
    },
    {
     "id": "p005.t0.r07",
@@ -203,7 +217,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r01",
     "values": {
      "c2": {
       "raw": "77.543.097",
@@ -216,7 +230,9 @@
       "number": "1083886"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 80.0,
+    "level": 1
    },
    {
     "id": "p005.t0.r08",
@@ -226,7 +242,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r01",
     "values": {
      "c2": {
       "raw": "8.874.602",
@@ -239,7 +255,9 @@
       "number": "4712072"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.0,
+    "level": 1
    },
    {
     "id": "p005.t0.r09",
@@ -250,9 +268,9 @@
     "parent_id": null,
     "values": {
      "c2": {
-      "raw": "717.592.075",
+      "raw": "717.592.071",
       "kind": "number",
-      "number": "717592075"
+      "number": "717592071"
      },
      "c3": {
       "raw": "760.027.331",
@@ -260,7 +278,9 @@
       "number": "760027331"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 72.0,
+    "level": 0
    },
    {
     "id": "p005.t0.r10",
@@ -270,7 +290,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r09",
     "values": {
      "c2": {
       "raw": "4.224",
@@ -283,7 +303,9 @@
       "number": "4224"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.3,
+    "level": 1
    },
    {
     "id": "p005.t0.r11",
@@ -293,7 +315,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r09",
     "values": {
      "c2": {
       "raw": "28.785.840",
@@ -306,7 +328,9 @@
       "number": null
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 78.0,
+    "level": 1
    },
    {
     "id": "p005.t0.r12",
@@ -316,7 +340,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r09",
     "values": {
      "c2": {
       "raw": "373.992.222",
@@ -329,7 +353,9 @@
       "number": "423580000"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.0,
+    "level": 1
    },
    {
     "id": "p005.t0.r13",
@@ -339,7 +365,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r09",
     "values": {
      "c2": {
       "raw": "285.161.777",
@@ -352,7 +378,9 @@
       "number": "313618867"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.3,
+    "level": 1
    },
    {
     "id": "p005.t0.r14",
@@ -362,7 +390,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r09",
     "values": {
      "c2": {
       "raw": "14.557.878",
@@ -375,7 +403,9 @@
       "number": "14526075"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.0,
+    "level": 1
    },
    {
     "id": "p005.t0.r15",
@@ -385,7 +415,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r09",
     "values": {
      "c2": {
       "raw": "4.065.781",
@@ -398,7 +428,9 @@
       "number": "8262684"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 78.3,
+    "level": 1
    },
    {
     "id": "p005.t0.r16",
@@ -408,7 +440,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p005.t0.r09",
     "values": {
      "c2": {
       "raw": "11.024.353",
@@ -421,7 +453,9 @@
       "number": "35481"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 78.3,
+    "level": 1
    },
    {
     "id": "p005.t0.r17",
@@ -442,7 +476,9 @@
       "number": "781408277"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 72.0,
+    "level": 0
    }
   ]
  },
@@ -504,7 +540,9 @@
       "number": null
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 72.0,
+    "level": 0
    },
    {
     "id": "p006.t0.r01",
@@ -525,7 +563,9 @@
       "number": "107356816"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 71.0,
+    "level": 0
    },
    {
     "id": "p006.t0.r02",
@@ -535,7 +575,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r01",
     "values": {
      "c2": {
       "raw": "38.216.987",
@@ -548,7 +588,9 @@
       "number": "93250501"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 78.3,
+    "level": 1
    },
    {
     "id": "p006.t0.r03",
@@ -558,7 +600,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r01",
     "values": {
      "c2": {
       "raw": "7.932.336",
@@ -571,7 +613,9 @@
       "number": "4232740"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.7,
+    "level": 1
    },
    {
     "id": "p006.t0.r04",
@@ -594,7 +638,9 @@
       "number": null
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 85.0,
+    "level": 2
    },
    {
     "id": "p006.t0.r05",
@@ -617,7 +663,9 @@
       "number": "4232740"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 85.7,
+    "level": 2
    },
    {
     "id": "p006.t0.r06",
@@ -627,7 +675,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r01",
     "values": {
      "c2": {
       "raw": "2.784.832",
@@ -640,7 +688,9 @@
       "number": "3244930"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.7,
+    "level": 1
    },
    {
     "id": "p006.t0.r07",
@@ -663,7 +713,9 @@
       "number": "1887911"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 85.0,
+    "level": 2
    },
    {
     "id": "p006.t0.r08",
@@ -686,7 +738,9 @@
       "number": "1357019"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 84.3,
+    "level": 2
    },
    {
     "id": "p006.t0.r09",
@@ -696,7 +750,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r01",
     "values": {
      "c2": {
       "raw": "-",
@@ -709,7 +763,9 @@
       "number": "776915"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.7,
+    "level": 1
    },
    {
     "id": "p006.t0.r10",
@@ -719,7 +775,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r01",
     "values": {
      "c2": {
       "raw": "504.851",
@@ -732,7 +788,9 @@
       "number": null
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 78.4,
+    "level": 1
    },
    {
     "id": "p006.t0.r11",
@@ -742,7 +800,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r01",
     "values": {
      "c2": {
       "raw": "1.016.352",
@@ -755,7 +813,9 @@
       "number": "628306"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.7,
+    "level": 1
    },
    {
     "id": "p006.t0.r12",
@@ -765,7 +825,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r01",
     "values": {
      "c2": {
       "raw": "13.098.440",
@@ -778,7 +838,9 @@
       "number": "5223424"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.0,
+    "level": 1
    },
    {
     "id": "p006.t0.r13",
@@ -799,7 +861,9 @@
       "number": "54471741"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 71.3,
+    "level": 0
    },
    {
     "id": "p006.t0.r14",
@@ -809,7 +873,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r13",
     "values": {
      "c2": {
       "raw": "71.554.357",
@@ -822,7 +886,9 @@
       "number": "1180562"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.0,
+    "level": 1
    },
    {
     "id": "p006.t0.r15",
@@ -832,7 +898,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r13",
     "values": {
      "c2": {
       "raw": "20.384.859",
@@ -845,7 +911,9 @@
       "number": null
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.0,
+    "level": 1
    },
    {
     "id": "p006.t0.r16",
@@ -855,7 +923,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r13",
     "values": {
      "c2": {
       "raw": "100.330",
@@ -868,7 +936,9 @@
       "number": "122730"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.7,
+    "level": 1
    },
    {
     "id": "p006.t0.r17",
@@ -878,7 +948,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r13",
     "values": {
      "c2": {
       "raw": "44.111.378",
@@ -891,7 +961,9 @@
       "number": "53168449"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 77.0,
+    "level": 1
    },
    {
     "id": "p006.t0.r18",
@@ -912,7 +984,9 @@
       "number": "619579720"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 70.3,
+    "level": 0
    },
    {
     "id": "p006.t0.r19",
@@ -933,7 +1007,9 @@
       "number": "492663853"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 70.3,
+    "level": 0
    },
    {
     "id": "p006.t0.r20",
@@ -943,7 +1019,7 @@
     ],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r19",
     "values": {
      "c2": {
       "raw": "157.000.000",
@@ -956,7 +1032,9 @@
       "number": "141483500"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 78.3,
+    "level": 1
    },
    {
     "id": "p006.t0.r21",
@@ -964,7 +1042,7 @@
     "note_refs": [],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r19",
     "values": {
      "c2": {
       "raw": "22.322.361",
@@ -977,7 +1055,9 @@
       "number": null
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.0,
+    "level": 1
    },
    {
     "id": "p006.t0.r22",
@@ -985,7 +1065,7 @@
     "note_refs": [],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r19",
     "values": {
      "c2": {
       "raw": "124.390.608",
@@ -998,7 +1078,9 @@
       "number": "124390608"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 78.3,
+    "level": 1
    },
    {
     "id": "p006.t0.r23",
@@ -1006,7 +1088,7 @@
     "note_refs": [],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r19",
     "values": {
      "c2": {
       "raw": "100.574.161",
@@ -1019,7 +1101,9 @@
       "number": "111878913"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.0,
+    "level": 1
    },
    {
     "id": "p006.t0.r24",
@@ -1027,7 +1111,7 @@
     "note_refs": [],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r19",
     "values": {
      "c2": {
       "raw": "2.569.141",
@@ -1040,7 +1124,9 @@
       "number": "53036"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.7,
+    "level": 1
    },
    {
     "id": "p006.t0.r25",
@@ -1048,7 +1134,7 @@
     "note_refs": [],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r19",
     "values": {
      "c2": {
       "raw": "111.301.075",
@@ -1061,7 +1147,9 @@
       "number": "-46784714"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.7,
+    "level": 1
    },
    {
     "id": "p006.t0.r26",
@@ -1069,7 +1157,7 @@
     "note_refs": [],
     "note_refs_inherited": false,
     "role": "item",
-    "parent_id": null,
+    "parent_id": "p006.t0.r19",
     "values": {
      "c2": {
       "raw": "9.060.587",
@@ -1082,7 +1170,9 @@
       "number": "161642510"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 79.3,
+    "level": 1
    },
    {
     "id": "p006.t0.r27",
@@ -1103,7 +1193,9 @@
       "number": "126915867"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 69.7,
+    "level": 0
    },
    {
     "id": "p006.t0.r28",
@@ -1124,7 +1216,9 @@
       "number": "781408277"
      }
     },
-    "label_year": null
+    "label_year": null,
+    "indent": 70.0,
+    "level": 0
    }
   ]
  },

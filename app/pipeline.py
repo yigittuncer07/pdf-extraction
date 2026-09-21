@@ -24,7 +24,7 @@ CONFIG = {
 }
 
 if __name__ == "__main__":
-    artifacts = Path("test")
+    artifacts = Path("artifacts")
 
     # ------------ 1. Ingest the PDF, extract tables, titles, and text ------------
     t0 = time()
@@ -35,16 +35,23 @@ if __name__ == "__main__":
     print(f"DeepSeek ingested in {time() - t0:.2f}s")
     
     t0 = time()
-    ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DoclingExtractor(), pages = pages, out_file="00_pages.json")
-    print(f"Docling (OCR) ingested in {time() - t0:.2f}s")  
-    
+    ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DoclingExtractor(), pages=pages, out_file="00_pages.json")
+    print(f"Docling (OCR) ingested in {time() - t0:.2f}s")
+
+    # Splice Docling's indents into 01_pages.json by page
+    docling = json.loads((artifacts / "00_pages.json").read_text())
+    deepseek_pages = json.loads((artifacts / "01_pages.json").read_text())
+    docling_indents = {p["page"]: p.get("indents", []) for p in docling}
+    for p in deepseek_pages:
+        p["indents"] = docling_indents.get(p["page"], [])
+    (artifacts / "01_pages.json").write_text(json.dumps(deepseek_pages, ensure_ascii=False, indent=2))
+
     # ------------ 2. Normalize the extracted tables into a standard format ------------
     t0 = time()
     tables = normalize(in_file="01_pages.json", directory=artifacts, config={"pages": []})
     print(f"normalized in {time() - t0:.2f}s")
     
     # ----------- 3. Score confidence using second opinion ------------
-    docling = json.loads((artifacts / "00_pages.json").read_text()) 
     tables = score(tables, SecondOpinion(docling))
     with open(artifacts / "03_confidence.json", "w") as f:
         json.dump(tables, f, indent=2, ensure_ascii=False)

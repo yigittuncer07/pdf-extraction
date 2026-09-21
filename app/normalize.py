@@ -19,6 +19,51 @@ CURRENCY_RE = re.compile(r"\(Tüm tutarlar\s+(.+?)\s+olarak", re.I)
 YEAR_RE = re.compile(r"\b(20\d{2})\b")
 YEAR_ONLY_RE = re.compile(r"(19|20)\d{2}")
 
+def tokens(text: str) -> frozenset[str]:
+    """Order-insensitive key. docling writes "Gelirleri Satış" for "Satış Gelirleri"."""
+    lowered = text.replace("I", "ı").replace("İ", "i").lower()
+    return frozenset(re.findall(r"[0-9a-zçğıöşü]+", lowered))
+
+def attach_indents(rows: list[dict], indents: list[float | None],
+                   labels: list[str] | None = None) -> None:
+    """Take the label x position from the second extractor, by row index.
+
+    Checked against the label text rather than assumed: a row whose labels do
+    not agree gets no indent and falls back to the '-' prefix rule. Trusting
+    the index alone is worse than skipping, because a one-row shift yields a
+    wrong hierarchy rather than none.
+    """
+    for i, (row, x) in enumerate(zip(rows, indents)):
+        if labels and not (tokens(row["label"]) & tokens(labels[i])):
+            continue
+        row["indent"] = x
+
+
+def link_indents(rows: list[dict], tolerance: float = 4.0) -> None:
+    """Parent = the nearest row above at a shallower indent.
+
+    Read from the page rather than inferred from the numbers, which is what
+    lets validation check the sums against it independently.
+    """
+    xs = sorted({r["indent"] for r in rows if r.get("indent") is not None})
+    levels: list[float] = []
+    for x in xs:
+        if not levels or x - levels[-1] > tolerance:
+            levels.append(x)
+
+    for row in rows:
+        x = row.get("indent")
+        row["level"] = (min(range(len(levels)), key=lambda i: abs(levels[i] - x))
+                        if x is not None and levels else None)
+
+    for i, row in enumerate(rows):
+        if row["level"] is None or row["parent_id"]:
+            continue
+        parent = next((p for p in reversed(rows[:i])
+                       if p["level"] is not None and p["level"] < row["level"]), None)
+        if parent:
+            row["parent_id"] = parent["id"]
+
 def parse_value(raw: str) -> dict:
     """A dash, an empty cell and a zero are three different things."""
     s = raw.strip()
@@ -98,7 +143,7 @@ def classify(label: str, values: dict, refs: list[int]) -> str:
     return "item"
 
 
-def normalize_table(grid, page: int, index: int, text: str, heading: str = "") -> dict:
+def normalize_table(grid, page: int, index: int, text: str, heading: str = "", indents: list[float | None] | None = None) -> dict:
     # The extractor knows which heading preceded which table; fall back to the
     # page's last heading for extractors that do not report it.
     headings = HEADING_RE.findall(text)
@@ -139,6 +184,10 @@ def normalize_table(grid, page: int, index: int, text: str, heading: str = "") -
             if not row["note_refs"]:
                 row["note_refs"] = list(parent["note_refs"])
                 row["note_refs_inherited"] = True
+                
+    if kind != "income_statement" and indents:
+        attach_indents(rows, indents[1:])
+        link_indents(rows)
 
     currency = CURRENCY_RE.search(text)
     return {
@@ -158,10 +207,7 @@ def run(
     config: dict = CONFIG,
 ) -> list[dict]:
     directory = Path(directory)
-    if in_file is None:
-        in_path = directory / "01_pages.json"
-    else:
-        in_path = directory / in_file if not Path(in_file).is_absolute() else Path(in_file)
+    in_path = directory / (in_file or "01_pages.json")
 
     pages = json.loads(in_path.read_text())
     target_pages = set(config["pages"]) if config.get("pages") else None
@@ -171,9 +217,12 @@ def run(
         if target_pages is not None and page["page"] not in target_pages:
             continue
         headings = page.get("headings") or []
+        page_indents = page.get("indents") or []
+
         for i, grid in enumerate(page["tables"]):
             heading = headings[i] if i < len(headings) else ""
-            tables.append(normalize_table(grid, page["page"], i, page["text"], heading))
+            tbl_indents = page_indents[i] if i < len(page_indents) else None
+            tables.append(normalize_table(grid, page["page"], i, page["text"], heading, indents=tbl_indents))
 
     (directory / "02_tables.json").write_text(json.dumps(tables, ensure_ascii=False, indent=1))
     return tables

@@ -90,36 +90,41 @@ class DoclingExtractor(TableExtractor):
         kwargs = {"page_range": (min(pages), max(pages))} if pages else {}
         doc = self.converter.convert(str(pdf), **kwargs).document
 
-        t = doc.tables[0]
-        for c in t.data.table_cells[:12]:
-            print(c.start_row_offset_idx, c.start_col_offset_idx,
-                round(c.bbox.l, 1) if c.bbox else None, repr(c.text[:40]))
-
         page_map: dict[int, dict] = {}
 
         for item in doc.texts:
             if item.prov:
                 p = item.prov[0].page_no
-                page_map.setdefault(p, {"page": p, "text": [], "tables": []})["text"].append(item.text)
+                page_map.setdefault(p, {"page": p, "text": [], "tables": [], "indents": []})["text"].append(item.text)
 
         for table in doc.tables:
             p = table.prov[0].page_no if table.prov else 1
             df = table.export_to_dataframe().fillna("")
 
             if hasattr(df.columns, "levels"):  # MultiIndex
-                header_row = [
-                    " ".join(str(part) for part in col if str(part).strip())
-                    for col in df.columns
-                ]
+                header_row = [" ".join(str(part) for part in col if str(part).strip())
+                              for col in df.columns]
             else:
                 header_row = [str(col) for col in df.columns]
 
-            grid = [header_row] + df.values.tolist()
-            page_map.setdefault(p, {"page": p, "text": [], "tables": []})["tables"].append(grid)
+            # The x position of each label is the only place the printed
+            # indentation survives, and indentation is how a balance sheet
+            # expresses its main-item / sub-item hierarchy. DeepSeek's markdown
+            # drops it; docling keeps a bbox per cell.
+            # +1 because export_to_dataframe puts the header in df.columns,
+            # so the grid has one more row than table.data indexes.
+            indents = [None] * (table.data.num_rows + 1)
+            for cell in table.data.table_cells:
+                if cell.start_col_offset_idx == 0 and cell.bbox:
+                    indents[cell.start_row_offset_idx] = round(cell.bbox.l, 1)
+
+            entry = page_map.setdefault(p, {"page": p, "text": [], "tables": [], "indents": []})
+            entry["tables"].append([header_row] + df.values.tolist())
+            entry["indents"].append(indents)
 
         return [
             {"page": p, "text": "\n".join(data["text"]), "tables": data["tables"],
-            "headings": [""] * len(data["tables"])}
+            "headings": [""] * len(data["tables"]), "indents": data["indents"]}
             for p, data in sorted(page_map.items())
         ]
 

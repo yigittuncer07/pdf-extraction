@@ -1617,20 +1617,26 @@
     {
       "code": "SUBITEM_MISMATCH",
       "group": "financial",
-      "scope": "p009.t0.r12",
-      "message": "c2: sub-items sum to 17737697, 'İşletme sermayesinde gerçekleşen değişimler' says 22197119"
+      "scope": "p005.t0.r09.c2",
+      "message": "sub-items sum to 717592075, 'Duran Varlıklar' says 717592071"
     },
     {
       "code": "SUBITEM_MISMATCH",
       "group": "financial",
-      "scope": "p009.t0.r12",
-      "message": "c3: sub-items sum to 71045855, 'İşletme sermayesinde gerçekleşen değişimler' says 21386794"
+      "scope": "p009.t0.r12.c2",
+      "message": "sub-items sum to 17737697, 'İşletme sermayesinde gerçekleşen değişimler' says 22197119"
     },
     {
       "code": "SUBITEM_MISMATCH",
       "group": "financial",
-      "scope": "p076.t0.r02",
-      "message": "c1: sub-items sum to -1521218, 'Gelir vergisi oranı %20 (2011: %20)' says 2299435"
+      "scope": "p009.t0.r12.c3",
+      "message": "sub-items sum to 71045855, 'İşletme sermayesinde gerçekleşen değişimler' says 21386794"
+    },
+    {
+      "code": "SUBITEM_MISMATCH",
+      "group": "financial",
+      "scope": "p076.t0.r02.c1",
+      "message": "sub-items sum to -1521218, 'Gelir vergisi oranı %20 (2011: %20)' says 2299435"
     },
     {
       "code": "VALUE_NOT_IN_NOTE",
@@ -1666,6 +1672,6 @@
   "counts": {
     "structural": 0,
     "format": 269,
-    "financial": 8
+    "financial": 9
   }
 }
