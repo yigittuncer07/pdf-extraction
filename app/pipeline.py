@@ -24,18 +24,19 @@ CONFIG = {
 }
 
 if __name__ == "__main__":
-    artifacts = Path("artifacts")
+    artifacts = Path("test")
 
     # ------------ 1. Ingest the PDF, extract tables, titles, and text ------------
     t0 = time()
-    pages = [4, 5, 6, 7, 50, 51, 52, 53, 54, 55]
+    # pages = [4, 5, 6, 7, 50, 51, 52, 53, 54, 55]
+    pages = [5,6,7]
     # pages = []
     # ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DeepSeekExtractor(), pages = pages, out_file="01_pages.json")
     print(f"DeepSeek ingested in {time() - t0:.2f}s")
     
     t0 = time()
-    # ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DoclingExtractor(), pages = pages, out_file="00_pages.json")
-    print(f"Docling (OCR) ingested in {time() - t0:.2f}s")
+    ingest(Path("ornek_dokuman.pdf"), artifacts, extractor=DoclingExtractor(), pages = pages, out_file="00_pages.json")
+    print(f"Docling (OCR) ingested in {time() - t0:.2f}s")  
     
     # ------------ 2. Normalize the extracted tables into a standard format ------------
     t0 = time()

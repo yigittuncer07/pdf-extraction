@@ -6,10 +6,11 @@ docling[vlm]
 torchvision
 
 accelerate
-transformers
 bitsandbytes
 pdf2image
 
 sentence-transformers
 addict 
 matplotlib
+
+transformers==5.17.0

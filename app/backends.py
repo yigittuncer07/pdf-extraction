@@ -90,6 +90,11 @@ class DoclingExtractor(TableExtractor):
         kwargs = {"page_range": (min(pages), max(pages))} if pages else {}
         doc = self.converter.convert(str(pdf), **kwargs).document
 
+        t = doc.tables[0]
+        for c in t.data.table_cells[:12]:
+            print(c.start_row_offset_idx, c.start_col_offset_idx,
+                round(c.bbox.l, 1) if c.bbox else None, repr(c.text[:40]))
+
         page_map: dict[int, dict] = {}
 
         for item in doc.texts:

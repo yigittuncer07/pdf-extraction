@@ -1,5 +1,8 @@
 # yapikredi-pdf-extraction
 
+TODO: 
+- [ ] Write readme detailing findings
+- [ ] Try to get this out of the table using indentation from DeepSeek: ana kalem / alt kalem / toplam ilişkisi.
 
 ## PERSONAL NOTES:
 
