@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
     # ------------ 5. Generate candidate pairs of source and target tables ------------
     candidates = generate_candidates(
-        tables, CONFIG["pages"], found["pages"], CONFIG["note"], artifacts, context_mode="low"
+        tables, CONFIG["pages"], found["pages"], CONFIG["note"], artifacts, context_mode="high"
     )
     print(f"{len(candidates['sources'])} sources x {len(candidates['targets'])} targets "
           f"= {len(candidates['pairs'])} pairs")

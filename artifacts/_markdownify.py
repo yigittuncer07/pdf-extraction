@@ -2,6 +2,7 @@ import json
 import sys
 from pathlib import Path
 
+# Helper to view the json files. 
 
 def matrix_to_markdown(table: list[list[str]]) -> str:
     if not table:

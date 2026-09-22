@@ -1,7 +1,8 @@
+## THIS SCRIPT EXISTS BECAUSE DEEPSEEK AND DOCLING REQUIRE DIFFERENT VIRTUAL ENVIRONMENTS.
 #!/usr/bin/env bash
 set -e
 
-# Setup venvs if missing
+# setup venvs if missing
 [ ! -d ".venv-docling" ] && python3 -m venv .venv-docling && .venv-docling/bin/pip install -r requirements_docling.txt
 [ ! -d ".venv-deepseek" ] && python3 -m venv .venv-deepseek && .venv-deepseek/bin/pip install -r requirements_deepseek.txt
 

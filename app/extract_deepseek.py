@@ -6,7 +6,7 @@ if __name__ == "__main__":
     artifacts = ARTIFACTS_DIR
 
     # Ingest DeepSeek
-    ingest(INPUT_DOCUMENT, artifacts, extractor=DeepSeekExtractor(), pages=[4,5,6,7,53,54,55], out_file="01_pages.json")
+    ingest(INPUT_DOCUMENT, artifacts, extractor=DeepSeekExtractor(), pages=[], out_file="01_pages.json")
 
     # Splice Docling's indents
     docling = json.loads((artifacts / "00_pages.json").read_text())

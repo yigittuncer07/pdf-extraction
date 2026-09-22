@@ -1,13 +1,7 @@
 ### 1. Sayfa 5: Konsolide Bilanço (Varlıklar)
-
 * **Şirket Ünvanı:** ÖZAK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. VE BAĞLI ORTAKLIKLARI
-
-
 * **Tablo Başlığı:** BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO
-
-
 * **Para Birimi:** Türk Lirası (TL)
-
 
 | VARLIKLAR | Dipnot Referansları | 31 Aralık 2012 (TL) | 31 Aralık 2011 (TL) |
 | --- | --- | --- | --- |
@@ -32,27 +26,15 @@
 ---
 
 ### 2. Sayfa 6: Konsolide Bilanço (Kaynaklar)
-
 * **Şirket Ünvanı:** ÖZAK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. VE BAĞLI ORTAKLIKLARI
-
-
 * **Tablo Başlığı:** BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO
-
-
 * **Para Birimi:** Türk Lirası (TL)
-
 
 * **Sütun Başlıkları ve Dönem Bilgileri:**
 * Sütun 1: `KAYNAKLAR`
-
 * Sütun 2: `Dipnot Referansları`
-
 * Sütun 3: `Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012`
-
 * Sütun 4: `Bağımsız Denetimden Geçmiş Geçmiş Dönem 31 Aralık 2011`
-
-
-
 
 | KAYNAKLAR | Dipnot Referansları | 31 Aralık 2012 (TL) | 31 Aralık 2011 (TL) |
 | --- | --- | --- | --- |
@@ -88,28 +70,15 @@
 ---
 
 ### 3. Sayfa 7: Konsolide Kapsamlı Gelir Tablosu
-
 * **Şirket Ünvanı:** ÖZAK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş. VE BAĞLI ORTAKLIKLARI
-
-
 * **Tablo Başlığı:** BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU
-
-
 * **Para Birimi:** Türk Lirası (TL)
-
 
 * **Sütun Başlıkları ve Dönem Bilgileri:**
 * Sütun 1: Gelir Tablosu Kalemleri
-
-
 * Sütun 2: `Dipnot Referansları`
-
 * Sütun 3: `Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak - 31 Aralık 2012`
-
 * Sütun 4: `Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak - 31 Aralık 2011`
-
-
-
 
 | GELİR TABLOSU KALEMLERİ | Dipnot Referansları | 1 Ocak - 31 Aralık 2012 (TL) | 1 Ocak - 31 Aralık 2011 (TL) |
 | --- | --- | --- | --- |

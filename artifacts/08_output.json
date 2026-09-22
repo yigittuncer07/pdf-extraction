@@ -67,7 +67,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.642,
+      "confidence": 0.894,
       "flags": []
     },
     {
@@ -76,7 +76,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.66,
+      "confidence": 0.882,
       "flags": []
     },
     {
@@ -85,7 +85,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.606,
+      "confidence": 0.89,
       "flags": []
     },
     {
@@ -94,7 +94,7 @@
       "title": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı)",
       "kind": "note",
       "currency": "Türk Lirası (TL)",
-      "confidence": 0.66,
+      "confidence": 0.9,
       "flags": []
     }
   ],
@@ -3104,7 +3104,7 @@
           "raw": "227.317.822",
           "kind": "number",
           "number": "227317822",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3113,7 +3113,7 @@
           "raw": "196.262.178",
           "kind": "number",
           "number": "196262178",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3122,11 +3122,11 @@
           "raw": "423.580.000",
           "kind": "number",
           "number": "423580000",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -3188,7 +3188,7 @@
           "raw": "3.896.434",
           "kind": "number",
           "number": "3896434",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3197,8 +3197,10 @@
           "raw": "-",
           "kind": "dash",
           "number": null,
-          "confidence": 0.7,
-          "flags": []
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
         },
         {
           "column": "Toplam",
@@ -3206,11 +3208,11 @@
           "raw": "3.896.434",
           "kind": "number",
           "number": "3896434",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.86,
       "flags": []
     },
     {
@@ -3230,7 +3232,7 @@
           "raw": "(72.681.523)",
           "kind": "number",
           "number": "-72681523",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3239,8 +3241,10 @@
           "raw": "-",
           "kind": "dash",
           "number": null,
-          "confidence": 0.7,
-          "flags": []
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
         },
         {
           "column": "Toplam",
@@ -3248,11 +3252,11 @@
           "raw": "(72.681.523)",
           "kind": "number",
           "number": "-72681523",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.86,
       "flags": []
     },
     {
@@ -3272,7 +3276,7 @@
           "raw": "177.730.044",
           "kind": "number",
           "number": "177730044",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3281,7 +3285,7 @@
           "raw": "196.262.178",
           "kind": "number",
           "number": "196262178",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3290,11 +3294,11 @@
           "raw": "373.992.222",
           "kind": "number",
           "number": "373992222",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -3314,7 +3318,7 @@
           "raw": "177.730.044",
           "kind": "number",
           "number": "177730044",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3323,7 +3327,7 @@
           "raw": "196.262.178",
           "kind": "number",
           "number": "196262178",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3332,17 +3336,15 @@
           "raw": "373,992.222",
           "kind": "text",
           "number": null,
-          "confidence": 0.3,
+          "confidence": 0.36,
           "flags": [
             "VALUE_UNPARSED",
             "LOW_CONFIDENCE"
           ]
         }
       ],
-      "confidence": 0.567,
-      "flags": [
-        "LOW_CONFIDENCE"
-      ]
+      "confidence": 0.787,
+      "flags": []
     },
     {
       "id": "p053.t1.r00",
@@ -3403,7 +3405,7 @@
           "raw": "64.046.943",
           "kind": "number",
           "number": "64046943",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3412,7 +3414,7 @@
           "raw": "13.598.089",
           "kind": "number",
           "number": "13598089",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3421,11 +3423,11 @@
           "raw": "77.645.032",
           "kind": "number",
           "number": "77645032",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -3445,8 +3447,10 @@
           "raw": "-",
           "kind": "dash",
           "number": null,
-          "confidence": 0.7,
-          "flags": []
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
         },
         {
           "column": "Binalar",
@@ -3454,7 +3458,7 @@
           "raw": "(10.450.000)",
           "kind": "number",
           "number": "-10450000",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3463,11 +3467,11 @@
           "raw": "(10.450.000)",
           "kind": "number",
           "number": "-10450000",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.86,
       "flags": []
     },
     {
@@ -3529,7 +3533,7 @@
           "raw": "227.317.822",
           "kind": "number",
           "number": "227317822",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3538,7 +3542,7 @@
           "raw": "196.262.178",
           "kind": "number",
           "number": "196262178",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3547,11 +3551,11 @@
           "raw": "423.580.000",
           "kind": "number",
           "number": "423580000",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -3574,7 +3578,7 @@
           "raw": "%9",
           "kind": "number",
           "number": "9",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3586,11 +3590,13 @@
           "raw": "%10,5",
           "kind": "number",
           "number": "10.5",
-          "confidence": 0.7,
-          "flags": []
+          "confidence": 0.58,
+          "flags": [
+            "LOW_CONFIDENCE"
+          ]
         }
       ],
-      "confidence": 0.7,
+      "confidence": 0.79,
       "flags": []
     },
     {
@@ -3613,7 +3619,7 @@
           "raw": "%86,6",
           "kind": "number",
           "number": "86.6",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3625,11 +3631,11 @@
           "raw": "%80,8",
           "kind": "number",
           "number": "80.8",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -3652,7 +3658,7 @@
           "raw": "%3",
           "kind": "number",
           "number": "3",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3664,17 +3670,14 @@
           "raw": "%2-%4",
           "kind": "text",
           "number": null,
-          "confidence": 0.3,
+          "confidence": 0.6,
           "flags": [
-            "VALUE_UNPARSED",
-            "LOW_CONFIDENCE"
+            "VALUE_UNPARSED"
           ]
         }
       ],
-      "confidence": 0.5,
-      "flags": [
-        "LOW_CONFIDENCE"
-      ]
+      "confidence": 0.8,
+      "flags": []
     },
     {
       "id": "p054.t1.r00",
@@ -3696,7 +3699,7 @@
           "raw": "22.719.446",
           "kind": "number",
           "number": "22719446",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3708,11 +3711,11 @@
           "raw": "21.717.000",
           "kind": "number",
           "number": "21717000",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -3735,7 +3738,7 @@
           "raw": "81.026.895",
           "kind": "number",
           "number": "81026895",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3747,11 +3750,11 @@
           "raw": "138.538.000",
           "kind": "number",
           "number": "138538000",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -3774,7 +3777,7 @@
           "raw": "83.586.353",
           "kind": "number",
           "number": "83586353",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3786,11 +3789,11 @@
           "raw": "81.890.000",
           "kind": "number",
           "number": "81890000",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     },
     {
@@ -3813,7 +3816,7 @@
           "raw": "186.659.528",
           "kind": "number",
           "number": "186659528",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         },
         {
@@ -3825,21 +3828,34 @@
           "raw": "181.435.000",
           "kind": "number",
           "number": "181435000",
-          "confidence": 0.7,
+          "confidence": 1.0,
           "flags": []
         }
       ],
-      "confidence": 0.7,
+      "confidence": 1.0,
       "flags": []
     }
   ],
   "relations": [
     {
       "source_id": "p005.t0.r12",
-      "target_id": "p054.t1.r04",
-      "confidence": 0.65,
+      "target_id": "p053.t1.r04",
+      "confidence": 0.738,
       "confidence_parts": {
-        "model": 0.513,
+        "model": 0.619,
+        "rules": 0.85,
+        "upstream": 1.0
+      },
+      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+      "status": "accepted",
+      "flags": []
+    },
+    {
+      "source_id": "p005.t0.r12",
+      "target_id": "p054.t1.r04",
+      "confidence": 0.717,
+      "confidence_parts": {
+        "model": 0.635,
         "rules": 0.85,
         "upstream": 0.7
       },
@@ -3850,24 +3866,11 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p053.t0.r04",
-      "confidence": 0.643,
+      "confidence": 0.705,
       "confidence_parts": {
-        "model": 0.501,
+        "model": 0.559,
         "rules": 0.85,
-        "upstream": 0.7
-      },
-      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
-      "status": "accepted",
-      "flags": []
-    },
-    {
-      "source_id": "p005.t0.r12",
-      "target_id": "p053.t1.r04",
-      "confidence": 0.643,
-      "confidence_parts": {
-        "model": 0.501,
-        "rules": 0.85,
-        "upstream": 0.7
+        "upstream": 1.0
       },
       "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
       "status": "accepted",
@@ -3876,47 +3879,41 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p053.t0.r00",
-      "confidence": 0.582,
+      "confidence": 0.67,
       "confidence_parts": {
-        "model": 0.501,
+        "model": 0.607,
         "rules": 0.675,
-        "upstream": 0.7
+        "upstream": 1.0
       },
       "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
       "status": "accepted",
-      "flags": [
-        "LOW_CONFIDENCE"
-      ]
-    },
-    {
-      "source_id": "p007.t0.r05",
-      "target_id": "p053.t0.r02",
-      "confidence": 0.582,
-      "confidence_parts": {
-        "model": 0.502,
-        "rules": 0.675,
-        "upstream": 0.7
-      },
-      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
-      "status": "accepted",
-      "flags": [
-        "LOW_CONFIDENCE"
-      ]
+      "flags": []
     },
     {
       "source_id": "p007.t0.r05",
       "target_id": "p053.t1.r03",
-      "confidence": 0.582,
+      "confidence": 0.639,
       "confidence_parts": {
-        "model": 0.502,
+        "model": 0.605,
         "rules": 0.675,
         "upstream": 0.7
       },
       "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
       "status": "accepted",
-      "flags": [
-        "LOW_CONFIDENCE"
-      ]
+      "flags": []
+    },
+    {
+      "source_id": "p007.t0.r05",
+      "target_id": "p053.t0.r02",
+      "confidence": 0.626,
+      "confidence_parts": {
+        "model": 0.553,
+        "rules": 0.675,
+        "upstream": 0.86
+      },
+      "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+      "status": "accepted",
+      "flags": []
     }
   ],
   "validation": {
