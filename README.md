@@ -4,17 +4,7 @@
 
 7 aşamalı bir çözüm kullandım, her aşama belli bir formatta girdi ve çıktı alıyor ve ara aşamalar JSON şeklinde kaydediliyor (artifacts altında).
 
-```mermaid
-flowchart LR
-    A[PDF] --> B[PDF EXTRACTION]
-    B --> C[NORMALİZASYON]
-    C --> D[TABLO CONFIDENCE HESABI]
-    D --> E[SAYFA TESPİTİ]
-    E --> F[ADAY ÜRETİMİ]
-    F --> G[İLİŞKİLENDİRME]
-    G --> H[DOĞRULAMA]
-    H --> I[JSON Çıktısı]
-```
+PDF -> **PDF EXTRACTION** -> **NORMALIZASYON** -> **TABLO CONFIDENCE HESABI** -> **SAYFA TESPITI** -> **ADAY ÜRETİMİ** -> **İLİŞKİLENDİRME** -> **DOĞRULAMA** -> Tüm bilgileri içeren JSON dosyası.
 
 Deney kolaylığı ve geliştirebilirlik sağlamak için yaklaşım olabildiğince modüler tasarlandı, her aşamanın girdisi ve çıktısı veri formatına uyduğu sürece geliştirilebilir ve değiştirilebilir. 
 
@@ -78,7 +68,7 @@ Hiçbir model eğitilmedi, hepsi sadece inference. Tüm modeller local hardware 
 
 * **`BAAI/bge-reranker-v2-m3` (Cross-encoder):**
   * **Amaç:** Türkçe destekli cross-encoder performansını test etmek.
-  * **İşleyiş:** Çifti doğrudan girdi olarak alıp -1 ile 1 arasında tek bir alaka skoru üretir.
+  * **İşleyiş:** Çifti doğrudan girdi olarak alıp tek bir logit üretir, sigmoid ile [0,1]'e çekilir
 
 **Inference sırasında verilen bağlam.**  
 Her satır bağlamıyla zenginleştiriliyor:   
@@ -153,7 +143,12 @@ tablo confidence = 0.8 x row confidence + 0.2 x column confidence
 ```
 `column confidence`, bu tablonun kolon isimlerinin diğer extractor'ın aynı tablo için okuduğu isimlerle token örtüşmesidir. Satır sayısı genelde daha çok olduğu için daha çok ağırlık verildi (bir sonraki aşama olarak orana göre ağırlıklandırılabilir)
 
----
+**İlişki**  
+İlişki seviyesi confidence böyle hesaplandı:
+```
+confidence = 0.55 x model + 0.35 x rules + 0.10 x upstream
+``` 
+Daha fazla detayı "Adayların üretilmesi ve sıralanması" kısmında bulabilirsiniz.
 
 ## Tablo Normalizasyonu
 
@@ -243,7 +238,7 @@ Tüm pipeline çıktısı tek bir `08_output.json` dosyası olarak kaydedilir. V
 | `02_tables.json` | normalizasyon |
 | `03_confidence.json` | hücre / satır / tablo confidence |
 | `04_candidates.json` | aday çiftleri + bağlam |
-| `05_relations.json` | ilişkiler, her scorer için ayrı. |
+| `05_relations.json` | aday çiftleri arası hesaplanan confidence |
 | `05_linking_candidates.json` | puanlanan tüm adaylar logu |
 | `06_validation.json` | doğrulama bulguları |
 | `07_final_table.json` | doğrulama bulguları eklenmiş tablolar, yani son hali |
