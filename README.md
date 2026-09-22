@@ -51,13 +51,12 @@ PDF extraction aşamasında kullanılan Docling ve DeepSeek-OCR-2 farklı iki en
 Bu aşamada birkaç farklı yöntem denedim:
 
 1. **Tesseract OCR ve Docling**: Çok fazla rakam hatası ve kelime kayması olduğu için kullanılamazdı
-2. **Docling VLM ve Docling**: Çıktı kalitesi yine çok düşüktü
+2. **GraniteDocling VLM ve Docling**: Çıktı kalitesi yine çok düşüktü
 3. **Qwen2.5 VL**: Tablolarda kayıp çoktu, kullanılamaz düzeyde
 4. **Easy OCR ve Docling**: Kaymalar ve hatalar olsa da kabul edilebilir kalitede
 5. **DeepSeek OCR 2**: En iyi başarı, ancak tablo formatında sistematik olarak düzeltilebilir kaymalar oldu
 
-Sonuç olarak DeepSeek ve Easy OCR ile devam ettim. DeepSeek en iyi başarı gösterdiği için ana kaynak olarak onu tercih ettim,
-PDF içi pozisyonel değerler ve doğrulama için. İkinci bir çıktı olarak kullanmak içinse Docling tercih ettim (Easy OCR tabanı ile)
+Sonuç olarak DeepSeek ve Easy OCR ile devam ettim. DeepSeek en iyi başarı gösterdiği için ana kaynak olarak onu tercih ettim. PDF içi pozisyonel değerler ve doğrulama için ikinci bir çıktı olarak ise Docling'i tercih ettim (Easy OCR tabanı ile)
 
 Not: Tesseract'ın kendi confidence'ı hatalarıyla korelasyon göstermiyordu. Doğru değerlere düşük, yanlış değerlere yüksek confidence verdiği oluyordu, 
 bu yüzden OCR katmanının confidence'ını hesaplamaya katmadım.
@@ -86,8 +85,8 @@ Her satır bağlamıyla zenginleştiriliyor:
 Tablo başlığı, etiket kolonunun başlığı, alt kalemler için ana kalem, dipnot referansı ve boş olmayan tüm değerler kolon
 başlıklarıyla.
 
-Deney olarak bağlamı zenginleştirmeden, yalnızca kalem etiketi ve varsa ana kaleminin değerini de girdi olarak vermeyi denedim. 
-Kod'da bu candidate modülüne bağlam zenginliğini ayarlayan bir arguman ile ayarlanabiliyor. 
+Deney olarak bağlamı zenginleştirmeden, yalnızca kalem etiketi ve varsa ana kaleminin etiketini de girdi olarak vermeyi denedim. 
+Kod'da bu candidate modülüne bağlam zenginliğini ayarlayan bir argüman ile ayarlanabiliyor. 
 
 Zengin bağlam örneği:
 ```
@@ -100,8 +99,7 @@ ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller
 ```
 
 **Uzun doküman ve büyük tabloların parçalanması.**  
-İlişki satır seviyesinde olduğu için doğal birim satır + bağlamı, yaklaşık 50
-token. Bu yüzden bir chunking yaklaşımı gerekmedi.
+İlişki satır seviyesinde olduğu için doğal birim satır + bağlamı, yaklaşık 50 token. Bu yüzden bir chunking yaklaşımı gerekmedi.
 
 **Adayların üretilmesi ve sıralanması.**   
 Aday üretimi kural tabanlı: kaynak satırlar (dipnota referans veren) × hedef satırlar (dipnot sayfalarındaki tüm satırlar)
@@ -134,7 +132,7 @@ Model yüklenemezse veya hata verirse pipeline doğrudan RuleScorer'a düşüp s
 ## Confidence Yöntemi
 **Hücre.**
 ```
-hücre confidence = 0.4·parse + 0.6·agreement
+hücre confidence = 0.4 x parse + 0.6 x agreement
 ```
 - `parse`: hücre sayı / tire / boşluk olarak çözüldü mü (1.0 veya 0.0)
 - `agreement`: ikinci extractor aynı satır için ne okumuş:
@@ -143,8 +141,8 @@ hücre confidence = 0.4·parse + 0.6·agreement
 |---|---|
 | 1.0 | aynı metin |
 | 0.6 | aynı rakamlar, farklı ayırıcı (örneğin 133.123 ve 133,123) |
-| 0.3 | farklı rakamlar |
 | 0.5 | diğer extractor bu satırı hiç görmemiş |
+| 0.3 | farklı rakamlar |
 
 **Satır.**   
 Hücre confidence'larının ortalaması satır ortalaması olarak belirlendi.
@@ -153,8 +151,7 @@ Hücre confidence'larının ortalaması satır ortalaması olarak belirlendi.
 ```
 tablo confidence = 0.8 x row confidence + 0.2 x column confidence
 ```
-`column confidence`, bu tablonun kolon isimlerinin diğer extractor'ın aynı tablo için
-okuduğu isimlerle token örtüşmesi. Row sayısı genelde daha çok olduğu için daha çok ağırlık verildi (bir sonraki aşama olarak orana göre ağırlıklandırılabilir)
+`column confidence`, bu tablonun kolon isimlerinin diğer extractor'ın aynı tablo için okuduğu isimlerle token örtüşmesidir. Satır sayısı genelde daha çok olduğu için daha çok ağırlık verildi (bir sonraki aşama olarak orana göre ağırlıklandırılabilir)
 
 ---
 
@@ -211,10 +208,10 @@ Doğru threshold'lar seçildiğinde her iki yaklaşım da test edilen örneklerd
 * **Aşama:** Extraction 
 * **Sorun:** Docling tablolardaki `-` (tire) işaretlerini doğrudan boşluk olarak okudu. Ayrıca özet tablosundaki `Borç Karşılıkları` satırında geçen `504.851` gibi değerleri kaçırdı.
 * **Etkisi:** DeepSeek tireyi doğru yakalasa bile Docling boş gördüğü için `agreement` puanı düştü ve `LOW_CONFIDENCE` olarak flaglendi.
-* **Çözüm:** 2. Problem ile aynı
+* **Çözüm:** 2. Problem ile aynı.
 
 ## Çıktı Şeması
-Tüm pipeline çıktısı tek bir 08_output.json dosyası olarak kaydedilir. Veri modeli doküman üst bilgileri, tablolar, satırlar, ilişkiler ve doğrulama bulgularını tek bir yerde toplayan ilişkisel ve düz (flat) bir yapıda tasarlandı.
+Tüm pipeline çıktısı tek bir `08_output.json` dosyası olarak kaydedilir. Veri modeli doküman üst bilgileri, tablolar, satırlar, ilişkiler ve doğrulama bulgularını tek bir yerde toplayan ilişkisel ve düz (flat) bir yapıda tasarlandı.
 
 `08_output.json`:
 
@@ -247,7 +244,7 @@ Tüm pipeline çıktısı tek bir 08_output.json dosyası olarak kaydedilir. Ver
 | `03_confidence.json` | hücre / satır / tablo confidence |
 | `04_candidates.json` | aday çiftleri + bağlam |
 | `05_relations.json` | ilişkiler, her scorer için ayrı. |
-| `05_linking_candidates-*.jsonl` | puanlanan tüm adaylar logu |
+| `05_linking_candidates.json` | puanlanan tüm adaylar logu |
 | `06_validation.json` | doğrulama bulguları |
 | `07_final_table.json` | doğrulama bulguları eklenmiş tablolar, yani son hali |
 | `08_output.json` | **Tüm gerekli bilgileri içeren son çıktı** |
