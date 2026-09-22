@@ -12,13 +12,10 @@ flagged on the record itself.
 from __future__ import annotations
 
 import json
-import re
 from decimal import Decimal
 from pathlib import Path
 
 LOW_CONFIDENCE = 0.6
-YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
-
 
 def issue(code: str, group: str, scope: str, message: str) -> dict:
     return {"code": code, "group": group, "scope": scope, "message": message}
@@ -49,19 +46,12 @@ def check_parsing(tables: list[dict]) -> list[dict]:
 
 
 def check_metadata(tables: list[dict]) -> list[dict]:
-    """Currency and period have to survive extraction. A column header
-    naming a year must have produced a parsed period.
-    """
+    """Currency has to survive extraction."""
     out = []
     for table in tables:
         if not table["currency"]:
             out.append(issue("CURRENCY_MISSING", "format", table["id"],
                              "no currency on the page"))
-        for column in table["columns"]:
-            if column["role"] == "value" and not column["period"] \
-                    and YEAR_RE.search(column["header"]):
-                out.append(issue("PERIOD_LOST", "format", f"{table['id']}.{column['id']}",
-                                 f"{column['header']!r} names a year but no period was parsed"))
     return out
 
 
