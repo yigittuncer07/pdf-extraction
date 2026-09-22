@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import json
 from abc import ABC, abstractmethod
-from decimal import Decimal, InvalidOperation
+from decimal import Decimal
 import math
 from pathlib import Path
 
@@ -151,16 +151,18 @@ def link(
 
         scored.sort(key=lambda s: -s[0])
 
-        # Record full candidate score distribution for threshold analysis
+        # record full candidate score distribution for threshold analysis
         if log_path:
             log_records.append({
                 "source_id": source["id"],
                 "source_label": source.get("label"),
+                "source_context": source.get("context"),
                 "method": scorer.name,
                 "candidates": [
                     {
                         "target_id": t["id"],
                         "target_label": t.get("label"),
+                        "target_context": t.get("context"),
                         "confidence": total,
                         "confidence_parts": parts,
                         "passed_threshold": total >= threshold,
@@ -202,9 +204,7 @@ def link(
             })
 
     if log_path and log_records:
-        with open(log_path, "w", encoding="utf-8") as f:
-            for record in log_records:
-                f.write(json.dumps(record, ensure_ascii=False) + "\n")
+        log_path.write_text(json.dumps(log_records, ensure_ascii=False, indent=2))
 
     return relations
 
@@ -212,7 +212,7 @@ def link(
 def run(
     candidates: dict, scorer: Scorer, out_dir: Path, threshold: float,
 ) -> list[dict]:
-    log_path = out_dir / "05_linking_candidates.jsonl"
+    log_path = out_dir / "05_linking_candidate.jsonl"
     relations = link(candidates, scorer, threshold, log_path=log_path)
     (out_dir / "05_relations.json").write_text(
         json.dumps(relations, ensure_ascii=False, indent=2)
