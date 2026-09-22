@@ -154,6 +154,8 @@ Daha fazla detayı "Adayların üretilmesi ve sıralanması" kısmında bulabili
 
 Tüm sayısal değerler kurala uygun şekilde parse edildi: parantezler negatif, noktalar binlik ve virgüller ondalık ayırıcı olarak işlendi.
 
+Tire, boş hücre ve sıfır ayrı tutuluyor (kind: dash / empty / number). Ayırıcı düzeni geçerli olmayan değerler sayıya çevrilmiyor, text kalıyor ve doğrulamada işaretleniyor.
+
 **Ana Kalem / Alt Kalem / Toplam İlişkisi:**
 Bu ilişkiyi yalnızca bilanço tabloları için çıkardım:
 - Alt kalemler: Metin içindeki - önekiyle doğrudan tespit edildi.
@@ -170,7 +172,7 @@ Tüm alt kalemlerin toplamının ana kaleme tekabül etmesi bekleniyor (bilanço
 | yapısal | `NOTE_PAGE_UNVERIFIED` | içindekiler ve dipnot başlığı farklı sayfa söylüyor |
 | format | `VALUE_UNPARSED` | değer hücresi sayı/tire/boşluk olarak çözülmedi |
 | format | `CURRENCY_MISSING` | sayfada para birimi yok |
-| finansal | `SUBITEM_MISMATCH` | alt kalemler ana kaleme toplanmıyor |
+| finansal | `SUM_MISMATCH` | alt kalemler ana kaleme toplanmıyor |
 | finansal | `VALUE_NOT_IN_NOTE` | dipnota referans veren özet değer dipnotta bulunmuyor (tam hata olduğu anlamına gelmese de tuttum) |
 
 Her tablo, satır, hücre ve ilişki bir `flags` listesi tutuyor. Buraya geçemediği kontrollerin kodları ve puanı 0.6'nın altındaysa `LOW_CONFIDENCE` ekleniyor.
@@ -183,7 +185,7 @@ Doğru threshold'lar seçildiğinde her iki yaklaşım da test edilen örneklerd
 
 * **Bi-encoder:** Hem az hem çok bağlam verildiğinde satırlar arası benzerlikleri birbirine çok yakın çıkardı ve adayları ayırt edemedi. Adayların hepsi zaten aynı dipnottaki benzer finansal satırlar olduğu için model tek başına yetersiz kaldı. Sıralamayı doğru yapabilmesini tamamen hibrit taraftaki kurallar sağladı. Bu durum finansal domain için eğitilmiş daha özelleşmiş modellerle aşılabilir.
 * **Cross-encoder:** Satır çiftlerini doğrudan kıyaslayabildiği için tek başına da anlamlı bir sıralama ve ayrım oluşturabildi.
-* **Kuralların Rolü:** Kurallar iki modele de net fayda sağladı, özellikle bi-encoder tarafında doğru sıralamayı neredeyse tek başına belirledi.
+* **Kurallar:** Kurallar iki modele de net fayda sağladı, özellikle bi-encoder tarafında doğru sıralamayı neredeyse tek başına belirledi.
 
 ## Hata Analizi
 

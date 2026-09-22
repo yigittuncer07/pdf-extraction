@@ -164,7 +164,7 @@ class DeepSeekExtractor(TableExtractor):
 
     def extract(self, pdf: Path, pages: list[int] | None = None) -> list[dict]:
         self._load()
-        if pages is None:
+        if pages is None or pages == []:
             pages = range(1, pdfinfo_from_path(str(pdf))["Pages"] + 1)
 
         out = []
