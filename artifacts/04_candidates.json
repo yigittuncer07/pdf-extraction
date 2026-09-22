@@ -5,7 +5,7 @@
       "id": "p005.t0.r12",
       "label": "Yatırım Amaçlı Gayrimenkuller",
       "table_id": "p005.t0",
-      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO | ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller | dipnot: 11 | Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012: 373.992.222 | Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011: 423.580.000",
+      "context": "ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller",
       "values": {
         "c2": "373992222",
         "c3": "423580000"
@@ -21,7 +21,7 @@
       "id": "p007.t0.r05",
       "label": "Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
       "table_id": "p007.t0",
-      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU | kalem: Yatırım Amaçlı Gayrimenkul Değerleme Farkları | dipnot: 11 | Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012: 3.896.434 | Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011: 151.350.000",
+      "context": "kalem: Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
       "values": {
         "c2": "3896434",
         "c3": "151350000"
@@ -39,7 +39,7 @@
       "id": "p053.t0.r00",
       "label": "1 Ocak 2012 itibari ile açılış bakiyesi",
       "table_id": "p053.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: 1 Ocak 2012 itibari ile açılış bakiyesi | Arazi ve Arsalar: 227.317.822 | Binalar: 196.262.178 | Toplam: 423.580.000",
+      "context": "kalem: 1 Ocak 2012 itibari ile açılış bakiyesi",
       "values": {
         "c1": "227317822",
         "c2": "196262178",
@@ -53,7 +53,7 @@
       "id": "p053.t0.r01",
       "label": "Alım sonrası yapılan harcamalar",
       "table_id": "p053.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: Alım sonrası yapılan harcamalar | Arazi ve Arsalar: 19.197.311 | Binalar: - | Toplam: 19.197.311",
+      "context": "kalem: Alım sonrası yapılan harcamalar",
       "values": {
         "c1": "19197311",
         "c3": "19197311"
@@ -66,7 +66,7 @@
       "id": "p053.t0.r02",
       "label": "Makul değer değişikliğinden kaynaklanan kazanç",
       "table_id": "p053.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: Makul değer değişikliğinden kaynaklanan kazanç | Arazi ve Arsalar: 3.896.434 | Binalar: - | Toplam: 3.896.434",
+      "context": "kalem: Makul değer değişikliğinden kaynaklanan kazanç",
       "values": {
         "c1": "3896434",
         "c3": "3896434"
@@ -79,7 +79,7 @@
       "id": "p053.t0.r03",
       "label": "Stoklara transferler (*)",
       "table_id": "p053.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: Stoklara transferler (*) | Arazi ve Arsalar: (72.681.523) | Binalar: - | Toplam: (72.681.523)",
+      "context": "kalem: Stoklara transferler (*)",
       "values": {
         "c1": "-72681523",
         "c3": "-72681523"
@@ -92,7 +92,7 @@
       "id": "p053.t0.r04",
       "label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
       "table_id": "p053.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: 31 Aralık 2012 itibari ile kapanış bakiyesi | Arazi ve Arsalar: 177.730.044 | Binalar: 196.262.178 | Toplam: 373.992.222",
+      "context": "kalem: 31 Aralık 2012 itibari ile kapanış bakiyesi",
       "values": {
         "c1": "177730044",
         "c2": "196262178",
@@ -106,7 +106,7 @@
       "id": "p053.t0.r05",
       "label": "31 Aralık 2012 itibari ile net defter değeri",
       "table_id": "p053.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: 31 Aralık 2012 itibari ile net defter değeri | Arazi ve Arsalar: 177.730.044 | Binalar: 196.262.178 | Toplam: 373,992.222",
+      "context": "kalem: 31 Aralık 2012 itibari ile net defter değeri",
       "values": {
         "c1": "177730044",
         "c2": "196262178"
@@ -119,7 +119,7 @@
       "id": "p053.t1.r00",
       "label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
       "table_id": "p053.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: 1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş) | Arazi ve Arsalar: 82.097.790 | Binalar: 122.937.178 | Toplam: 205.034.968",
+      "context": "kalem: 1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
       "values": {
         "c1": "82097790",
         "c2": "122937178",
@@ -133,7 +133,7 @@
       "id": "p053.t1.r01",
       "label": "Alımlar (*)",
       "table_id": "p053.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: Alımlar (*) | Arazi ve Arsalar: 64.046.943 | Binalar: 13.598.089 | Toplam: 77.645.032",
+      "context": "kalem: Alımlar (*)",
       "values": {
         "c1": "64046943",
         "c2": "13598089",
@@ -147,7 +147,7 @@
       "id": "p053.t1.r02",
       "label": "Çıkışlar (**)",
       "table_id": "p053.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: Çıkışlar (**) | Arazi ve Arsalar: - | Binalar: (10.450.000) | Toplam: (10.450.000)",
+      "context": "kalem: Çıkışlar (**)",
       "values": {
         "c2": "-10450000",
         "c3": "-10450000"
@@ -160,7 +160,7 @@
       "id": "p053.t1.r03",
       "label": "Makul değer değişikliğinden kaynaklananan kazanç",
       "table_id": "p053.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: Makul değer değişikliğinden kaynaklananan kazanç | Arazi ve Arsalar: 81.173.089 | Binalar: 70.176.911 | Toplam: 151.350.000",
+      "context": "kalem: Makul değer değişikliğinden kaynaklananan kazanç",
       "values": {
         "c1": "81173089",
         "c2": "70176911",
@@ -174,7 +174,7 @@
       "id": "p053.t1.r04",
       "label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
       "table_id": "p053.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER | kalem: 31 Aralık 2011 itibari ile kapanış bakiyesi | Arazi ve Arsalar: 227.317.822 | Binalar: 196.262.178 | Toplam: 423.580.000",
+      "context": "kalem: 31 Aralık 2011 itibari ile kapanış bakiyesi",
       "values": {
         "c1": "227317822",
         "c2": "196262178",
@@ -188,7 +188,7 @@
       "id": "p054.t0.r00",
       "label": "İskonto oranı (%)",
       "table_id": "p054.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | kalem: İskonto oranı (%) | 31 Aralık 2012: %9 | 31 Aralık 2011: %10,5",
+      "context": "kalem: İskonto oranı (%)",
       "values": {
         "c1": "9",
         "c2": "10.5"
@@ -204,7 +204,7 @@
       "id": "p054.t0.r01",
       "label": "Doluluk oranı (%)(*)",
       "table_id": "p054.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | kalem: Doluluk oranı (%)(*) | 31 Aralık 2012: %86,6 | 31 Aralık 2011: %80,8",
+      "context": "kalem: Doluluk oranı (%)(*)",
       "values": {
         "c1": "86.6",
         "c2": "80.8"
@@ -220,7 +220,7 @@
       "id": "p054.t0.r02",
       "label": "Kira artış oranı (%)",
       "table_id": "p054.t0",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | kalem: Kira artış oranı (%) | 31 Aralık 2012: %3 | 31 Aralık 2011: %2-%4",
+      "context": "kalem: Kira artış oranı (%)",
       "values": {
         "c1": "3"
       },
@@ -235,7 +235,7 @@
       "id": "p054.t1.r00",
       "label": "Bağcılar Arsa",
       "table_id": "p054.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | kalem: Bağcılar Arsa | 31 Aralık 2012: 22.719.446 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 21.717.000",
+      "context": "kalem: Bağcılar Arsa",
       "values": {
         "c1": "22719446",
         "c2": "21717000"
@@ -251,7 +251,7 @@
       "id": "p054.t1.r01",
       "label": "Bayrampaşa Arsa (*)",
       "table_id": "p054.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | kalem: Bayrampaşa Arsa (*) | 31 Aralık 2012: 81.026.895 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 138.538.000",
+      "context": "kalem: Bayrampaşa Arsa (*)",
       "values": {
         "c1": "81026895",
         "c2": "138538000"
@@ -267,7 +267,7 @@
       "id": "p054.t1.r02",
       "label": "Güneşli Bina",
       "table_id": "p054.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | kalem: Güneşli Bina | 31 Aralık 2012: 83.586.353 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 81.890.000",
+      "context": "kalem: Güneşli Bina",
       "values": {
         "c1": "83586353",
         "c2": "81890000"
@@ -283,7 +283,7 @@
       "id": "p054.t1.r03",
       "label": "İkitelli Bina",
       "table_id": "p054.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | kalem: İkitelli Bina | 31 Aralık 2012: 186.659.528 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 181.435.000",
+      "context": "kalem: İkitelli Bina",
       "values": {
         "c1": "186659528",
         "c2": "181435000"
@@ -299,7 +299,7 @@
       "id": "p054.t1.r04",
       "label": "",
       "table_id": "p054.t1",
-      "context": "11. YATIRIM AMAÇLI GAYRİMENKULLER (devamı) | kalem: (toplam satırı) | 31 Aralık 2012: 373.992.222 | 31 Aralık 2011 Gerçeğe Uygun Değeri: 423.580.000",
+      "context": "kalem: (toplam satırı)",
       "values": {
         "c1": "373992222",
         "c2": "423580000"

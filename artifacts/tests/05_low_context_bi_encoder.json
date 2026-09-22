@@ -3,15 +3,15 @@
     "source_id": "p005.t0.r12",
     "source_label": "Yatırım Amaçlı Gayrimenkuller",
     "source_context": "ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller",
-    "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+    "method": "embedding:intfloat/multilingual-e5-base",
     "candidates": [
       {
         "target_id": "p054.t1.r04",
         "target_label": "",
         "target_context": "kalem: (toplam satırı)",
-        "confidence": 0.65,
+        "confidence": 0.871,
         "confidence_parts": {
-          "model": 0.513,
+          "model": 0.915,
           "rules": 0.85,
           "upstream": 0.7
         },
@@ -21,9 +21,9 @@
         "target_id": "p053.t0.r04",
         "target_label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
         "target_context": "kalem: 31 Aralık 2012 itibari ile kapanış bakiyesi",
-        "confidence": 0.643,
+        "confidence": 0.868,
         "confidence_parts": {
-          "model": 0.501,
+          "model": 0.91,
           "rules": 0.85,
           "upstream": 0.7
         },
@@ -33,9 +33,9 @@
         "target_id": "p053.t1.r04",
         "target_label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
         "target_context": "kalem: 31 Aralık 2011 itibari ile kapanış bakiyesi",
-        "confidence": 0.643,
+        "confidence": 0.866,
         "confidence_parts": {
-          "model": 0.501,
+          "model": 0.907,
           "rules": 0.85,
           "upstream": 0.7
         },
@@ -45,45 +45,21 @@
         "target_id": "p053.t0.r00",
         "target_label": "1 Ocak 2012 itibari ile açılış bakiyesi",
         "target_context": "kalem: 1 Ocak 2012 itibari ile açılış bakiyesi",
-        "confidence": 0.582,
+        "confidence": 0.806,
         "confidence_parts": {
-          "model": 0.501,
+          "model": 0.908,
           "rules": 0.675,
           "upstream": 0.7
         },
         "passed_threshold": true
       },
       {
-        "target_id": "p053.t1.r01",
-        "target_label": "Alımlar (*)",
-        "target_context": "kalem: Alımlar (*)",
-        "confidence": 0.393,
-        "confidence_parts": {
-          "model": 0.508,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t1.r02",
-        "target_label": "Çıkışlar (**)",
-        "target_context": "kalem: Çıkışlar (**)",
-        "confidence": 0.392,
-        "confidence_parts": {
-          "model": 0.506,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
         "target_id": "p054.t1.r00",
         "target_label": "Bağcılar Arsa",
         "target_context": "kalem: Bağcılar Arsa",
-        "confidence": 0.392,
+        "confidence": 0.623,
         "confidence_parts": {
-          "model": 0.506,
+          "model": 0.925,
           "rules": 0.125,
           "upstream": 0.7
         },
@@ -93,57 +69,9 @@
         "target_id": "p053.t0.r01",
         "target_label": "Alım sonrası yapılan harcamalar",
         "target_context": "kalem: Alım sonrası yapılan harcamalar",
-        "confidence": 0.39,
+        "confidence": 0.62,
         "confidence_parts": {
-          "model": 0.503,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t1.r00",
-        "target_label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
-        "target_context": "kalem: 1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
-        "confidence": 0.39,
-        "confidence_parts": {
-          "model": 0.502,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t1.r01",
-        "target_label": "Bayrampaşa Arsa (*)",
-        "target_context": "kalem: Bayrampaşa Arsa (*)",
-        "confidence": 0.39,
-        "confidence_parts": {
-          "model": 0.503,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t1.r02",
-        "target_label": "Güneşli Bina",
-        "target_context": "kalem: Güneşli Bina",
-        "confidence": 0.39,
-        "confidence_parts": {
-          "model": 0.502,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t1.r03",
-        "target_label": "İkitelli Bina",
-        "target_context": "kalem: İkitelli Bina",
-        "confidence": 0.39,
-        "confidence_parts": {
-          "model": 0.502,
+          "model": 0.921,
           "rules": 0.125,
           "upstream": 0.7
         },
@@ -153,21 +81,9 @@
         "target_id": "p053.t0.r02",
         "target_label": "Makul değer değişikliğinden kaynaklanan kazanç",
         "target_context": "kalem: Makul değer değişikliğinden kaynaklanan kazanç",
-        "confidence": 0.389,
+        "confidence": 0.62,
         "confidence_parts": {
-          "model": 0.5,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t0.r03",
-        "target_label": "Stoklara transferler (*)",
-        "target_context": "kalem: Stoklara transferler (*)",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.501,
+          "model": 0.92,
           "rules": 0.125,
           "upstream": 0.7
         },
@@ -177,21 +93,9 @@
         "target_id": "p053.t1.r03",
         "target_label": "Makul değer değişikliğinden kaynaklananan kazanç",
         "target_context": "kalem: Makul değer değişikliğinden kaynaklananan kazanç",
-        "confidence": 0.389,
+        "confidence": 0.62,
         "confidence_parts": {
-          "model": 0.5,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t0.r00",
-        "target_label": "İskonto oranı (%)",
-        "target_context": "kalem: İskonto oranı (%)",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.5,
+          "model": 0.92,
           "rules": 0.125,
           "upstream": 0.7
         },
@@ -201,9 +105,105 @@
         "target_id": "p054.t0.r01",
         "target_label": "Doluluk oranı (%)(*)",
         "target_context": "kalem: Doluluk oranı (%)(*)",
-        "confidence": 0.389,
+        "confidence": 0.619,
         "confidence_parts": {
-          "model": 0.5,
+          "model": 0.919,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t1.r03",
+        "target_label": "İkitelli Bina",
+        "target_context": "kalem: İkitelli Bina",
+        "confidence": 0.619,
+        "confidence_parts": {
+          "model": 0.919,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t0.r00",
+        "target_label": "İskonto oranı (%)",
+        "target_context": "kalem: İskonto oranı (%)",
+        "confidence": 0.618,
+        "confidence_parts": {
+          "model": 0.916,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t1.r02",
+        "target_label": "Güneşli Bina",
+        "target_context": "kalem: Güneşli Bina",
+        "confidence": 0.618,
+        "confidence_parts": {
+          "model": 0.917,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t1.r01",
+        "target_label": "Alımlar (*)",
+        "target_context": "kalem: Alımlar (*)",
+        "confidence": 0.616,
+        "confidence_parts": {
+          "model": 0.913,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t1.r01",
+        "target_label": "Bayrampaşa Arsa (*)",
+        "target_context": "kalem: Bayrampaşa Arsa (*)",
+        "confidence": 0.616,
+        "confidence_parts": {
+          "model": 0.913,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t0.r03",
+        "target_label": "Stoklara transferler (*)",
+        "target_context": "kalem: Stoklara transferler (*)",
+        "confidence": 0.615,
+        "confidence_parts": {
+          "model": 0.912,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t1.r02",
+        "target_label": "Çıkışlar (**)",
+        "target_context": "kalem: Çıkışlar (**)",
+        "confidence": 0.614,
+        "confidence_parts": {
+          "model": 0.91,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t1.r00",
+        "target_label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
+        "target_context": "kalem: 1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
+        "confidence": 0.612,
+        "confidence_parts": {
+          "model": 0.905,
           "rules": 0.125,
           "upstream": 0.7
         },
@@ -213,9 +213,9 @@
         "target_id": "p053.t0.r05",
         "target_label": "31 Aralık 2012 itibari ile net defter değeri",
         "target_context": "kalem: 31 Aralık 2012 itibari ile net defter değeri",
-        "confidence": 0.376,
+        "confidence": 0.603,
         "confidence_parts": {
-          "model": 0.501,
+          "model": 0.914,
           "rules": 0.125,
           "upstream": 0.567
         },
@@ -225,9 +225,9 @@
         "target_id": "p054.t0.r02",
         "target_label": "Kira artış oranı (%)",
         "target_context": "kalem: Kira artış oranı (%)",
-        "confidence": 0.369,
+        "confidence": 0.603,
         "confidence_parts": {
-          "model": 0.5,
+          "model": 0.925,
           "rules": 0.125,
           "upstream": 0.5
         },
@@ -239,159 +239,39 @@
     "source_id": "p007.t0.r05",
     "source_label": "Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
     "source_context": "kalem: Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
-    "method": "cross-encoder:BAAI/bge-reranker-v2-m3",
+    "method": "embedding:intfloat/multilingual-e5-base",
     "candidates": [
-      {
-        "target_id": "p053.t0.r02",
-        "target_label": "Makul değer değişikliğinden kaynaklanan kazanç",
-        "target_context": "kalem: Makul değer değişikliğinden kaynaklanan kazanç",
-        "confidence": 0.582,
-        "confidence_parts": {
-          "model": 0.502,
-          "rules": 0.675,
-          "upstream": 0.7
-        },
-        "passed_threshold": true
-      },
       {
         "target_id": "p053.t1.r03",
         "target_label": "Makul değer değişikliğinden kaynaklananan kazanç",
         "target_context": "kalem: Makul değer değişikliğinden kaynaklananan kazanç",
-        "confidence": 0.582,
+        "confidence": 0.813,
         "confidence_parts": {
-          "model": 0.502,
+          "model": 0.922,
           "rules": 0.675,
           "upstream": 0.7
         },
         "passed_threshold": true
       },
       {
-        "target_id": "p053.t1.r01",
-        "target_label": "Alımlar (*)",
-        "target_context": "kalem: Alımlar (*)",
-        "confidence": 0.392,
+        "target_id": "p053.t0.r02",
+        "target_label": "Makul değer değişikliğinden kaynaklanan kazanç",
+        "target_context": "kalem: Makul değer değişikliğinden kaynaklanan kazanç",
+        "confidence": 0.812,
         "confidence_parts": {
-          "model": 0.505,
-          "rules": 0.125,
+          "model": 0.92,
+          "rules": 0.675,
           "upstream": 0.7
         },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t1.r04",
-        "target_label": "",
-        "target_context": "kalem: (toplam satırı)",
-        "confidence": 0.391,
-        "confidence_parts": {
-          "model": 0.504,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t0.r00",
-        "target_label": "1 Ocak 2012 itibari ile açılış bakiyesi",
-        "target_context": "kalem: 1 Ocak 2012 itibari ile açılış bakiyesi",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.5,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
+        "passed_threshold": true
       },
       {
         "target_id": "p053.t0.r01",
         "target_label": "Alım sonrası yapılan harcamalar",
         "target_context": "kalem: Alım sonrası yapılan harcamalar",
-        "confidence": 0.389,
+        "confidence": 0.62,
         "confidence_parts": {
-          "model": 0.501,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t0.r03",
-        "target_label": "Stoklara transferler (*)",
-        "target_context": "kalem: Stoklara transferler (*)",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.5,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t0.r04",
-        "target_label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
-        "target_context": "kalem: 31 Aralık 2012 itibari ile kapanış bakiyesi",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.5,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t1.r00",
-        "target_label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
-        "target_context": "kalem: 1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.501,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t1.r02",
-        "target_label": "Çıkışlar (**)",
-        "target_context": "kalem: Çıkışlar (**)",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.501,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p053.t1.r04",
-        "target_label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
-        "target_context": "kalem: 31 Aralık 2011 itibari ile kapanış bakiyesi",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.5,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t0.r00",
-        "target_label": "İskonto oranı (%)",
-        "target_context": "kalem: İskonto oranı (%)",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.501,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t0.r01",
-        "target_label": "Doluluk oranı (%)(*)",
-        "target_context": "kalem: Doluluk oranı (%)(*)",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.5,
+          "model": 0.921,
           "rules": 0.125,
           "upstream": 0.7
         },
@@ -401,33 +281,9 @@
         "target_id": "p054.t1.r00",
         "target_label": "Bağcılar Arsa",
         "target_context": "kalem: Bağcılar Arsa",
-        "confidence": 0.389,
+        "confidence": 0.619,
         "confidence_parts": {
-          "model": 0.5,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t1.r01",
-        "target_label": "Bayrampaşa Arsa (*)",
-        "target_context": "kalem: Bayrampaşa Arsa (*)",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.5,
-          "rules": 0.125,
-          "upstream": 0.7
-        },
-        "passed_threshold": false
-      },
-      {
-        "target_id": "p054.t1.r02",
-        "target_label": "Güneşli Bina",
-        "target_context": "kalem: Güneşli Bina",
-        "confidence": 0.389,
-        "confidence_parts": {
-          "model": 0.5,
+          "model": 0.919,
           "rules": 0.125,
           "upstream": 0.7
         },
@@ -437,9 +293,153 @@
         "target_id": "p054.t1.r03",
         "target_label": "İkitelli Bina",
         "target_context": "kalem: İkitelli Bina",
-        "confidence": 0.389,
+        "confidence": 0.619,
         "confidence_parts": {
-          "model": 0.5,
+          "model": 0.918,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t0.r00",
+        "target_label": "İskonto oranı (%)",
+        "target_context": "kalem: İskonto oranı (%)",
+        "confidence": 0.617,
+        "confidence_parts": {
+          "model": 0.915,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t1.r02",
+        "target_label": "Güneşli Bina",
+        "target_context": "kalem: Güneşli Bina",
+        "confidence": 0.617,
+        "confidence_parts": {
+          "model": 0.915,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t0.r01",
+        "target_label": "Doluluk oranı (%)(*)",
+        "target_context": "kalem: Doluluk oranı (%)(*)",
+        "confidence": 0.616,
+        "confidence_parts": {
+          "model": 0.914,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t1.r04",
+        "target_label": "",
+        "target_context": "kalem: (toplam satırı)",
+        "confidence": 0.616,
+        "confidence_parts": {
+          "model": 0.914,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t0.r00",
+        "target_label": "1 Ocak 2012 itibari ile açılış bakiyesi",
+        "target_context": "kalem: 1 Ocak 2012 itibari ile açılış bakiyesi",
+        "confidence": 0.614,
+        "confidence_parts": {
+          "model": 0.909,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t1.r01",
+        "target_label": "Alımlar (*)",
+        "target_context": "kalem: Alımlar (*)",
+        "confidence": 0.614,
+        "confidence_parts": {
+          "model": 0.909,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t1.r02",
+        "target_label": "Çıkışlar (**)",
+        "target_context": "kalem: Çıkışlar (**)",
+        "confidence": 0.614,
+        "confidence_parts": {
+          "model": 0.909,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t0.r04",
+        "target_label": "31 Aralık 2012 itibari ile kapanış bakiyesi",
+        "target_context": "kalem: 31 Aralık 2012 itibari ile kapanış bakiyesi",
+        "confidence": 0.613,
+        "confidence_parts": {
+          "model": 0.908,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t1.r00",
+        "target_label": "1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
+        "target_context": "kalem: 1 Ocak 2011 itibari ile açılış bakiyesi (Yeniden Düzenlenmiş)",
+        "confidence": 0.613,
+        "confidence_parts": {
+          "model": 0.907,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p054.t1.r01",
+        "target_label": "Bayrampaşa Arsa (*)",
+        "target_context": "kalem: Bayrampaşa Arsa (*)",
+        "confidence": 0.613,
+        "confidence_parts": {
+          "model": 0.908,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t1.r04",
+        "target_label": "31 Aralık 2011 itibari ile kapanış bakiyesi",
+        "target_context": "kalem: 31 Aralık 2011 itibari ile kapanış bakiyesi",
+        "confidence": 0.612,
+        "confidence_parts": {
+          "model": 0.905,
+          "rules": 0.125,
+          "upstream": 0.7
+        },
+        "passed_threshold": false
+      },
+      {
+        "target_id": "p053.t0.r03",
+        "target_label": "Stoklara transferler (*)",
+        "target_context": "kalem: Stoklara transferler (*)",
+        "confidence": 0.61,
+        "confidence_parts": {
+          "model": 0.903,
           "rules": 0.125,
           "upstream": 0.7
         },
@@ -449,9 +449,9 @@
         "target_id": "p053.t0.r05",
         "target_label": "31 Aralık 2012 itibari ile net defter değeri",
         "target_context": "kalem: 31 Aralık 2012 itibari ile net defter değeri",
-        "confidence": 0.375,
+        "confidence": 0.604,
         "confidence_parts": {
-          "model": 0.5,
+          "model": 0.916,
           "rules": 0.125,
           "upstream": 0.567
         },
@@ -461,9 +461,9 @@
         "target_id": "p054.t0.r02",
         "target_label": "Kira artış oranı (%)",
         "target_context": "kalem: Kira artış oranı (%)",
-        "confidence": 0.369,
+        "confidence": 0.601,
         "confidence_parts": {
-          "model": 0.5,
+          "model": 0.923,
           "rules": 0.125,
           "upstream": 0.5
         },
