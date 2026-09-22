@@ -37,7 +37,7 @@ if __name__ == "__main__":
           f"= {len(candidates['pairs'])} pairs")
 
     # ------------ 6. Link line items to footnote rows ------------
-    if False: # enable to test embedding vs cross encoder scorers
+    if False : # enable to test embedding vs cross encoder scorers
         t0 = time()
         try:
             scorer = EmbeddingScorer()
