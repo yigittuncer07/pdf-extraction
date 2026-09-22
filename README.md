@@ -16,19 +16,19 @@ flowchart LR
     H --> I[JSON Çıktısı]
 ```
 
-Deney kolaylığı ve geliştirebilirlik sağlamak için yaklaşım olabildiğince mödüler tasarlandı, her aşamanın girdisi ve çıktısı veri formatına uyduğu sürece geliştirilebilir ve değiştirilebilir. 
+Deney kolaylığı ve geliştirebilirlik sağlamak için yaklaşım olabildiğince modüler tasarlandı, her aşamanın girdisi ve çıktısı veri formatına uyduğu sürece geliştirilebilir ve değiştirilebilir. 
 
 Aşamaların açıklamaları:
 1. **PDF EXTRACTION**:
-Öncelikle PDF ten tablolar, sayfa numaralı, başlıklar ve diğer gerekli bilgiler OCR ve VLM kullanılarak JSON formatında kaydedildi.
+Öncelikle PDF'ten tablolar, sayfa numaraları, başlıklar ve diğer gerekli bilgiler OCR ve VLM kullanılarak JSON formatında kaydedildi.
 2. **NORMALIZASYON**:
-Çıkarılan bilgiler normalizasyon aşamasına gönderildi, burada kalemler arası hiyerarşı ve değerlerin parselanması gibi normalizasyondan geçirildi.
+Çıkarılan bilgiler normalizasyon aşamasına gönderildi, burada kalemler arası hiyerarşi ve değerlerin parse edilmesi gibi normalizasyondan geçirildi.
 3. **TABLO CONFIDENCE HESABI**:
-Yapılan iki döküman extraction ile confidence değerleri hesaplandı, hem kıyaslama yaparak hem dokuman içi doğrulama ile.
+Yapılan iki doküman extraction ile confidence değerleri hesaplandı, hem kıyaslama yaparak hem doküman içi doğrulama ile.
 4. **SAYFA TESPITI**:
 İçindekiler tablosu ve REGEX kullanılarak hedef sayfalar tespit edildi (verilen notu içeren).
 5. **ADAY ÜRETİMİ**:
-Notu içeren tüm özet ve not satırları onceki sayfada belirlenen sayfaları kullanarak, bağlamı ile beraber hazırlandı.
+Notu içeren tüm özet ve not satırları önceki aşamada belirlenen sayfaları kullanarak, bağlamı ile beraber hazırlandı.
 6. **İLİŞKİLENDİRME**:
 Kurallar, bi-encoder, cross-encoder ve önceden hesaplanmış confidence kullanılarak satırlar arası ilişkiler ve ilişkilerin güvenilebilirliği hesaplandı.
 7. **DOĞRULAMA**:
@@ -38,7 +38,7 @@ En sonunda ise tüm istenen bilgiler (doküman bilgileri, tablolar, alakalı bul
 
 ## Kurulum ve Çalıştırma
 
-Çalıştırmadan önce app/config.py içinde config ayarlanarak hangi özet tablolarının işlenmesi istendiği, hangi notun çıkarılması istendiği, ve girdi PDF'in ismi ayarlanabilir. Değiştirilmezse default olarak sayfa 5, 6, 7 ve not 11 alakaları kurulcaktır.
+Çalıştırmadan önce app/config.py içinde config ayarlanarak hangi özet tablolarının işlenmesi istendiği, hangi notun çıkarılması istendiği, ve girdi PDF'in ismi ayarlanabilir. Değiştirilmezse default olarak sayfa 5, 6, 7 ve not 11 alakaları kurulacaktır.
 
 ```bash
 chmod +x run.sh
@@ -48,19 +48,19 @@ PDF extraction aşamasında kullanılan Docling ve DeepSeek-OCR-2 farklı iki en
 
 ## PDF Extraction 
 
-Bu aşamada birkaç farklı yöntem denedim?
+Bu aşamada birkaç farklı yöntem denedim:
 
 1. **Tesseract OCR ve Docling**: Çok fazla rakam hatası ve kelime kayması olduğu için kullanılamazdı
 2. **Docling VLM ve Docling**: Çıktı kalitesi yine çok düşüktü
 3. **Qwen2.5 VL**: Tablolarda kayıp çoktu, kullanılamaz düzeyde
-4. **Easy OCR ve Docling**: Kaymalar ve hatalar olsa da kabül edilebilir kalitede
-5. **DeepSeek OCR 2**: En iyi başarı, ancak tablo formatında sistematic olarak düzeltilebilir kaymalar oldu
+4. **Easy OCR ve Docling**: Kaymalar ve hatalar olsa da kabul edilebilir kalitede
+5. **DeepSeek OCR 2**: En iyi başarı, ancak tablo formatında sistematik olarak düzeltilebilir kaymalar oldu
 
 Sonuç olarak DeepSeek ve Easy OCR ile devam ettim. DeepSeek en iyi başarı gösterdiği için ana kaynak olarak onu tercih ettim,
-PDF içi pozisyonel değerler ve doğrulama için. ikinci bir çıktı olarak kullanmak içinse Docling tercih ettim (Easy OCR tabanı ile)
+PDF içi pozisyonel değerler ve doğrulama için. İkinci bir çıktı olarak kullanmak içinse Docling tercih ettim (Easy OCR tabanı ile)
 
 Not: Tesseract'ın kendi confidence'ı hatalarıyla korelasyon göstermiyordu. Doğru değerlere düşük, yanlış değerlere yüksek confidence verdiği oluyordu, 
-bu yüzden OCR katmanının confidencını hesaplamaya katmadım.
+bu yüzden OCR katmanının confidence'ını hesaplamaya katmadım.
 
 ## Kullanılan Modeller ve Inference Ayarları
 
@@ -68,7 +68,7 @@ Hiçbir model eğitilmedi, hepsi sadece inference. Tüm modeller local hardware 
 
 **Extraction (Çıkarma Aşaması)**
 * **Girdi:** PDF sayfaları tek tek işlenir.
-* **DeepSeek-OCR-2 (Birincil Model):** Tüm dipnot referanslarını, ve az çok tüm değerleri 2doğru okuduğu için tercih edildi.
+* **DeepSeek-OCR-2 (Birincil Model):** Tüm dipnot referanslarını, ve az çok tüm değerleri doğru okuduğu için tercih edildi.
 * **docling + EasyOCR (İkinci Görüş):** Çapraz kontrol sağlamak ve tablolardaki değerlerin indentation sayısını çıkarabilmek için kullanıldı.
 
 **İlişkilendirme Aşaması**
@@ -87,7 +87,7 @@ Tablo başlığı, etiket kolonunun başlığı, alt kalemler için ana kalem, d
 başlıklarıyla.
 
 Deney olarak bağlamı zenginleştirmeden, yalnızca kalem etiketi ve varsa ana kaleminin değerini de girdi olarak vermeyi denedim. 
-Kod'da bu candidate mödülüne bağlam zenginliğini ayarlayan bir arguman ile ayarlanabiliyor. 
+Kod'da bu candidate modülüne bağlam zenginliğini ayarlayan bir arguman ile ayarlanabiliyor. 
 
 Zengin bağlam örneği:
 ```
@@ -104,7 +104,7 @@ ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller
 token. Bu yüzden bir chunking yaklaşımı gerekmedi.
 
 **Adayların üretilmesi ve sıralanması.**   
-Aday üretim kural tabanlı: kaynak satırlar (dipnota referans veren) × hedef satırlar (dipnot sayfalarındaki tüm satırlar)
+Aday üretimi kural tabanlı: kaynak satırlar (dipnota referans veren) × hedef satırlar (dipnot sayfalarındaki tüm satırlar)
 
 Sıralama için hem semantic hem kural tabanlı hibrit yaklaşım uygulandı, model çıktısı,
 kurallar, ve upstream değerleri ile:
@@ -178,7 +178,7 @@ Tüm alt kalemlerin toplamının ana kaleme tekabül etmesi bekleniyor (bilanço
 | yapısal | `NOTE_PAGE_UNVERIFIED` | içindekiler ve dipnot başlığı farklı sayfa söylüyor |
 | format | `VALUE_UNPARSED` | değer hücresi sayı/tire/boşluk olarak çözülmedi |
 | format | `CURRENCY_MISSING` | sayfada para birimi yok |
-|| finansal | `SUBITEM_MISMATCH` | alt kalemler ana kaleme toplanmıyor |
+| finansal | `SUBITEM_MISMATCH` | alt kalemler ana kaleme toplanmıyor |
 | finansal | `VALUE_NOT_IN_NOTE` | dipnota referans veren özet değer dipnotta bulunmuyor (tam hata olduğu anlamına gelmese de tuttum) |
 
 Her tablo, satır, hücre ve ilişki bir `flags` listesi tutuyor. Buraya geçemediği kontrollerin kodları ve puanı 0.6'nın altındaysa `LOW_CONFIDENCE` ekleniyor.
@@ -216,7 +216,7 @@ Doğru threshold'lar seçildiğinde her iki yaklaşım da test edilen örneklerd
 ## Çıktı Şeması
 Tüm pipeline çıktısı tek bir 08_output.json dosyası olarak kaydedilir. Veri modeli doküman üst bilgileri, tablolar, satırlar, ilişkiler ve doğrulama bulgularını tek bir yerde toplayan ilişkisel ve düz (flat) bir yapıda tasarlandı.
 
-`07_output.json`:
+`08_output.json`:
 
 ```json
 {
@@ -234,7 +234,7 @@ Tüm pipeline çıktısı tek bir 08_output.json dosyası olarak kaydedilir. Ver
 **Veri Modeli Tercihleri**
 
 * **Düz (Flat) Satır Yapısı:** Satırlar tabloların içine gömülmek yerine `summary_rows` ve `note_rows` olarak düz listelerde tutuldu. Eşleşmeler `p{sayfa}.t{tablo}.r{satır}` formatındaki ID'ler üzerinden bağlandı.
-* **Hücre Seviyesinde Takip:** Değerler sadece metin olarak bırakılmadı ve `raw`, `parsed`, `period` ve hücre bazlı `confidence` ayrı tutuldu. Sorunlu hücreler `flags` ile işaretlendi.
+* **Hücre Seviyesinde Takip:** Değerler sadece metin olarak bırakılmadı, `raw`, `parsed`, `period` ve hücre bazlı `confidence` ayrı tutuldu. Sorunlu hücreler `flags` ile işaretlendi.
 * **Skor Kırılımları:** `relations` altında sadece nihai skor değil, kararı oluşturan `model`, `rules` ve `upstream` puanları ayrı ayrı saklandı.
 
 ### Artifact'lar
