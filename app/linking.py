@@ -212,7 +212,7 @@ def link(
 def run(
     candidates: dict, scorer: Scorer, out_dir: Path, threshold: float,
 ) -> list[dict]:
-    log_path = out_dir / "05_linking_candidate.jsonl"
+    log_path = out_dir / "05_linking_candidate.json"
     relations = link(candidates, scorer, threshold, log_path=log_path)
     (out_dir / "05_relations.json").write_text(
         json.dumps(relations, ensure_ascii=False, indent=2)

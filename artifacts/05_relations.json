@@ -1,10 +1,10 @@
 [
   {
     "source_id": "p005.t0.r12",
-    "target_id": "p053.t1.r04",
-    "confidence": 0.707,
+    "target_id": "p054.t1.r04",
+    "confidence": 0.717,
     "confidence_parts": {
-      "model": 0.618,
+      "model": 0.635,
       "rules": 0.85,
       "upstream": 0.7
     },
@@ -14,10 +14,10 @@
   },
   {
     "source_id": "p005.t0.r12",
-    "target_id": "p054.t1.r04",
-    "confidence": 0.704,
+    "target_id": "p053.t1.r04",
+    "confidence": 0.708,
     "confidence_parts": {
-      "model": 0.611,
+      "model": 0.619,
       "rules": 0.85,
       "upstream": 0.7
     },
@@ -28,9 +28,9 @@
   {
     "source_id": "p005.t0.r12",
     "target_id": "p053.t0.r04",
-    "confidence": 0.682,
+    "confidence": 0.675,
     "confidence_parts": {
-      "model": 0.572,
+      "model": 0.559,
       "rules": 0.85,
       "upstream": 0.7
     },
@@ -41,9 +41,9 @@
   {
     "source_id": "p005.t0.r12",
     "target_id": "p053.t0.r00",
-    "confidence": 0.649,
+    "confidence": 0.64,
     "confidence_parts": {
-      "model": 0.623,
+      "model": 0.607,
       "rules": 0.675,
       "upstream": 0.7
     },
@@ -54,9 +54,9 @@
   {
     "source_id": "p007.t0.r05",
     "target_id": "p053.t1.r03",
-    "confidence": 0.662,
+    "confidence": 0.639,
     "confidence_parts": {
-      "model": 0.646,
+      "model": 0.605,
       "rules": 0.675,
       "upstream": 0.7
     },
@@ -69,7 +69,7 @@
     "target_id": "p053.t0.r02",
     "confidence": 0.61,
     "confidence_parts": {
-      "model": 0.552,
+      "model": 0.553,
       "rules": 0.675,
       "upstream": 0.7
     },

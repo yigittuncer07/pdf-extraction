@@ -12,7 +12,7 @@ from pathlib import Path
 
 def render(row: dict, table: dict) -> str:
     """A row plus the context it needs to be understood on its own."""
-    parts = [table["title"], f"sayfa {table['page']}"]
+    parts = [table["title"]]
 
     # label headers don't mean anything in the summary tables but are important in the note tables.
     label_header = next((c["header"] for c in table["columns"] if c["role"] == "label"), "")
