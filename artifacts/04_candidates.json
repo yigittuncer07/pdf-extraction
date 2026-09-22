@@ -5,7 +5,7 @@
       "id": "p005.t0.r12",
       "label": "Yatırım Amaçlı Gayrimenkuller",
       "table_id": "p005.t0",
-      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO | ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller | dipnot: 11 | Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012: 373.992.222 | Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011: 423.580.000",
+      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHLİ KONSOLİDE BİLANÇO | ana kalem: Duran Varlıklar | kalem: Yatırım Amaçlı Gayrimenkuller | Bağımsız Denetimden Geçmiş Cari Dönem 31 Aralık 2012: 373.992.222 | Bağımsız Denetimden Geçmiş Gecmiş Dönem 31 Aralık 2011: 423.580.000",
       "values": {
         "c2": "373992222",
         "c3": "423580000"
@@ -21,7 +21,7 @@
       "id": "p007.t0.r05",
       "label": "Yatırım Amaçlı Gayrimenkul Değerleme Farkları",
       "table_id": "p007.t0",
-      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU | kalem: Yatırım Amaçlı Gayrimenkul Değerleme Farkları | dipnot: 11 | Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012: 3.896.434 | Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011: 151.350.000",
+      "context": "BAĞIMSIZ DENETİMDEN GEÇMİŞ 31 ARALIK 2012 TARİHİNDE SONA EREN YILA AİT KONSOLİDE KAPSAMLI GELİR TABLOSU | kalem: Yatırım Amaçlı Gayrimenkul Değerleme Farkları | Cari Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2012: 3.896.434 | Geçmiş Dönem Bağımsız Denetimden Geçmiş 1 Ocak- 31 Aralık 2011: 151.350.000",
       "values": {
         "c2": "3896434",
         "c3": "151350000"

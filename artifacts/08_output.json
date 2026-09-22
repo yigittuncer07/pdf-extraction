@@ -3840,9 +3840,9 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p053.t1.r04",
-      "confidence": 0.738,
+      "confidence": 0.722,
       "confidence_parts": {
-        "model": 0.619,
+        "model": 0.59,
         "rules": 0.85,
         "upstream": 1.0
       },
@@ -3853,9 +3853,9 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p054.t1.r04",
-      "confidence": 0.717,
+      "confidence": 0.691,
       "confidence_parts": {
-        "model": 0.635,
+        "model": 0.589,
         "rules": 0.85,
         "upstream": 0.7
       },
@@ -3866,9 +3866,9 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p053.t0.r04",
-      "confidence": 0.705,
+      "confidence": 0.69,
       "confidence_parts": {
-        "model": 0.559,
+        "model": 0.531,
         "rules": 0.85,
         "upstream": 1.0
       },
@@ -3879,9 +3879,9 @@
     {
       "source_id": "p005.t0.r12",
       "target_id": "p053.t0.r00",
-      "confidence": 0.67,
+      "confidence": 0.647,
       "confidence_parts": {
-        "model": 0.607,
+        "model": 0.565,
         "rules": 0.675,
         "upstream": 1.0
       },
@@ -3892,9 +3892,9 @@
     {
       "source_id": "p007.t0.r05",
       "target_id": "p053.t1.r03",
-      "confidence": 0.639,
+      "confidence": 0.629,
       "confidence_parts": {
-        "model": 0.605,
+        "model": 0.587,
         "rules": 0.675,
         "upstream": 0.7
       },
@@ -3905,9 +3905,9 @@
     {
       "source_id": "p007.t0.r05",
       "target_id": "p053.t0.r02",
-      "confidence": 0.626,
+      "confidence": 0.611,
       "confidence_parts": {
-        "model": 0.553,
+        "model": 0.525,
         "rules": 0.675,
         "upstream": 0.86
       },

@@ -28,14 +28,10 @@ def render(row: dict, table: dict, mode: str = "high") -> str:
     parent = next((r for r in table["rows"] if r["id"] == row["parent_id"]), None)
     if parent:
         parts.append(f"ana kalem: {parent['label']}")
-    parts.append(f"kalem: {row['label']}" if row["label"] else "kalem: (toplam satırı)")
+    parts.append(f"kalem: {row['label']}" if row["label"] else "kalem: (toplam satırı)") # assume no label means total row, which seems to be correct.
 
     if mode == "low":
         return " | ".join(p for p in parts if p)
-
-    if row["note_refs"]:
-        refs = ", ".join(str(n) for n in row["note_refs"])
-        parts.append(f"dipnot: {refs}" + (" (üst kalemden)" if row["note_refs_inherited"] else ""))
 
     for col in table["columns"]:
         value = row["values"].get(col["id"])
