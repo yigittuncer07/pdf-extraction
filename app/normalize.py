@@ -1,5 +1,4 @@
-"""Stage 2 - normalization.
-
+"""
 Grids of strings in, typed tables out: parsed values, periods, note
 references and a main item / sub-item / total hierarchy.
 """

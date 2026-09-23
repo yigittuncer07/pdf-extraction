@@ -1,5 +1,4 @@
-"""Stage 7 - validation.
-
+"""
 Three groups:
   structural -- was the note found on the page we think it was
   format     -- did values parse, did period and currency survive

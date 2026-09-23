@@ -1,5 +1,4 @@
-"""Stage 4 - candidate generation.
-
+"""
 Rules only, no model. Sources are the summary rows that reference the note;
 targets are every row on the note's pages.
 """

@@ -183,7 +183,7 @@ Her tablo, satır, hücre ve ilişki bir `flags` listesi tutuyor. Buraya geçeme
 
 Doğru threshold'lar seçildiğinde her iki yaklaşım da test edilen örneklerde doğru ilişkileri yakaladı.
 
-* **Bi-encoder:** Hem az hem çok bağlam verildiğinde satırlar arası benzerlikleri birbirine çok yakın çıkardı ve adayları ayırt edemedi. Adayların hepsi zaten aynı dipnottaki benzer finansal satırlar olduğu için model tek başına yetersiz kaldı. Sıralamayı doğru yapabilmesini tamamen hibrit taraftaki kurallar sağladı. Bu durum finansal domain için eğitilmiş daha özelleşmiş modellerle aşılabilir.
+* **Bi-encoder:** Hem az hem çok bağlam verildiğinde satırlar arası benzerlikleri birbirine çok yakın çıkardı ve adayları ayırt edemedi. Adayların hepsi zaten aynı dipnottaki benzer finansal satırlar olduğu için model tek başına yetersiz kaldı. Sıralamayı doğru yapabilmesini tamamen hibrit taraftaki kurallar sağladı.
 * **Cross-encoder:** Satır çiftlerini doğrudan kıyaslayabildiği için tek başına da anlamlı bir sıralama ve ayrım oluşturabildi.
 * **Kurallar:** Kurallar iki modele de net fayda sağladı, özellikle bi-encoder tarafında doğru sıralamayı neredeyse tek başına belirledi.
 
@@ -192,7 +192,7 @@ Doğru threshold'lar seçildiğinde her iki yaklaşım da test edilen örneklerd
 **1. Bi-encoder'ın adayları ayırt edememesi**
 * **Aşama:** İlişkilendirme
 * **Sorun:** Model 18 aday satırın tamamına 0.930 ile 0.949 arasında puan verdi (sadece 0.019'luk yayılım).
-* **Neden:** Adayların hepsi aynı dipnot sayfalarından geldiği için benzer finansal kelimeleri ve ortak tablo başlıklarını paylaşıyor. Bi-encoder iki tarafı bağımsız gömdüğünden bu ortak bağlam vektörü domine etti ve asıl ayırt edici farklar arada kaynadı.
+* **Neden:** Adayların hepsi aynı dipnot sayfalarından geldiği için benzer finansal kelimeleri ve ortak tablo başlıklarını paylaşıyor. Bi-encoder iki tarafı bağımsız gömdüğünden benzer vektorler oluşturdu.
 * **Çözüm:** Daha büyük ölçekli veya finansal veriyle eğitilmiş embedding modellerine geçmek.
 
 **2. OCR karakter hatası yüzünden ilişkinin kopması**
@@ -252,5 +252,5 @@ Tüm pipeline çıktısı tek bir `08_output.json` dosyası olarak kaydedilir. V
 
 * **Gelir Tablosu Aritmetiği:** Gelir tablosu ağaç yapısında değil akan bir yapıda olduğu için işaret ve operatör semantiği gerektiriyor. Aritmetik doğrulama şu an sadece bilançoda çalışıyor, gelir tablosu için ayrı bir kontrol akışı eklenebilir.
 * **Yatay Tablolar:** 12 numaralı dipnot gibi dikey sayfaya yatay basılmış tablolar çıkarıcılar tarafından bozuk okunuyor. Tablo yönünü baştan algılayan bir dedektör eklenerek çözülebilir.
-* **Birleşik Başlıklar:** DeepSeek çıktısını toparlamak için `colspan` yok sayıldı, bu da gerçekten birleşik olan başlıkların yapısını bozdu. Başlık yapısını koruyan daha esnek bir parsing mantığı kurulabilir.
+* **Birleşik Başlıklar:** DeepSeek çıktısını düzenlemek için `colspan` yok sayıldı, bu da gerçekten birleşik olan başlıkların yapısını bozdu. Başlık yapısını koruyan daha esnek bir parsing mantığı kurulabilir.
 * **İlişki Tipleri:** Eşleşmelerin tamamı tipsiz (`relates_to`) kaydedildi. Tek bir kaynağa birden fazla hedef bağlandığında aradaki anlamsal fark (kapanış bakiyesi, net defter değeri vb.) çıktıda ayrışmıyor. Bu ayrım bir LLM katmanı veya detaylı kurallarla tiplere dönüştürülebilir.

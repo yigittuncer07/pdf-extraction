@@ -1,5 +1,4 @@
-"""Stage 3 - page location.
-
+"""
 The note number comes from config, so the pages it lives on have to be found
 in the document rather than written down.
 

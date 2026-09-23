@@ -1,5 +1,4 @@
-"""Stage 8 - the deliverable.
-
+"""
 One document, assembled from the stage artifacts. Nothing is recomputed here.
 every field already exists upstream and this only decides what belongs in the
 final schema and how it is arranged

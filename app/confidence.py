@@ -1,4 +1,5 @@
-"""Confidence scoring across cell, row, and table levels.
+"""
+Confidence scoring across cell, row, and table levels.
 Computes deterministic confidence scores in [0.0, 1.0] using:
   1. Parse validity: whether a cell resolved to a valid financial type
      (number, dash, or blank).

@@ -1,3 +1,4 @@
+"""Main pipeline"""
 import json
 from time import time
 

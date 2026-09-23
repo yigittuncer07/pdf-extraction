@@ -1,7 +1,6 @@
-"""Stage 5 - linking.
-
+"""
 A scorer says how well one summary row matches one note row. The model scorer
-answers that semantically; the rule scorer answers it from values, periods and labels.
+answers that semantically. The rule scorer answers it from values, periods and labels.
 The final confidence is fused with the rule score and with the confidence the rows already carried out of extraction.
 The rule scorer also stands in as the fallback when the model cannot be loaded.
 """
